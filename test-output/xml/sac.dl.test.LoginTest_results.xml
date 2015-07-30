@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Digital Library_SmokeTest"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="24.571">
+  <properties />
+  
+  
+            <testcase name="testverifyUIOfLoginPage" time="1.569" classname="sac.dl.test.LoginTest" />
+                <testcase name="testLogin" time="23.002" classname="sac.dl.test.LoginTest" />
+      
+</testsuite>

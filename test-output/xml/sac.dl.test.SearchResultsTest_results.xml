@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Digital Library_SmokeTest"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.721">
+  <properties />
+  
+  
+            <testcase name="testverifyAlleTextStack" time="0.452" classname="sac.dl.test.SearchResultsTest" />
+                <testcase name="testverifyAlleTextPagesStack" time="0.551" classname="sac.dl.test.SearchResultsTest" />
+                <testcase name="testverifyAlleTextNotesStack" time="0.718" classname="sac.dl.test.SearchResultsTest" />
+      
+</testsuite>

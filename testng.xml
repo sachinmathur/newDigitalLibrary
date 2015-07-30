@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DigitalLibrary" parallel="none">
+	<parameter name="Browser" value="firefox"/>
+	<parameter name="AppURL" value="http://library.pearsoncmg.com/library/index.do?libraryid=2821"/>
+	<parameter name="Release" value="1.4"/>
+	<parameter name="Iteration" value="3"/>
+	<parameter name="Build" value="1"/>
+  <test name="DigitalLibraryFunctionalTest">
+    <classes>
+	<class name="sac.dl.base.TestBaseSetUp"/>
+	<class name="test.java.LoginPageTest"/>
+	<class name="test.java.CompleteLibraryTest"/>
+	<class name="test.java.SearchResultsTest"/>
+	<class name="test.java.SavedSearchesTest"/>
+	<class name="test.java.SignOutTest"/>
+	<class name="test.java.SearchAndBrowseLibraryTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

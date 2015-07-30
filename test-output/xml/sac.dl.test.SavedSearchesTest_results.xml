@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Digital Library_SmokeTest"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="16.224">
+  <properties />
+  
+  
+            <testcase name="testClickOnSavedeTextSearchTerm" time="1.778" classname="sac.dl.test.SavedSearchesTest" />
+                <testcase name="testClickOnSavedNoteSearchTerm" time="1.560" classname="sac.dl.test.SavedSearchesTest" />
+                <testcase name="testDeleteSavedeTextSearchTerm" time="2.465" classname="sac.dl.test.SavedSearchesTest" />
+                <testcase name="testNavigateToSavedSearchesPage" time="1.498" classname="sac.dl.test.SavedSearchesTest" />
+                <testcase name="testDeleteSavedContentSearchTerm" time="3.401" classname="sac.dl.test.SavedSearchesTest" />
+                <testcase name="testClickOnSavedContentSearchTerm" time="3.525" classname="sac.dl.test.SavedSearchesTest" />
+                <testcase name="testDeleteSavedNoteSearchTerm" time="1.997" classname="sac.dl.test.SavedSearchesTest" />
+      
+</testsuite>
