@@ -76,7 +76,7 @@ public class TestBaseSetUp {
 	@AfterSuite
 	public void tearDown() throws Exception
 	{	
-		//	sendPDFReportByEmail("sachin.mathur@hcl.com", "sacmat@123", "sachin.mathur22@gmail.com", "PDF Report", "");
+		//	sendPDFReportByEmail("", "", "sachin.mathur22@gmail.com", "PDF Report", "");
 
 		if(driver!= null)
 		{
