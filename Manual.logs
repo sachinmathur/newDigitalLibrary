@@ -1,115 +1,119 @@
-31/07/2015 15:04:55 applicationLogger Executing testverifyUIOfLoginPage
-31/07/2015 15:04:56 applicationLogger Executing testLogin
-31/07/2015 15:04:56 applicationLogger Username entered.
-31/07/2015 15:04:56 applicationLogger Password entered
-31/07/2015 15:05:12 applicationLogger Login button clicked
-31/07/2015 15:05:12 applicationLogger Logging In...
-31/07/2015 15:05:15 applicationLogger Complete Library page loaded.
-31/07/2015 15:05:15 applicationLogger Executing testVerifyUIOfCompleteLibraryPage
-31/07/2015 15:05:15 applicationLogger Executing testSearchByContents
-31/07/2015 15:05:16 applicationLogger Search Dropdown Arror clicked.
-31/07/2015 15:05:16 applicationLogger "Search by Content" option is selected.
-31/07/2015 15:05:16 applicationLogger Cleared search textbox.
-31/07/2015 15:05:16 applicationLogger Entering search term- development
-31/07/2015 15:05:16 applicationLogger Getting results...
-31/07/2015 15:05:20 applicationLogger Saving the search results.
-31/07/2015 15:05:21 applicationLogger Executing testSearchByContents
-31/07/2015 15:05:21 applicationLogger Search Dropdown Arror clicked.
-31/07/2015 15:05:21 applicationLogger "Search by Content" option is selected.
-31/07/2015 15:05:21 applicationLogger Cleared search textbox.
-31/07/2015 15:05:21 applicationLogger Entering search term- Special
-31/07/2015 15:05:22 applicationLogger Getting results...
-31/07/2015 15:05:22 applicationLogger Saving the search results.
-31/07/2015 15:05:25 applicationLogger Executing testSearchByContents
-31/07/2015 15:05:25 applicationLogger Search Dropdown Arror clicked.
-31/07/2015 15:05:26 applicationLogger "Search by Content" option is selected.
-31/07/2015 15:05:26 applicationLogger Cleared search textbox.
-31/07/2015 15:05:26 applicationLogger Entering search term- science
-31/07/2015 15:05:26 applicationLogger Getting results...
-31/07/2015 15:05:26 applicationLogger Saving the search results.
-31/07/2015 15:05:29 applicationLogger Executing testverifyAlleTextPagesStack
-31/07/2015 15:05:30 applicationLogger All eText Pages stack is clicked.
-31/07/2015 15:05:35 applicationLogger Executing testSearchByeText
-31/07/2015 15:05:35 applicationLogger Search Dropdown Arror clicked.
-31/07/2015 15:05:35 applicationLogger "Search by eText" option is selected.
-31/07/2015 15:05:35 applicationLogger Cleared search textbox.
-31/07/2015 15:05:35 applicationLogger Entering search term- Counseling
-31/07/2015 15:05:36 applicationLogger Getting results...
-31/07/2015 15:05:37 applicationLogger Saving the search results.
-31/07/2015 15:05:37 applicationLogger Executing testSearchByeText
-31/07/2015 15:05:37 applicationLogger Search Dropdown Arror clicked.
-31/07/2015 15:05:37 applicationLogger "Search by eText" option is selected.
-31/07/2015 15:05:38 applicationLogger Cleared search textbox.
-31/07/2015 15:05:38 applicationLogger Entering search term- Assessment
-31/07/2015 15:05:38 applicationLogger Getting results...
-31/07/2015 15:05:39 applicationLogger Saving the search results.
-31/07/2015 15:05:40 applicationLogger Executing testSearchByeText
-31/07/2015 15:05:40 applicationLogger Search Dropdown Arror clicked.
-31/07/2015 15:05:40 applicationLogger "Search by eText" option is selected.
-31/07/2015 15:05:40 applicationLogger Cleared search textbox.
-31/07/2015 15:05:40 applicationLogger Entering search term- Audio
-31/07/2015 15:05:41 applicationLogger Getting results...
-31/07/2015 15:05:42 applicationLogger Saving the search results.
-31/07/2015 15:05:42 applicationLogger Executing testverifyAlleTextStack
-31/07/2015 15:05:42 applicationLogger All eText stack is clicked.
-31/07/2015 15:05:43 applicationLogger Executing testSearchMyNotes
-31/07/2015 15:05:43 applicationLogger Search Dropdown Arror clicked.
-31/07/2015 15:05:43 applicationLogger "Search My Notes" option is selected.
-31/07/2015 15:05:43 applicationLogger Cleared search textbox.
-31/07/2015 15:05:43 applicationLogger Entering search term- Note
-31/07/2015 15:05:44 applicationLogger Getting results...
-31/07/2015 15:05:45 applicationLogger Saving the search results.
-31/07/2015 15:05:46 applicationLogger Executing testSearchMyNotes
-31/07/2015 15:05:46 applicationLogger Search Dropdown Arror clicked.
-31/07/2015 15:05:46 applicationLogger "Search My Notes" option is selected.
-31/07/2015 15:05:46 applicationLogger Cleared search textbox.
-31/07/2015 15:05:46 applicationLogger Entering search term- Test
-31/07/2015 15:05:47 applicationLogger Getting results...
-31/07/2015 15:05:47 applicationLogger Saving the search results.
-31/07/2015 15:05:48 applicationLogger Executing testSearchMyNotes
-31/07/2015 15:05:48 applicationLogger Search Dropdown Arror clicked.
-31/07/2015 15:05:48 applicationLogger "Search My Notes" option is selected.
-31/07/2015 15:05:48 applicationLogger Cleared search textbox.
-31/07/2015 15:05:48 applicationLogger Entering search term- Private
-31/07/2015 15:05:50 applicationLogger Getting results...
-31/07/2015 15:05:50 applicationLogger Saving the search results.
-31/07/2015 15:05:52 applicationLogger Executing testverifyAlleTextNotesStack
-31/07/2015 15:05:53 applicationLogger All eText Notes stack is clicked.
-31/07/2015 15:05:54 applicationLogger Executing testNavigateToSavedSearchesPage
-31/07/2015 15:05:54 applicationLogger Library View Dropdown clicked.
-31/07/2015 15:05:55 applicationLogger "Saved Searches" option clicked.
-31/07/2015 15:05:56 applicationLogger Executing testClickOnSavedContentSearchTerm
-31/07/2015 15:05:56 applicationLogger Search term- development clicked
-31/07/2015 15:05:58 applicationLogger Library View Dropdown clicked.
-31/07/2015 15:05:59 applicationLogger "Saved Searches" option clicked.
-31/07/2015 15:05:59 applicationLogger Navigating back to Saved Searches Page.
-31/07/2015 15:05:59 applicationLogger Executing testClickOnSavedeTextSearchTerm
-31/07/2015 15:05:59 applicationLogger Search term- Counseling clicked
-31/07/2015 15:06:00 applicationLogger Library View Dropdown clicked.
-31/07/2015 15:06:00 applicationLogger "Saved Searches" option clicked.
-31/07/2015 15:06:00 applicationLogger Navigating back to Saved Searches Page.
-31/07/2015 15:06:01 applicationLogger Executing testClickOnSavedNoteSearchTerm
-31/07/2015 15:06:01 applicationLogger Search term- Note clicked
-31/07/2015 15:06:01 applicationLogger Library View Dropdown clicked.
-31/07/2015 15:06:01 applicationLogger "Saved Searches" option clicked.
-31/07/2015 15:06:01 applicationLogger Navigating back to Saved Searches Page.
-31/07/2015 15:06:02 applicationLogger Executing testDeleteSavedContentSearchTerm
-31/07/2015 15:06:02 applicationLogger Edit button clicked.
-31/07/2015 15:06:02 applicationLogger Delete button clicked.
-31/07/2015 15:06:04 applicationLogger Clicked "Yes" button in confirmation pop.
-31/07/2015 15:06:04 applicationLogger Term- development deleted
-31/07/2015 15:06:05 applicationLogger Executing testDeleteSavedeTextSearchTerm
-31/07/2015 15:06:05 applicationLogger Edit button clicked.
-31/07/2015 15:06:05 applicationLogger Delete button clicked.
-31/07/2015 15:06:14 applicationLogger Executing testDeleteSavedNoteSearchTerm
-31/07/2015 15:06:21 applicationLogger Executing testSignOut
-31/07/2015 15:06:23 applicationLogger Signing out from the application
-31/07/2015 15:06:29 applicationLogger Clicking Search and Browse Library Link
-31/07/2015 15:06:44 applicationLogger Opening dropdown
-31/07/2015 15:06:45 applicationLogger Verifying the books present in All eText Stack
-31/07/2015 15:06:47 applicationLogger Verifying the UI of More Info pop-up for an unknown user
-31/07/2015 15:07:35 applicationLogger Verifying the options in 'Chapter Preview' download
-31/07/2015 15:07:36 applicationLogger Previewing the given chapter
-31/07/2015 15:07:36 applicationLogger Chapter entry not found in dropdown.
-31/07/2015 15:07:44 applicationLogger Previewing the given chapter
-31/07/2015 15:07:46 applicationLogger Testsuite completed..closing the driver
+31/07/2015 15:46:44 applicationLogger Executing testverifyUIOfLoginPage
+31/07/2015 15:46:45 applicationLogger Executing testLogin
+31/07/2015 15:46:45 applicationLogger Username entered.
+31/07/2015 15:46:45 applicationLogger Password entered
+31/07/2015 15:47:00 applicationLogger Login button clicked
+31/07/2015 15:47:00 applicationLogger Logging In...
+31/07/2015 15:47:02 applicationLogger Complete Library page loaded.
+31/07/2015 15:47:02 applicationLogger Executing testVerifyUIOfCompleteLibraryPage
+31/07/2015 15:47:03 applicationLogger Executing testSearchByContents
+31/07/2015 15:47:03 applicationLogger Search Dropdown Arror clicked.
+31/07/2015 15:47:03 applicationLogger "Search by Content" option is selected.
+31/07/2015 15:47:03 applicationLogger Cleared search textbox.
+31/07/2015 15:47:03 applicationLogger Entering search term- development
+31/07/2015 15:47:04 applicationLogger Getting results...
+31/07/2015 15:47:07 applicationLogger Saving the search results.
+31/07/2015 15:47:08 applicationLogger Executing testSearchByContents
+31/07/2015 15:47:08 applicationLogger Search Dropdown Arror clicked.
+31/07/2015 15:47:08 applicationLogger "Search by Content" option is selected.
+31/07/2015 15:47:08 applicationLogger Cleared search textbox.
+31/07/2015 15:47:08 applicationLogger Entering search term- Special
+31/07/2015 15:47:09 applicationLogger Getting results...
+31/07/2015 15:47:10 applicationLogger Saving the search results.
+31/07/2015 15:47:11 applicationLogger Executing testSearchByContents
+31/07/2015 15:47:11 applicationLogger Search Dropdown Arror clicked.
+31/07/2015 15:47:11 applicationLogger "Search by Content" option is selected.
+31/07/2015 15:47:11 applicationLogger Cleared search textbox.
+31/07/2015 15:47:11 applicationLogger Entering search term- science
+31/07/2015 15:47:12 applicationLogger Getting results...
+31/07/2015 15:47:13 applicationLogger Saving the search results.
+31/07/2015 15:47:18 applicationLogger Executing testverifyAlleTextPagesStack
+31/07/2015 15:47:19 applicationLogger All eText Pages stack is clicked.
+31/07/2015 15:47:26 applicationLogger Executing testSearchByeText
+31/07/2015 15:47:26 applicationLogger Search Dropdown Arror clicked.
+31/07/2015 15:47:26 applicationLogger "Search by eText" option is selected.
+31/07/2015 15:47:26 applicationLogger Cleared search textbox.
+31/07/2015 15:47:27 applicationLogger Entering search term- Counseling
+31/07/2015 15:47:28 applicationLogger Getting results...
+31/07/2015 15:47:30 applicationLogger Saving the search results.
+31/07/2015 15:47:31 applicationLogger Executing testSearchByeText
+31/07/2015 15:47:31 applicationLogger Search Dropdown Arror clicked.
+31/07/2015 15:47:31 applicationLogger "Search by eText" option is selected.
+31/07/2015 15:47:31 applicationLogger Cleared search textbox.
+31/07/2015 15:47:31 applicationLogger Entering search term- Assessment
+31/07/2015 15:47:33 applicationLogger Getting results...
+31/07/2015 15:47:34 applicationLogger Saving the search results.
+31/07/2015 15:47:34 applicationLogger Executing testSearchByeText
+31/07/2015 15:47:35 applicationLogger Search Dropdown Arror clicked.
+31/07/2015 15:47:35 applicationLogger "Search by eText" option is selected.
+31/07/2015 15:47:35 applicationLogger Cleared search textbox.
+31/07/2015 15:47:35 applicationLogger Entering search term- Audio
+31/07/2015 15:47:37 applicationLogger Getting results...
+31/07/2015 15:47:37 applicationLogger Saving the search results.
+31/07/2015 15:47:38 applicationLogger Executing testverifyAlleTextStack
+31/07/2015 15:47:38 applicationLogger All eText stack is clicked.
+31/07/2015 15:47:40 applicationLogger Executing testSearchMyNotes
+31/07/2015 15:47:40 applicationLogger Search Dropdown Arror clicked.
+31/07/2015 15:47:40 applicationLogger "Search My Notes" option is selected.
+31/07/2015 15:47:40 applicationLogger Cleared search textbox.
+31/07/2015 15:47:40 applicationLogger Entering search term- Note
+31/07/2015 15:47:41 applicationLogger Getting results...
+31/07/2015 15:47:42 applicationLogger Saving the search results.
+31/07/2015 15:47:45 applicationLogger Executing testSearchMyNotes
+31/07/2015 15:47:45 applicationLogger Search Dropdown Arror clicked.
+31/07/2015 15:47:45 applicationLogger "Search My Notes" option is selected.
+31/07/2015 15:47:46 applicationLogger Cleared search textbox.
+31/07/2015 15:47:46 applicationLogger Entering search term- Test
+31/07/2015 15:47:47 applicationLogger Getting results...
+31/07/2015 15:47:48 applicationLogger Saving the search results.
+31/07/2015 15:47:52 applicationLogger Executing testSearchMyNotes
+31/07/2015 15:47:52 applicationLogger Search Dropdown Arror clicked.
+31/07/2015 15:47:52 applicationLogger "Search My Notes" option is selected.
+31/07/2015 15:47:52 applicationLogger Cleared search textbox.
+31/07/2015 15:47:52 applicationLogger Entering search term- Private
+31/07/2015 15:47:53 applicationLogger Getting results...
+31/07/2015 15:47:55 applicationLogger Saving the search results.
+31/07/2015 15:47:58 applicationLogger Executing testverifyAlleTextNotesStack
+31/07/2015 15:47:59 applicationLogger All eText Notes stack is clicked.
+31/07/2015 15:48:00 applicationLogger Executing testNavigateToSavedSearchesPage
+31/07/2015 15:48:00 applicationLogger Library View Dropdown clicked.
+31/07/2015 15:48:01 applicationLogger "Saved Searches" option clicked.
+31/07/2015 15:48:01 applicationLogger Executing testClickOnSavedContentSearchTerm
+31/07/2015 15:48:01 applicationLogger Search term- development clicked
+31/07/2015 15:48:06 applicationLogger Library View Dropdown clicked.
+31/07/2015 15:48:06 applicationLogger "Saved Searches" option clicked.
+31/07/2015 15:48:06 applicationLogger Navigating back to Saved Searches Page.
+31/07/2015 15:48:06 applicationLogger Executing testClickOnSavedeTextSearchTerm
+31/07/2015 15:48:07 applicationLogger Search term- Counseling clicked
+31/07/2015 15:48:08 applicationLogger Library View Dropdown clicked.
+31/07/2015 15:48:08 applicationLogger "Saved Searches" option clicked.
+31/07/2015 15:48:08 applicationLogger Navigating back to Saved Searches Page.
+31/07/2015 15:48:08 applicationLogger Executing testClickOnSavedNoteSearchTerm
+31/07/2015 15:48:09 applicationLogger Search term- Note clicked
+31/07/2015 15:48:09 applicationLogger Library View Dropdown clicked.
+31/07/2015 15:48:09 applicationLogger "Saved Searches" option clicked.
+31/07/2015 15:48:09 applicationLogger Navigating back to Saved Searches Page.
+31/07/2015 15:48:09 applicationLogger Executing testDeleteSavedContentSearchTerm
+31/07/2015 15:48:10 applicationLogger Edit button clicked.
+31/07/2015 15:48:10 applicationLogger Delete button clicked.
+31/07/2015 15:48:11 applicationLogger Clicked "Yes" button in confirmation pop.
+31/07/2015 15:48:16 applicationLogger Term- development deleted
+31/07/2015 15:48:17 applicationLogger Executing testDeleteSavedeTextSearchTerm
+31/07/2015 15:48:17 applicationLogger Edit button clicked.
+31/07/2015 15:48:17 applicationLogger Delete button clicked.
+31/07/2015 15:48:19 applicationLogger Clicked "Yes" button in confirmation pop.
+31/07/2015 15:48:20 applicationLogger Term- Counseling deleted
+31/07/2015 15:48:20 applicationLogger Executing testDeleteSavedNoteSearchTerm
+31/07/2015 15:48:20 applicationLogger Edit button clicked.
+31/07/2015 15:48:20 applicationLogger Delete button clicked.
+31/07/2015 15:48:26 applicationLogger Executing testSignOut
+31/07/2015 15:48:31 applicationLogger Signing out from the application
+31/07/2015 15:48:31 applicationLogger Clicking Search and Browse Library Link
+31/07/2015 15:48:44 applicationLogger Opening dropdown
+31/07/2015 15:48:44 applicationLogger Verifying the books present in All eText Stack
+31/07/2015 15:48:48 applicationLogger Verifying the UI of More Info pop-up for an unknown user
+31/07/2015 15:49:37 applicationLogger Verifying the options in 'Chapter Preview' download
+31/07/2015 15:49:37 applicationLogger Previewing the given chapter
+31/07/2015 15:49:37 applicationLogger Chapter entry not found in dropdown.
+31/07/2015 15:50:39 applicationLogger Previewing the given chapter
+31/07/2015 15:50:40 applicationLogger Testsuite completed..closing the driver

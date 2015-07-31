@@ -76,20 +76,20 @@ public class TestBaseSetUp {
 
 	@AfterSuite
 	public void tearDown() throws Exception
-	{	
+	{
 		//	sendPDFReportByEmail("", "", "sachin.mathur22@gmail.com", "PDF Report", "");
 
 		if(driver!= null)
 		{
 			log.info("Testsuite completed..closing the driver");
-			driver.close();
 		
+			driver.close();
 			try{
-				Thread.sleep(5000);
+				Runtime.getRuntime().exec("taskkill /F /IM plugin-container.exe");
+				Thread.sleep(1000);
 				driver.quit();
 			}
 			catch(Exception e){}
-			driver=null;
 		}
 
 	}

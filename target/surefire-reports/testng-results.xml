@@ -2,7 +2,7 @@
 <testng-results skipped="1" failed="5" total="31" passed="25">
   <reporter-output>
   </reporter-output>
-  <suite name="DigitalLibrary" duration-ms="169797" started-at="2015-07-31T09:34:55Z" finished-at="2015-07-31T09:37:44Z">
+  <suite name="DigitalLibrary" duration-ms="236255" started-at="2015-07-31T10:16:44Z" finished-at="2015-07-31T10:20:40Z">
     <groups>
       <group name="ClickOnSavedSearchTerm">
         <method signature="SavedSearchesTest.testClickOnSavedContentSearchTerm(java.lang.String, java.lang.String)[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testClickOnSavedContentSearchTerm" class="test.java.SavedSearchesTest"/>
@@ -58,17 +58,17 @@
         <method signature="SavedSearchesTest.testNavigateToSavedSearchesPage()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testNavigateToSavedSearchesPage" class="test.java.SavedSearchesTest"/>
       </group> <!-- NavigateToSavedSearchesPage -->
     </groups>
-    <test name="DigitalLibraryFunctionalTest" duration-ms="169797" started-at="2015-07-31T09:34:55Z" finished-at="2015-07-31T09:37:44Z">
+    <test name="DigitalLibraryFunctionalTest" duration-ms="236255" started-at="2015-07-31T10:16:44Z" finished-at="2015-07-31T10:20:40Z">
       <class name="test.java.CompleteLibraryTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="beforeClass" is-config="true" duration-ms="0" started-at="2015-07-31T15:05:15Z" finished-at="2015-07-31T15:05:15Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="beforeClass" is-config="true" duration-ms="1" started-at="2015-07-31T15:47:02Z" finished-at="2015-07-31T15:47:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="17" started-at="2015-07-31T15:05:15Z" finished-at="2015-07-31T15:05:15Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="15" started-at="2015-07-31T15:47:02Z" finished-at="2015-07-31T15:47:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testVerifyUIOfCompleteLibraryPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testVerifyUIOfCompleteLibraryPage" duration-ms="329" depends-on-groups="Login" started-at="2015-07-31T15:05:15Z" data-provider="ExcelDataProvider" finished-at="2015-07-31T15:05:15Z">
+        <test-method status="PASS" signature="testVerifyUIOfCompleteLibraryPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testVerifyUIOfCompleteLibraryPage" duration-ms="321" depends-on-groups="Login" started-at="2015-07-31T15:47:02Z" data-provider="ExcelDataProvider" finished-at="2015-07-31T15:47:03Z">
           <params>
             <param index="0">
               <value>
@@ -94,11 +94,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyUIOfCompleteLibraryPage -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="16" started-at="2015-07-31T15:05:15Z" finished-at="2015-07-31T15:05:15Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="16" started-at="2015-07-31T15:47:03Z" finished-at="2015-07-31T15:47:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testSearchByContents(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchByContents" duration-ms="5342" started-at="2015-07-31T15:05:15Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.CompleteLibraryTest.testVerifyUIOfCompleteLibraryPage" finished-at="2015-07-31T15:05:21Z">
+        <test-method status="PASS" signature="testSearchByContents(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchByContents" duration-ms="4966" started-at="2015-07-31T15:47:03Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.CompleteLibraryTest.testVerifyUIOfCompleteLibraryPage" finished-at="2015-07-31T15:47:08Z">
           <params>
             <param index="0">
               <value>
@@ -124,11 +124,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchByContents -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="19" started-at="2015-07-31T15:05:21Z" finished-at="2015-07-31T15:05:21Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="14" started-at="2015-07-31T15:47:08Z" finished-at="2015-07-31T15:47:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testSearchByContents(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchByContents" duration-ms="3987" started-at="2015-07-31T15:05:21Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.CompleteLibraryTest.testVerifyUIOfCompleteLibraryPage" finished-at="2015-07-31T15:05:25Z">
+        <test-method status="PASS" signature="testSearchByContents(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchByContents" duration-ms="2831" started-at="2015-07-31T15:47:08Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.CompleteLibraryTest.testVerifyUIOfCompleteLibraryPage" finished-at="2015-07-31T15:47:11Z">
           <params>
             <param index="0">
               <value>
@@ -154,11 +154,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchByContents -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="20" started-at="2015-07-31T15:05:25Z" finished-at="2015-07-31T15:05:25Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="14" started-at="2015-07-31T15:47:11Z" finished-at="2015-07-31T15:47:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testSearchByContents(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchByContents" duration-ms="3895" started-at="2015-07-31T15:05:25Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.CompleteLibraryTest.testVerifyUIOfCompleteLibraryPage" finished-at="2015-07-31T15:05:29Z">
+        <test-method status="PASS" signature="testSearchByContents(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchByContents" duration-ms="7080" started-at="2015-07-31T15:47:11Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.CompleteLibraryTest.testVerifyUIOfCompleteLibraryPage" finished-at="2015-07-31T15:47:18Z">
           <params>
             <param index="0">
               <value>
@@ -184,11 +184,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchByContents -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="4772" started-at="2015-07-31T15:05:30Z" finished-at="2015-07-31T15:05:35Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="6907" started-at="2015-07-31T15:47:19Z" finished-at="2015-07-31T15:47:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testSearchByeText(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchByeText" duration-ms="2444" depends-on-groups="ClickOnAlleTextPagesStack" started-at="2015-07-31T15:05:35Z" data-provider="ExcelDataProvider" finished-at="2015-07-31T15:05:37Z">
+        <test-method status="PASS" signature="testSearchByeText(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchByeText" duration-ms="4560" depends-on-groups="ClickOnAlleTextPagesStack" started-at="2015-07-31T15:47:26Z" data-provider="ExcelDataProvider" finished-at="2015-07-31T15:47:31Z">
           <params>
             <param index="0">
               <value>
@@ -214,11 +214,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchByeText -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="13" started-at="2015-07-31T15:05:37Z" finished-at="2015-07-31T15:05:37Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="14" started-at="2015-07-31T15:47:31Z" finished-at="2015-07-31T15:47:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testSearchByeText(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchByeText" duration-ms="2366" depends-on-groups="ClickOnAlleTextPagesStack" started-at="2015-07-31T15:05:37Z" data-provider="ExcelDataProvider" finished-at="2015-07-31T15:05:40Z">
+        <test-method status="PASS" signature="testSearchByeText(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchByeText" duration-ms="3510" depends-on-groups="ClickOnAlleTextPagesStack" started-at="2015-07-31T15:47:31Z" data-provider="ExcelDataProvider" finished-at="2015-07-31T15:47:34Z">
           <params>
             <param index="0">
               <value>
@@ -244,11 +244,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchByeText -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="14" started-at="2015-07-31T15:05:40Z" finished-at="2015-07-31T15:05:40Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="14" started-at="2015-07-31T15:47:34Z" finished-at="2015-07-31T15:47:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testSearchByeText(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchByeText" duration-ms="2282" depends-on-groups="ClickOnAlleTextPagesStack" started-at="2015-07-31T15:05:40Z" data-provider="ExcelDataProvider" finished-at="2015-07-31T15:05:42Z">
+        <test-method status="PASS" signature="testSearchByeText(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchByeText" duration-ms="3501" depends-on-groups="ClickOnAlleTextPagesStack" started-at="2015-07-31T15:47:34Z" data-provider="ExcelDataProvider" finished-at="2015-07-31T15:47:38Z">
           <params>
             <param index="0">
               <value>
@@ -274,11 +274,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchByeText -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="324" started-at="2015-07-31T15:05:43Z" finished-at="2015-07-31T15:05:43Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="1326" started-at="2015-07-31T15:47:39Z" finished-at="2015-07-31T15:47:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testSearchMyNotes(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchMyNotes" duration-ms="2551" depends-on-groups="ClickOnAlleTextStack" started-at="2015-07-31T15:05:43Z" data-provider="ExcelDataProvider" finished-at="2015-07-31T15:05:46Z">
+        <test-method status="PASS" signature="testSearchMyNotes(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchMyNotes" duration-ms="5268" depends-on-groups="ClickOnAlleTextStack" started-at="2015-07-31T15:47:40Z" data-provider="ExcelDataProvider" finished-at="2015-07-31T15:47:45Z">
           <params>
             <param index="0">
               <value>
@@ -304,11 +304,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchMyNotes -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="12" started-at="2015-07-31T15:05:46Z" finished-at="2015-07-31T15:05:46Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="16" started-at="2015-07-31T15:47:45Z" finished-at="2015-07-31T15:47:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="FAIL" signature="testSearchMyNotes(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchMyNotes" duration-ms="2044" depends-on-groups="ClickOnAlleTextStack" started-at="2015-07-31T15:05:46Z" data-provider="ExcelDataProvider" finished-at="2015-07-31T15:05:48Z">
+        <test-method status="FAIL" signature="testSearchMyNotes(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchMyNotes" duration-ms="3409" depends-on-groups="ClickOnAlleTextStack" started-at="2015-07-31T15:47:45Z" data-provider="ExcelDataProvider" finished-at="2015-07-31T15:47:49Z">
           <params>
             <param index="0">
               <value>
@@ -375,11 +375,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchMyNotes -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="16" started-at="2015-07-31T15:05:48Z" finished-at="2015-07-31T15:05:48Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="2739" started-at="2015-07-31T15:47:49Z" finished-at="2015-07-31T15:47:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="FAIL" signature="testSearchMyNotes(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchMyNotes" duration-ms="2421" depends-on-groups="ClickOnAlleTextStack" started-at="2015-07-31T15:05:48Z" data-provider="ExcelDataProvider" finished-at="2015-07-31T15:05:51Z">
+        <test-method status="PASS" signature="testSearchMyNotes(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchMyNotes" duration-ms="6279" depends-on-groups="ClickOnAlleTextStack" started-at="2015-07-31T15:47:52Z" data-provider="ExcelDataProvider" finished-at="2015-07-31T15:47:58Z">
           <params>
             <param index="0">
               <value>
@@ -402,53 +402,12 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at test.java.CompleteLibraryTest.testSearchMyNotes(CompleteLibraryTest.java:106)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1032)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchMyNotes -->
       </class> <!-- test.java.CompleteLibraryTest -->
       <class name="test.java.LoginPageTest">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="setUp" is-config="true" duration-ms="15273" started-at="2015-07-31T15:04:39Z" finished-at="2015-07-31T15:04:55Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="setUp" is-config="true" duration-ms="15870" started-at="2015-07-31T15:46:28Z" finished-at="2015-07-31T15:46:44Z">
           <params>
             <param index="0">
               <value>
@@ -484,15 +443,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="beforeClass" is-config="true" duration-ms="1" started-at="2015-07-31T15:04:55Z" finished-at="2015-07-31T15:04:55Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="beforeClass" is-config="true" duration-ms="1" started-at="2015-07-31T15:46:44Z" finished-at="2015-07-31T15:46:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="waitBeforeCallingMethod" is-config="true" duration-ms="162" started-at="2015-07-31T15:04:55Z" finished-at="2015-07-31T15:04:55Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="waitBeforeCallingMethod" is-config="true" duration-ms="69" started-at="2015-07-31T15:46:44Z" finished-at="2015-07-31T15:46:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="FAIL" signature="testverifyUIOfLoginPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="testverifyUIOfLoginPage" duration-ms="182" started-at="2015-07-31T15:04:55Z" data-provider="ExcelDataProvider" finished-at="2015-07-31T15:04:55Z">
+        <test-method status="FAIL" signature="testverifyUIOfLoginPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="testverifyUIOfLoginPage" duration-ms="161" started-at="2015-07-31T15:46:44Z" data-provider="ExcelDataProvider" finished-at="2015-07-31T15:46:44Z">
           <params>
             <param index="0">
               <value>
@@ -579,7 +538,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testverifyUIOfLoginPage -->
-        <test-method status="SKIP" signature="testForgetUserNamePasswordLink()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="testForgetUserNamePasswordLink" duration-ms="0" started-at="2015-07-31T15:04:56Z" depends-on-methods="test.java.LoginPageTest.testverifyUIOfLoginPage" finished-at="2015-07-31T15:04:56Z">
+        <test-method status="SKIP" signature="testForgetUserNamePasswordLink()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="testForgetUserNamePasswordLink" duration-ms="0" started-at="2015-07-31T15:46:45Z" depends-on-methods="test.java.LoginPageTest.testverifyUIOfLoginPage" finished-at="2015-07-31T15:46:45Z">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method LoginPageTest.testForgetUserNamePasswordLink()[pri:0, instance:test.java.LoginPageTest@13969fbe] depends on not successfully finished methods]]>
@@ -612,11 +571,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForgetUserNamePasswordLink -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="waitBeforeCallingMethod" is-config="true" duration-ms="19" started-at="2015-07-31T15:04:56Z" finished-at="2015-07-31T15:04:56Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="waitBeforeCallingMethod" is-config="true" duration-ms="18" started-at="2015-07-31T15:46:45Z" finished-at="2015-07-31T15:46:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="testLogin" duration-ms="18653" started-at="2015-07-31T15:04:56Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.LoginPageTest.testForgetUserNamePasswordLink" finished-at="2015-07-31T15:05:15Z">
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="testLogin" duration-ms="17487" started-at="2015-07-31T15:46:45Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.LoginPageTest.testForgetUserNamePasswordLink" finished-at="2015-07-31T15:47:02Z">
           <params>
             <param index="0">
               <value>
@@ -632,37 +591,37 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="waitBeforeCallingMethod" is-config="true" duration-ms="5575" started-at="2015-07-31T15:06:23Z" finished-at="2015-07-31T15:06:29Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="waitBeforeCallingMethod" is-config="true" duration-ms="13" started-at="2015-07-31T15:48:31Z" finished-at="2015-07-31T15:48:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testclickSearchAndBrowseLibraryLink()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="testclickSearchAndBrowseLibraryLink" duration-ms="15099" depends-on-groups="SignOut" started-at="2015-07-31T15:06:29Z" finished-at="2015-07-31T15:06:44Z">
+        <test-method status="PASS" signature="testclickSearchAndBrowseLibraryLink()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="testclickSearchAndBrowseLibraryLink" duration-ms="12132" depends-on-groups="SignOut" started-at="2015-07-31T15:48:31Z" finished-at="2015-07-31T15:48:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testclickSearchAndBrowseLibraryLink -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="tearDown" is-config="true" duration-ms="16055" started-at="2015-07-31T15:07:46Z" finished-at="2015-07-31T15:08:02Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="tearDown" is-config="true" duration-ms="7300" started-at="2015-07-31T15:50:40Z" finished-at="2015-07-31T15:50:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.java.LoginPageTest -->
       <class name="test.java.SavedSearchesTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="beforeClass" is-config="true" duration-ms="1" started-at="2015-07-31T15:05:53Z" finished-at="2015-07-31T15:05:53Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="beforeClass" is-config="true" duration-ms="0" started-at="2015-07-31T15:47:59Z" finished-at="2015-07-31T15:47:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="waitBeforeCallingMethod" is-config="true" duration-ms="925" started-at="2015-07-31T15:05:53Z" finished-at="2015-07-31T15:05:54Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="waitBeforeCallingMethod" is-config="true" duration-ms="1123" started-at="2015-07-31T15:47:59Z" finished-at="2015-07-31T15:48:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testNavigateToSavedSearchesPage()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testNavigateToSavedSearchesPage" duration-ms="1207" depends-on-groups="ClickOnAlleTextNotesStack" started-at="2015-07-31T15:05:54Z" finished-at="2015-07-31T15:05:55Z">
+        <test-method status="PASS" signature="testNavigateToSavedSearchesPage()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testNavigateToSavedSearchesPage" duration-ms="603" depends-on-groups="ClickOnAlleTextNotesStack" started-at="2015-07-31T15:48:00Z" finished-at="2015-07-31T15:48:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNavigateToSavedSearchesPage -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="waitBeforeCallingMethod" is-config="true" duration-ms="16" started-at="2015-07-31T15:05:56Z" finished-at="2015-07-31T15:05:56Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="waitBeforeCallingMethod" is-config="true" duration-ms="14" started-at="2015-07-31T15:48:01Z" finished-at="2015-07-31T15:48:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testClickOnSavedContentSearchTerm(java.lang.String, java.lang.String)[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testClickOnSavedContentSearchTerm" duration-ms="2938" started-at="2015-07-31T15:05:56Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SavedSearchesTest.testNavigateToSavedSearchesPage" finished-at="2015-07-31T15:05:59Z">
+        <test-method status="PASS" signature="testClickOnSavedContentSearchTerm(java.lang.String, java.lang.String)[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testClickOnSavedContentSearchTerm" duration-ms="5282" started-at="2015-07-31T15:48:01Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SavedSearchesTest.testNavigateToSavedSearchesPage" finished-at="2015-07-31T15:48:06Z">
           <params>
             <param index="0">
               <value>
@@ -678,11 +637,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testClickOnSavedContentSearchTerm -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="waitBeforeCallingMethod" is-config="true" duration-ms="23" started-at="2015-07-31T15:05:59Z" finished-at="2015-07-31T15:05:59Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="waitBeforeCallingMethod" is-config="true" duration-ms="16" started-at="2015-07-31T15:48:06Z" finished-at="2015-07-31T15:48:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testClickOnSavedeTextSearchTerm(java.lang.String, java.lang.String)[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testClickOnSavedeTextSearchTerm" duration-ms="1215" started-at="2015-07-31T15:05:59Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SavedSearchesTest.testClickOnSavedContentSearchTerm" finished-at="2015-07-31T15:06:00Z">
+        <test-method status="PASS" signature="testClickOnSavedeTextSearchTerm(java.lang.String, java.lang.String)[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testClickOnSavedeTextSearchTerm" duration-ms="1355" started-at="2015-07-31T15:48:06Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SavedSearchesTest.testClickOnSavedContentSearchTerm" finished-at="2015-07-31T15:48:08Z">
           <params>
             <param index="0">
               <value>
@@ -698,11 +657,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testClickOnSavedeTextSearchTerm -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="waitBeforeCallingMethod" is-config="true" duration-ms="17" started-at="2015-07-31T15:06:01Z" finished-at="2015-07-31T15:06:01Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="waitBeforeCallingMethod" is-config="true" duration-ms="14" started-at="2015-07-31T15:48:08Z" finished-at="2015-07-31T15:48:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testClickOnSavedNoteSearchTerm(java.lang.String, java.lang.String)[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testClickOnSavedNoteSearchTerm" duration-ms="857" started-at="2015-07-31T15:06:01Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SavedSearchesTest.testClickOnSavedeTextSearchTerm" finished-at="2015-07-31T15:06:01Z">
+        <test-method status="PASS" signature="testClickOnSavedNoteSearchTerm(java.lang.String, java.lang.String)[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testClickOnSavedNoteSearchTerm" duration-ms="1259" started-at="2015-07-31T15:48:08Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SavedSearchesTest.testClickOnSavedeTextSearchTerm" finished-at="2015-07-31T15:48:09Z">
           <params>
             <param index="0">
               <value>
@@ -718,11 +677,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testClickOnSavedNoteSearchTerm -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="waitBeforeCallingMethod" is-config="true" duration-ms="94" started-at="2015-07-31T15:06:02Z" finished-at="2015-07-31T15:06:02Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="waitBeforeCallingMethod" is-config="true" duration-ms="12" started-at="2015-07-31T15:48:09Z" finished-at="2015-07-31T15:48:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testDeleteSavedContentSearchTerm(java.lang.String)[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testDeleteSavedContentSearchTerm" duration-ms="2885" started-at="2015-07-31T15:06:02Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SavedSearchesTest.testClickOnSavedNoteSearchTerm" finished-at="2015-07-31T15:06:05Z">
+        <test-method status="PASS" signature="testDeleteSavedContentSearchTerm(java.lang.String)[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testDeleteSavedContentSearchTerm" duration-ms="7188" started-at="2015-07-31T15:48:09Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SavedSearchesTest.testClickOnSavedNoteSearchTerm" finished-at="2015-07-31T15:48:17Z">
           <params>
             <param index="0">
               <value>
@@ -733,11 +692,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteSavedContentSearchTerm -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="waitBeforeCallingMethod" is-config="true" duration-ms="15" started-at="2015-07-31T15:06:05Z" finished-at="2015-07-31T15:06:05Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="waitBeforeCallingMethod" is-config="true" duration-ms="13" started-at="2015-07-31T15:48:17Z" finished-at="2015-07-31T15:48:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="FAIL" signature="testDeleteSavedeTextSearchTerm(java.lang.String)[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testDeleteSavedeTextSearchTerm" duration-ms="7267" started-at="2015-07-31T15:06:05Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SavedSearchesTest.testDeleteSavedContentSearchTerm" finished-at="2015-07-31T15:06:12Z">
+        <test-method status="PASS" signature="testDeleteSavedeTextSearchTerm(java.lang.String)[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testDeleteSavedeTextSearchTerm" duration-ms="2761" started-at="2015-07-31T15:48:17Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SavedSearchesTest.testDeleteSavedContentSearchTerm" finished-at="2015-07-31T15:48:20Z">
           <params>
             <param index="0">
               <value>
@@ -745,26 +704,41 @@
               </value>
             </param>
           </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteSavedeTextSearchTerm -->
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="waitBeforeCallingMethod" is-config="true" duration-ms="15" started-at="2015-07-31T15:48:20Z" finished-at="2015-07-31T15:48:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBeforeCallingMethod -->
+        <test-method status="FAIL" signature="testDeleteSavedNoteSearchTerm(java.lang.String)[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testDeleteSavedNoteSearchTerm" duration-ms="5785" started-at="2015-07-31T15:48:20Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SavedSearchesTest.testDeleteSavedeTextSearchTerm" finished-at="2015-07-31T15:48:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Note]]>
+              </value>
+            </param>
+          </params>
           <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
               <![CDATA[Element not found in the cache - perhaps the page has changed since it was looked up
-Command duration or timeout: 5.11 seconds
+Command duration or timeout: 5.08 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
 System info: host: 'DS-38607723D16D', ip: '10.102.149.151', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 702de999-65b3-4758-83f1-a8f927753dd1]]>
+Session ID: 5eb53769-2948-461a-a60f-e0e782ea5488]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
-Command duration or timeout: 5.11 seconds
+Command duration or timeout: 5.08 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
 System info: host: 'DS-38607723D16D', ip: '10.102.149.151', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 702de999-65b3-4758-83f1-a8f927753dd1
+Session ID: 5eb53769-2948-461a-a60f-e0e782ea5488
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -783,7 +757,7 @@ Session ID: 702de999-65b3-4758-83f1-a8f927753dd1
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
 	at sac.dl.pageObject.SavedSearchesPage.waitForElementToBeClickable(SavedSearchesPage.java:113)
 	at sac.dl.pageObject.SavedSearchesPage.deleteSavedSearchTerm(SavedSearchesPage.java:85)
-	at test.java.SavedSearchesTest.testDeleteSavedeTextSearchTerm(SavedSearchesTest.java:84)
+	at test.java.SavedSearchesTest.testDeleteSavedNoteSearchTerm(SavedSearchesTest.java:92)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -817,57 +791,173 @@ Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d
 System info: host: 'DS-38607723D16D', ip: '10.102.149.151', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
 Driver info: driver.version: unknown
 	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:8981)
-	at <anonymous class>.Utils.getElementAt(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous3133324374952495734webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8574)
-	at <anonymous class>.WebElement.isElementDisplayed(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous3133324374952495734webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11807)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous3133324374952495734webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12282)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous3133324374952495734webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
+	at <anonymous class>.Utils.getElementAt(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous3227385139531201112webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8574)
+	at <anonymous class>.WebElement.isElementDisplayed(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous3227385139531201112webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11807)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous3227385139531201112webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12282)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous3227385139531201112webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDeleteSavedeTextSearchTerm -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="waitBeforeCallingMethod" is-config="true" duration-ms="22" started-at="2015-07-31T15:06:14Z" finished-at="2015-07-31T15:06:14Z">
+        </test-method> <!-- testDeleteSavedNoteSearchTerm -->
+      </class> <!-- test.java.SavedSearchesTest -->
+      <class name="test.java.SignOutTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.java.SignOutTest@6b2fad11]" name="beforeClass" is-config="true" duration-ms="0" started-at="2015-07-31T15:48:26Z" finished-at="2015-07-31T15:48:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SignOutTest@6b2fad11]" name="waitBeforeCallingMethod" is-config="true" duration-ms="12" started-at="2015-07-31T15:48:26Z" finished-at="2015-07-31T15:48:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="FAIL" signature="testDeleteSavedNoteSearchTerm(java.lang.String)[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testDeleteSavedNoteSearchTerm" duration-ms="5334" started-at="2015-07-31T15:06:14Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SavedSearchesTest.testDeleteSavedeTextSearchTerm" finished-at="2015-07-31T15:06:20Z">
+        <test-method status="PASS" signature="testSignOut()[pri:0, instance:test.java.SignOutTest@6b2fad11]" name="testSignOut" duration-ms="4998" depends-on-groups="DeleteSavedSearchTerm" started-at="2015-07-31T15:48:26Z" finished-at="2015-07-31T15:48:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignOut -->
+      </class> <!-- test.java.SignOutTest -->
+      <class name="test.java.SearchResultsTest">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchResultsTest@2ed94a8b]" name="waitBeforeCallingMethod" is-config="true" duration-ms="13" started-at="2015-07-31T15:47:18Z" finished-at="2015-07-31T15:47:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBeforeCallingMethod -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.java.SearchResultsTest@2ed94a8b]" name="beforeClass" is-config="true" duration-ms="0" started-at="2015-07-31T15:47:18Z" finished-at="2015-07-31T15:47:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testverifyAlleTextPagesStack()[pri:0, instance:test.java.SearchResultsTest@2ed94a8b]" name="testverifyAlleTextPagesStack" duration-ms="540" depends-on-groups="PerformSearchingByeContents" started-at="2015-07-31T15:47:18Z" finished-at="2015-07-31T15:47:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testverifyAlleTextPagesStack -->
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchResultsTest@2ed94a8b]" name="waitBeforeCallingMethod" is-config="true" duration-ms="14" started-at="2015-07-31T15:47:38Z" finished-at="2015-07-31T15:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBeforeCallingMethod -->
+        <test-method status="PASS" signature="testverifyAlleTextStack()[pri:0, instance:test.java.SearchResultsTest@2ed94a8b]" name="testverifyAlleTextStack" duration-ms="184" depends-on-groups="PerformSearchingByeText" started-at="2015-07-31T15:47:38Z" finished-at="2015-07-31T15:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testverifyAlleTextStack -->
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchResultsTest@2ed94a8b]" name="waitBeforeCallingMethod" is-config="true" duration-ms="14" started-at="2015-07-31T15:47:58Z" finished-at="2015-07-31T15:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBeforeCallingMethod -->
+        <test-method status="PASS" signature="testverifyAlleTextNotesStack()[pri:0, instance:test.java.SearchResultsTest@2ed94a8b]" name="testverifyAlleTextNotesStack" duration-ms="533" depends-on-groups="PerformSearchingByNotes" started-at="2015-07-31T15:47:58Z" finished-at="2015-07-31T15:47:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testverifyAlleTextNotesStack -->
+      </class> <!-- test.java.SearchResultsTest -->
+      <class name="test.java.SearchAndBrowseLibraryTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="beforeClass" is-config="true" duration-ms="0" started-at="2015-07-31T15:48:43Z" finished-at="2015-07-31T15:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="waitBeforeCallingMethod" is-config="true" duration-ms="14" started-at="2015-07-31T15:48:43Z" finished-at="2015-07-31T15:48:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBeforeCallingMethod -->
+        <test-method status="PASS" signature="testVerifyOptionsInDropdown(java.lang.String)[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="testVerifyOptionsInDropdown" duration-ms="140" depends-on-groups="LoginPage" started-at="2015-07-31T15:48:44Z" data-provider="ExcelDataProvider" finished-at="2015-07-31T15:48:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Note]]>
+                <![CDATA[Complete Library, MyLab]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.ElementNotVisibleException">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyOptionsInDropdown -->
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="waitBeforeCallingMethod" is-config="true" duration-ms="14" started-at="2015-07-31T15:48:44Z" finished-at="2015-07-31T15:48:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBeforeCallingMethod -->
+        <test-method status="PASS" signature="testVerifyBooksPresentInAlleTextStack(java.lang.String)[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="testVerifyBooksPresentInAlleTextStack" duration-ms="3912" started-at="2015-07-31T15:48:44Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SearchAndBrowseLibraryTest.testVerifyOptionsInDropdown" finished-at="2015-07-31T15:48:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Counseling title 1, std_existing_48, Test Audio_Std_R49, testing4_PROD, 48sakshi, saudi_moe_relg_R48, Test replica 11754]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyBooksPresentInAlleTextStack -->
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="waitBeforeCallingMethod" is-config="true" duration-ms="26" started-at="2015-07-31T15:48:48Z" finished-at="2015-07-31T15:48:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBeforeCallingMethod -->
+        <test-method status="PASS" signature="testVerifyUIOfMoreInfoPopUpUnknownUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="testVerifyUIOfMoreInfoPopUpUnknownUser" duration-ms="48405" started-at="2015-07-31T15:48:48Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SearchAndBrowseLibraryTest.testVerifyBooksPresentInAlleTextStack" finished-at="2015-07-31T15:49:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Counseling title 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[By AMIT TARAN, sourav Saha, pracheta , Badal Rai]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Copyright © 2010]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Most scientific inventions are purposely created and result from curiosity, persistence, and years of hard work.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyUIOfMoreInfoPopUpUnknownUser -->
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="waitBeforeCallingMethod" is-config="true" duration-ms="14" started-at="2015-07-31T15:49:37Z" finished-at="2015-07-31T15:49:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBeforeCallingMethod -->
+        <test-method status="PASS" signature="testVerifyOptionsInPreviewChapterDropdown(java.lang.String)[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="testVerifyOptionsInPreviewChapterDropdown" duration-ms="163" started-at="2015-07-31T15:49:37Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SearchAndBrowseLibraryTest.testVerifyUIOfMoreInfoPopUpUnknownUser" finished-at="2015-07-31T15:49:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Table of Contents, Chapter 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyOptionsInPreviewChapterDropdown -->
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="waitBeforeCallingMethod" is-config="true" duration-ms="12" started-at="2015-07-31T15:49:37Z" finished-at="2015-07-31T15:49:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBeforeCallingMethod -->
+        <test-method status="FAIL" signature="testLaunchChapterPreview(java.lang.String)[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="testLaunchChapterPreview" duration-ms="62032" started-at="2015-07-31T15:49:37Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SearchAndBrowseLibraryTest.testVerifyOptionsInPreviewChapterDropdown" finished-at="2015-07-31T15:50:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chapter 1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Element is not currently visible and so may not be interacted with
-Command duration or timeout: 5.20 seconds
+              <![CDATA[Timed out after 60 seconds waiting for visibility of element located by By.xpath: //div[@id='ChapterPreviewModal']
 Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
 System info: host: 'DS-38607723D16D', ip: '10.102.149.151', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 702de999-65b3-4758-83f1-a8f927753dd1]]>
+Session ID: 5eb53769-2948-461a-a60f-e0e782ea5488]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
-Command duration or timeout: 5.20 seconds
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for visibility of element located by By.xpath: //div[@id='ChapterPreviewModal']
 Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
 System info: host: 'DS-38607723D16D', ip: '10.102.149.151', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 702de999-65b3-4758-83f1-a8f927753dd1
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:80)
-	at sac.dl.pageObject.SavedSearchesPage.deleteSavedSearchTerm(SavedSearchesPage.java:80)
-	at test.java.SavedSearchesTest.testDeleteSavedNoteSearchTerm(SavedSearchesTest.java:92)
+Session ID: 5eb53769-2948-461a-a60f-e0e782ea5488
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at sac.dl.pageObject.SearchAndBrowseLibraryPage.launchChapterPreview(SearchAndBrowseLibraryPage.java:158)
+	at test.java.SearchAndBrowseLibraryTest.testLaunchChapterPreview(SearchAndBrowseLibraryTest.java:90)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -895,165 +985,17 @@ Session ID: 702de999-65b3-4758-83f1-a8f927753dd1
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
-Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
-System info: host: 'DS-38607723D16D', ip: '10.102.149.151', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
-Driver info: driver.version: unknown
-	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous3133324374952495734webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9615)
-	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous3133324374952495734webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12265)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous3133324374952495734webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12282)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous3133324374952495734webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDeleteSavedNoteSearchTerm -->
-      </class> <!-- test.java.SavedSearchesTest -->
-      <class name="test.java.SignOutTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.java.SignOutTest@6b2fad11]" name="beforeClass" is-config="true" duration-ms="1" started-at="2015-07-31T15:06:21Z" finished-at="2015-07-31T15:06:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SignOutTest@6b2fad11]" name="waitBeforeCallingMethod" is-config="true" duration-ms="160" started-at="2015-07-31T15:06:21Z" finished-at="2015-07-31T15:06:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testSignOut()[pri:0, instance:test.java.SignOutTest@6b2fad11]" name="testSignOut" duration-ms="1427" depends-on-groups="DeleteSavedSearchTerm" started-at="2015-07-31T15:06:21Z" finished-at="2015-07-31T15:06:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSignOut -->
-      </class> <!-- test.java.SignOutTest -->
-      <class name="test.java.SearchResultsTest">
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchResultsTest@2ed94a8b]" name="waitBeforeCallingMethod" is-config="true" duration-ms="17" started-at="2015-07-31T15:05:29Z" finished-at="2015-07-31T15:05:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.java.SearchResultsTest@2ed94a8b]" name="beforeClass" is-config="true" duration-ms="0" started-at="2015-07-31T15:05:29Z" finished-at="2015-07-31T15:05:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testverifyAlleTextPagesStack()[pri:0, instance:test.java.SearchResultsTest@2ed94a8b]" name="testverifyAlleTextPagesStack" duration-ms="318" depends-on-groups="PerformSearchingByeContents" started-at="2015-07-31T15:05:29Z" finished-at="2015-07-31T15:05:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testverifyAlleTextPagesStack -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchResultsTest@2ed94a8b]" name="waitBeforeCallingMethod" is-config="true" duration-ms="13" started-at="2015-07-31T15:05:42Z" finished-at="2015-07-31T15:05:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testverifyAlleTextStack()[pri:0, instance:test.java.SearchResultsTest@2ed94a8b]" name="testverifyAlleTextStack" duration-ms="184" depends-on-groups="PerformSearchingByeText" started-at="2015-07-31T15:05:42Z" finished-at="2015-07-31T15:05:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testverifyAlleTextStack -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchResultsTest@2ed94a8b]" name="waitBeforeCallingMethod" is-config="true" duration-ms="755" started-at="2015-07-31T15:05:51Z" finished-at="2015-07-31T15:05:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testverifyAlleTextNotesStack()[pri:0, instance:test.java.SearchResultsTest@2ed94a8b]" name="testverifyAlleTextNotesStack" duration-ms="867" depends-on-groups="PerformSearchingByNotes" started-at="2015-07-31T15:05:52Z" finished-at="2015-07-31T15:05:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testverifyAlleTextNotesStack -->
-      </class> <!-- test.java.SearchResultsTest -->
-      <class name="test.java.SearchAndBrowseLibraryTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="beforeClass" is-config="true" duration-ms="0" started-at="2015-07-31T15:06:44Z" finished-at="2015-07-31T15:06:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="waitBeforeCallingMethod" is-config="true" duration-ms="40" started-at="2015-07-31T15:06:44Z" finished-at="2015-07-31T15:06:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testVerifyOptionsInDropdown(java.lang.String)[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="testVerifyOptionsInDropdown" duration-ms="292" depends-on-groups="LoginPage" started-at="2015-07-31T15:06:44Z" data-provider="ExcelDataProvider" finished-at="2015-07-31T15:06:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Complete Library, MyLab]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testVerifyOptionsInDropdown -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="waitBeforeCallingMethod" is-config="true" duration-ms="16" started-at="2015-07-31T15:06:45Z" finished-at="2015-07-31T15:06:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testVerifyBooksPresentInAlleTextStack(java.lang.String)[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="testVerifyBooksPresentInAlleTextStack" duration-ms="1471" started-at="2015-07-31T15:06:45Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SearchAndBrowseLibraryTest.testVerifyOptionsInDropdown" finished-at="2015-07-31T15:06:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Counseling title 1, std_existing_48, Test Audio_Std_R49, testing4_PROD, 48sakshi, saudi_moe_relg_R48, Test replica 11754]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testVerifyBooksPresentInAlleTextStack -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="waitBeforeCallingMethod" is-config="true" duration-ms="30" started-at="2015-07-31T15:06:47Z" finished-at="2015-07-31T15:06:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testVerifyUIOfMoreInfoPopUpUnknownUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="testVerifyUIOfMoreInfoPopUpUnknownUser" duration-ms="47933" started-at="2015-07-31T15:06:47Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SearchAndBrowseLibraryTest.testVerifyBooksPresentInAlleTextStack" finished-at="2015-07-31T15:07:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Counseling title 1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[By AMIT TARAN, sourav Saha, pracheta , Badal Rai]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Copyright © 2010]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Most scientific inventions are purposely created and result from curiosity, persistence, and years of hard work.]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testVerifyUIOfMoreInfoPopUpUnknownUser -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="waitBeforeCallingMethod" is-config="true" duration-ms="18" started-at="2015-07-31T15:07:35Z" finished-at="2015-07-31T15:07:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testVerifyOptionsInPreviewChapterDropdown(java.lang.String)[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="testVerifyOptionsInPreviewChapterDropdown" duration-ms="335" started-at="2015-07-31T15:07:35Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SearchAndBrowseLibraryTest.testVerifyUIOfMoreInfoPopUpUnknownUser" finished-at="2015-07-31T15:07:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Table of Contents, Chapter 1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testVerifyOptionsInPreviewChapterDropdown -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="waitBeforeCallingMethod" is-config="true" duration-ms="63" started-at="2015-07-31T15:07:36Z" finished-at="2015-07-31T15:07:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testLaunchChapterPreview(java.lang.String)[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="testLaunchChapterPreview" duration-ms="7150" started-at="2015-07-31T15:07:36Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SearchAndBrowseLibraryTest.testVerifyOptionsInPreviewChapterDropdown" finished-at="2015-07-31T15:07:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chapter 1]]>
-              </value>
-            </param>
-          </params>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLaunchChapterPreview -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="waitBeforeCallingMethod" is-config="true" duration-ms="19" started-at="2015-07-31T15:07:44Z" finished-at="2015-07-31T15:07:44Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="waitBeforeCallingMethod" is-config="true" duration-ms="13" started-at="2015-07-31T15:50:39Z" finished-at="2015-07-31T15:50:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testVerifyUIOfChapterPreview(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="testVerifyUIOfChapterPreview" duration-ms="601" started-at="2015-07-31T15:07:44Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SearchAndBrowseLibraryTest.testLaunchChapterPreview" finished-at="2015-07-31T15:07:44Z">
+        <test-method status="FAIL" signature="testVerifyUIOfChapterPreview(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="testVerifyUIOfChapterPreview" duration-ms="33" started-at="2015-07-31T15:50:39Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SearchAndBrowseLibraryTest.testLaunchChapterPreview" finished-at="2015-07-31T15:50:40Z">
           <params>
             <param index="0">
               <value>
@@ -1071,6 +1013,48 @@ Driver info: driver.version: unknown
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Counseling title 1] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Counseling title 1] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at test.java.SearchAndBrowseLibraryTest.testVerifyUIOfChapterPreview(SearchAndBrowseLibraryTest.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyUIOfChapterPreview -->

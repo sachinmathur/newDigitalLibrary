@@ -12,6 +12,7 @@
         <methods>
           <include name="testForgetUserNamePasswordLink"/>
           <include name="beforeClass"/>
+          <include name="testclickSearchAndBrowseLibraryLink"/>
           <include name="tearDown"/>
           <include name="waitBeforeCallingMethod"/>
           <include name="testverifyUIOfLoginPage" invocation-numbers="0"/>
@@ -22,6 +23,7 @@
       <class name="test.java.SignOutTest">
         <methods>
           <include name="beforeClass"/>
+          <include name="testSignOut"/>
           <include name="waitBeforeCallingMethod"/>
         </methods>
       </class> <!-- test.java.SignOutTest -->
@@ -30,7 +32,7 @@
           <include name="beforeClass"/>
           <include name="testSearchByeText"/>
           <include name="testSearchByContents"/>
-          <include name="testSearchMyNotes" invocation-numbers="1 2"/>
+          <include name="testSearchMyNotes" invocation-numbers="1"/>
           <include name="waitBeforeCallingMethod"/>
           <include name="testVerifyUIOfCompleteLibraryPage"/>
         </methods>
@@ -49,7 +51,7 @@
           <include name="beforeClass"/>
           <include name="testClickOnSavedNoteSearchTerm"/>
           <include name="testDeleteSavedContentSearchTerm"/>
-          <include name="testDeleteSavedeTextSearchTerm" invocation-numbers="0"/>
+          <include name="testDeleteSavedeTextSearchTerm"/>
           <include name="testDeleteSavedNoteSearchTerm" invocation-numbers="0"/>
           <include name="waitBeforeCallingMethod"/>
           <include name="testNavigateToSavedSearchesPage"/>
@@ -59,7 +61,13 @@
       </class> <!-- test.java.SavedSearchesTest -->
       <class name="test.java.SearchAndBrowseLibraryTest">
         <methods>
+          <include name="testVerifyOptionsInDropdown"/>
+          <include name="testVerifyUIOfChapterPreview" invocation-numbers="0"/>
+          <include name="testVerifyBooksPresentInAlleTextStack"/>
+          <include name="testVerifyOptionsInPreviewChapterDropdown"/>
+          <include name="testLaunchChapterPreview" invocation-numbers="0"/>
           <include name="waitBeforeCallingMethod"/>
+          <include name="testVerifyUIOfMoreInfoPopUpUnknownUser"/>
           <include name="beforeClass"/>
         </methods>
       </class> <!-- test.java.SearchAndBrowseLibraryTest -->
