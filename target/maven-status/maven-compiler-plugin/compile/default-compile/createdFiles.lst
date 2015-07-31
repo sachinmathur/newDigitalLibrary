@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-sac\dl\base\TestBaseSetUp$1.class
-=======
->>>>>>> origin/master
 sac\dl\utility\PageElements$CompleteLibraryPageElements.class
 sac\dl\utility\PageElements$SearchAndBrowseLibraryPageElements.class
 sac\dl\utility\ReadFromPropertiesFile.class
