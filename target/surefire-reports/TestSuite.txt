@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 31, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 137.75 sec <<< FAILURE! - in TestSuite
+testverifyUIOfLoginPage(test.java.LoginPageTest)  Time elapsed: 0.861 sec  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at org.testng.Assert.assertFalse(Assert.java:73)
+	at test.java.LoginPageTest.testverifyUIOfLoginPage(LoginPageTest.java:55)
+
+testSearchMyNotes(test.java.CompleteLibraryTest)  Time elapsed: 2.597 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at test.java.CompleteLibraryTest.testSearchMyNotes(CompleteLibraryTest.java:106)
+
