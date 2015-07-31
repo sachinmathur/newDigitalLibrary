@@ -38,7 +38,14 @@
       <class name="test.java.SavedSearchesTest">
         <methods>
           <include name="beforeClass"/>
+          <include name="testClickOnSavedNoteSearchTerm"/>
+          <include name="testDeleteSavedContentSearchTerm"/>
+          <include name="testDeleteSavedeTextSearchTerm" invocation-numbers="0"/>
+          <include name="testDeleteSavedNoteSearchTerm" invocation-numbers="0"/>
           <include name="waitBeforeCallingMethod"/>
+          <include name="testNavigateToSavedSearchesPage"/>
+          <include name="testClickOnSavedContentSearchTerm"/>
+          <include name="testClickOnSavedeTextSearchTerm"/>
         </methods>
       </class> <!-- test.java.SavedSearchesTest -->
       <class name="test.java.SignOutTest">
@@ -52,6 +59,7 @@
           <include name="testverifyAlleTextStack"/>
           <include name="waitBeforeCallingMethod"/>
           <include name="testverifyAlleTextPagesStack"/>
+          <include name="testverifyAlleTextNotesStack"/>
           <include name="beforeClass"/>
         </methods>
       </class> <!-- test.java.SearchResultsTest -->

@@ -1,0 +1,1 @@
+curl http://localhost:8080/job/DigitalLibrary/build?delay=0sec

@@ -1,8 +1,11 @@
 package sac.dl.base;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestContext;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
@@ -82,7 +85,13 @@ public class TestBaseSetUp {
 		{
 			log.info("Testsuite completed..closing the driver");
 			driver.close();
+		
 			try{
+				Runtime.getRuntime().exec("taskkill /F /IM firefox.exe");
+				Thread.sleep(5000);
+				Runtime.getRuntime().exec("taskkill /F /IM plugin-container.exe");
+				Runtime.getRuntime().exec("taskkill /F /IM WerFault.exe");
+				
 				Thread.sleep(5000);
 				driver.quit();
 			}

@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">31 methods, 2 failed,  1 skipped,  28 passed</span>
+                    <span class="method-stats">31 methods, 4 failed,  1 skipped,  26 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -99,6 +99,16 @@
                       <a href="#" panel-name="suite-DigitalLibrary" class="show-methods failed suite-DigitalLibrary"> (show)</a> <!-- show-methods failed suite-DigitalLibrary -->
                     </span>
                     <div class="method-list-content failed suite-DigitalLibrary">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.SavedSearchesTest" hash-for-method="testDeleteSavedNoteSearchTerm(Note)">testDeleteSavedNoteSearchTerm(Note)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.SavedSearchesTest" hash-for-method="testDeleteSavedeTextSearchTerm(Counseling)">testDeleteSavedeTextSearchTerm(Counseling)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.CompleteLibraryTest" hash-for-method="testSearchMyNotes(Private, eTexts, Categories, All eText Notes, Counseling title 1, Test Audio_Std_R49, 5 notes, 3 not...)">testSearchMyNotes(Private, eTexts, Categories, All eText Notes, Counseling title 1, Test Audio_Std_R49, 5 notes, 3 not...)</a> <!-- method navigator-link -->
@@ -150,16 +160,6 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.SavedSearchesTest" hash-for-method="testDeleteSavedContentSearchTerm(development)">testDeleteSavedContentSearchTerm(development)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.SavedSearchesTest" hash-for-method="testDeleteSavedNoteSearchTerm(Note)">testDeleteSavedNoteSearchTerm(Note)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.SavedSearchesTest" hash-for-method="testDeleteSavedeTextSearchTerm(Counseling)">testDeleteSavedeTextSearchTerm(Counseling)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -318,6 +318,78 @@
                   <span class="parameters">(Private, eTexts, Categories, All eText Notes, Counseling title 1, Test Audio_Std_R49, 5 notes, 3 notes, 2 notes)</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
 	at test.java.CompleteLibraryTest.testSearchMyNotes(CompleteLibraryTest.java:106)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DigitalLibrary-class-failed -->
+          <div class="suite-DigitalLibrary-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.java.SavedSearchesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteSavedNoteSearchTerm(Note)">
+                  </a> <!-- testDeleteSavedNoteSearchTerm(Note) -->
+                  <span class="method-name">testDeleteSavedNoteSearchTerm</span>
+                  <span class="parameters">(Note)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.04 seconds
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;DS-38607723D16D&apos;, ip: &apos;10.102.149.151&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_40&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b967fc7d-3680-4839-a324-158ec851cc9b
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:80)
+	at sac.dl.pageObject.SavedSearchesPage.deleteSavedSearchTerm(SavedSearchesPage.java:80)
+	at test.java.SavedSearchesTest.testDeleteSavedNoteSearchTerm(SavedSearchesTest.java:92)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;DS-38607723D16D&apos;, ip: &apos;10.102.149.151&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_40&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous1696928086998877516webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9615)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous1696928086998877516webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12265)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous1696928086998877516webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12282)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous1696928086998877516webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteSavedeTextSearchTerm(Counseling)">
+                  </a> <!-- testDeleteSavedeTextSearchTerm(Counseling) -->
+                  <span class="method-name">testDeleteSavedeTextSearchTerm</span>
+                  <span class="parameters">(Counseling)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.05 seconds
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;DS-38607723D16D&apos;, ip: &apos;10.102.149.151&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_40&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b967fc7d-3680-4839-a324-158ec851cc9b
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:80)
+	at sac.dl.pageObject.SavedSearchesPage.deleteSavedSearchTerm(SavedSearchesPage.java:83)
+	at test.java.SavedSearchesTest.testDeleteSavedeTextSearchTerm(SavedSearchesTest.java:84)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;DS-38607723D16D&apos;, ip: &apos;10.102.149.151&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_40&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous1696928086998877516webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9615)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous1696928086998877516webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12265)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous1696928086998877516webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12282)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous1696928086998877516webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
 ... Removed 28 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -534,22 +606,6 @@
                   </a> <!-- testDeleteSavedContentSearchTerm(development) -->
                   <span class="method-name">testDeleteSavedContentSearchTerm</span>
                   <span class="parameters">(development)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testDeleteSavedNoteSearchTerm(Note)">
-                  </a> <!-- testDeleteSavedNoteSearchTerm(Note) -->
-                  <span class="method-name">testDeleteSavedNoteSearchTerm</span>
-                  <span class="parameters">(Note)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testDeleteSavedeTextSearchTerm(Counseling)">
-                  </a> <!-- testDeleteSavedeTextSearchTerm(Counseling) -->
-                  <span class="method-name">testDeleteSavedeTextSearchTerm</span>
-                  <span class="parameters">(Counseling)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -828,123 +884,123 @@ data.addRows(31);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testLogin')
 data.setCell(0, 2, 'test.java.LoginPageTest')
-data.setCell(0, 3, 20811);
+data.setCell(0, 3, 20363);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testDeleteSavedContentSearchTerm')
 data.setCell(1, 2, 'test.java.SavedSearchesTest')
-data.setCell(1, 3, 7193);
+data.setCell(1, 3, 7510);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testDeleteSavedeTextSearchTerm')
-data.setCell(2, 2, 'test.java.SavedSearchesTest')
-data.setCell(2, 3, 7009);
+data.setCell(2, 1, 'testSearchByContents')
+data.setCell(2, 2, 'test.java.CompleteLibraryTest')
+data.setCell(2, 3, 5702);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testDeleteSavedNoteSearchTerm')
-data.setCell(3, 2, 'test.java.SavedSearchesTest')
-data.setCell(3, 3, 6978);
+data.setCell(3, 1, 'testclickSearchAndBrowseLibraryLink')
+data.setCell(3, 2, 'test.java.LoginPageTest')
+data.setCell(3, 3, 5600);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testSearchByContents')
-data.setCell(4, 2, 'test.java.CompleteLibraryTest')
-data.setCell(4, 3, 6437);
+data.setCell(4, 1, 'testLaunchChapterPreview')
+data.setCell(4, 2, 'test.java.SearchAndBrowseLibraryTest')
+data.setCell(4, 3, 5477);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testLaunchChapterPreview')
-data.setCell(5, 2, 'test.java.SearchAndBrowseLibraryTest')
-data.setCell(5, 3, 4678);
+data.setCell(5, 1, 'testDeleteSavedeTextSearchTerm')
+data.setCell(5, 2, 'test.java.SavedSearchesTest')
+data.setCell(5, 3, 5186);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testSearchByContents')
-data.setCell(6, 2, 'test.java.CompleteLibraryTest')
-data.setCell(6, 3, 4663);
+data.setCell(6, 1, 'testDeleteSavedNoteSearchTerm')
+data.setCell(6, 2, 'test.java.SavedSearchesTest')
+data.setCell(6, 3, 5054);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testclickSearchAndBrowseLibraryLink')
-data.setCell(7, 2, 'test.java.LoginPageTest')
-data.setCell(7, 3, 4638);
+data.setCell(7, 1, 'testSearchMyNotes')
+data.setCell(7, 2, 'test.java.CompleteLibraryTest')
+data.setCell(7, 3, 3887);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'testSearchMyNotes')
 data.setCell(8, 2, 'test.java.CompleteLibraryTest')
-data.setCell(8, 3, 3989);
+data.setCell(8, 3, 3697);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'testSearchByContents')
 data.setCell(9, 2, 'test.java.CompleteLibraryTest')
-data.setCell(9, 3, 3685);
+data.setCell(9, 3, 3588);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'testSearchByeText')
 data.setCell(10, 2, 'test.java.CompleteLibraryTest')
-data.setCell(10, 3, 3229);
+data.setCell(10, 3, 3112);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'testSearchMyNotes')
+data.setCell(11, 1, 'testSearchByeText')
 data.setCell(11, 2, 'test.java.CompleteLibraryTest')
-data.setCell(11, 3, 2925);
+data.setCell(11, 3, 2952);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'testClickOnSavedContentSearchTerm')
-data.setCell(12, 2, 'test.java.SavedSearchesTest')
-data.setCell(12, 3, 2825);
+data.setCell(12, 1, 'testSearchByContents')
+data.setCell(12, 2, 'test.java.CompleteLibraryTest')
+data.setCell(12, 3, 2824);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'testSearchByeText')
-data.setCell(13, 2, 'test.java.CompleteLibraryTest')
-data.setCell(13, 3, 2824);
+data.setCell(13, 1, 'testClickOnSavedContentSearchTerm')
+data.setCell(13, 2, 'test.java.SavedSearchesTest')
+data.setCell(13, 3, 2697);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'testVerifyUIOfMoreInfoPopUpUnknownUser')
 data.setCell(14, 2, 'test.java.SearchAndBrowseLibraryTest')
-data.setCell(14, 3, 2486);
+data.setCell(14, 3, 2246);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'testSearchByeText')
+data.setCell(15, 1, 'testSearchMyNotes')
 data.setCell(15, 2, 'test.java.CompleteLibraryTest')
-data.setCell(15, 3, 2475);
+data.setCell(15, 3, 1936);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'testSearchMyNotes')
+data.setCell(16, 1, 'testSearchByeText')
 data.setCell(16, 2, 'test.java.CompleteLibraryTest')
-data.setCell(16, 3, 2328);
+data.setCell(16, 3, 1868);
 data.setCell(17, 0, 17)
 data.setCell(17, 1, 'testSignOut')
 data.setCell(17, 2, 'test.java.SignOutTest')
-data.setCell(17, 3, 1982);
+data.setCell(17, 3, 1812);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'testClickOnSavedeTextSearchTerm')
+data.setCell(18, 1, 'testClickOnSavedNoteSearchTerm')
 data.setCell(18, 2, 'test.java.SavedSearchesTest')
-data.setCell(18, 3, 1321);
+data.setCell(18, 3, 1324);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'testClickOnSavedNoteSearchTerm')
+data.setCell(19, 1, 'testClickOnSavedeTextSearchTerm')
 data.setCell(19, 2, 'test.java.SavedSearchesTest')
-data.setCell(19, 3, 1222);
+data.setCell(19, 3, 1310);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'testverifyAlleTextPagesStack')
-data.setCell(20, 2, 'test.java.SearchResultsTest')
-data.setCell(20, 3, 1211);
+data.setCell(20, 1, 'testVerifyBooksPresentInAlleTextStack')
+data.setCell(20, 2, 'test.java.SearchAndBrowseLibraryTest')
+data.setCell(20, 3, 1155);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'testVerifyBooksPresentInAlleTextStack')
-data.setCell(21, 2, 'test.java.SearchAndBrowseLibraryTest')
-data.setCell(21, 3, 1137);
+data.setCell(21, 1, 'testNavigateToSavedSearchesPage')
+data.setCell(21, 2, 'test.java.SavedSearchesTest')
+data.setCell(21, 3, 842);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'testNavigateToSavedSearchesPage')
-data.setCell(22, 2, 'test.java.SavedSearchesTest')
-data.setCell(22, 3, 1081);
+data.setCell(22, 1, 'testVerifyUIOfCompleteLibraryPage')
+data.setCell(22, 2, 'test.java.CompleteLibraryTest')
+data.setCell(22, 3, 406);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'testVerifyUIOfCompleteLibraryPage')
-data.setCell(23, 2, 'test.java.CompleteLibraryTest')
-data.setCell(23, 3, 634);
+data.setCell(23, 1, 'testVerifyUIOfChapterPreview')
+data.setCell(23, 2, 'test.java.SearchAndBrowseLibraryTest')
+data.setCell(23, 3, 402);
 data.setCell(24, 0, 24)
-data.setCell(24, 1, 'testverifyAlleTextNotesStack')
+data.setCell(24, 1, 'testverifyAlleTextPagesStack')
 data.setCell(24, 2, 'test.java.SearchResultsTest')
-data.setCell(24, 3, 454);
+data.setCell(24, 3, 250);
 data.setCell(25, 0, 25)
-data.setCell(25, 1, 'testVerifyUIOfChapterPreview')
-data.setCell(25, 2, 'test.java.SearchAndBrowseLibraryTest')
-data.setCell(25, 3, 439);
+data.setCell(25, 1, 'testverifyAlleTextNotesStack')
+data.setCell(25, 2, 'test.java.SearchResultsTest')
+data.setCell(25, 3, 218);
 data.setCell(26, 0, 26)
 data.setCell(26, 1, 'testverifyAlleTextStack')
 data.setCell(26, 2, 'test.java.SearchResultsTest')
-data.setCell(26, 3, 272);
+data.setCell(26, 3, 171);
 data.setCell(27, 0, 27)
-data.setCell(27, 1, 'testverifyUIOfLoginPage')
-data.setCell(27, 2, 'test.java.LoginPageTest')
-data.setCell(27, 3, 199);
+data.setCell(27, 1, 'testVerifyOptionsInPreviewChapterDropdown')
+data.setCell(27, 2, 'test.java.SearchAndBrowseLibraryTest')
+data.setCell(27, 3, 156);
 data.setCell(28, 0, 28)
-data.setCell(28, 1, 'testVerifyOptionsInPreviewChapterDropdown')
-data.setCell(28, 2, 'test.java.SearchAndBrowseLibraryTest')
-data.setCell(28, 3, 190);
+data.setCell(28, 1, 'testverifyUIOfLoginPage')
+data.setCell(28, 2, 'test.java.LoginPageTest')
+data.setCell(28, 3, 156);
 data.setCell(29, 0, 29)
 data.setCell(29, 1, 'testVerifyOptionsInDropdown')
 data.setCell(29, 2, 'test.java.SearchAndBrowseLibraryTest')
-data.setCell(29, 3, 148);
+data.setCell(29, 3, 141);
 data.setCell(30, 0, 30)
 data.setCell(30, 1, 'testForgetUserNamePasswordLink')
 data.setCell(30, 2, 'test.java.LoginPageTest')
@@ -1040,308 +1096,312 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">15143 ms</span>
+                <span class="method-start">13797 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">15356 ms</span>
+                <span class="method-start">13921 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testverifyUIOfLoginPage(Sign In, username, password, Forgot your username/password?, Don't have an account?, Purchase Librar...)</span>
-                <span class="method-start">15382 ms</span>
+                <span class="method-start">13953 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">16253 ms</span>
+                <span class="method-start">14639 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testLogin(library_edu_1, pa55word)</span>
-                <span class="method-start">16274 ms</span>
+                <span class="method-start">14670 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.java.CompleteLibraryTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">37368 ms</span>
+                <span class="method-start">35267 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">37486 ms</span>
+                <span class="method-start">35345 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testVerifyUIOfCompleteLibraryPage(7 eTexts, 2 Products, 12 Videos, 11 Resources)</span>
-                <span class="method-start">37518 ms</span>
+                <span class="method-start">35376 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">38469 ms</span>
+                <span class="method-start">36032 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSearchByContents(development, Complete Library, Subscribed, Favorites, All eText Pages, testing4_PROD, Test replica 1...)</span>
-                <span class="method-start">38502 ms</span>
+                <span class="method-start">36047 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">45117 ms</span>
+                <span class="method-start">41921 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSearchByContents(Special, Complete Library, Subscribed, Favorites, All eText Pages, testing4_PROD, Test replica 11754...)</span>
-                <span class="method-start">45139 ms</span>
+                <span class="method-start">41936 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">49095 ms</span>
+                <span class="method-start">44932 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSearchByContents(science, Complete Library, Subscribed, Favorites, All eText Pages, Counseling title 1, std_existing_...)</span>
-                <span class="method-start">49124 ms</span>
+                <span class="method-start">44947 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.java.SearchResultsTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">53977 ms</span>
+                <span class="method-start">48676 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">53978 ms</span>
+                <span class="method-start">48676 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testverifyAlleTextPagesStack</span>
-                <span class="method-start">54002 ms</span>
+                <span class="method-start">48691 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.java.CompleteLibraryTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">55541 ms</span>
+                <span class="method-start">49201 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSearchByeText(Counseling, Complete Library, Subscribed, Favorites, All eTexts, people's Category, Sample, TECHNOLO...)</span>
-                <span class="method-start">59223 ms</span>
+                <span class="method-start">53256 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">62222 ms</span>
+                <span class="method-start">56380 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSearchByeText(Assessment, Complete Library, Subscribed, Favorites, All eTexts, people's Category, TECHNOLOGY AND S...)</span>
-                <span class="method-start">62240 ms</span>
+                <span class="method-start">56395 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">64912 ms</span>
+                <span class="method-start">59647 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSearchByeText(Audio, Complete Library, Subscribed, Favorites, All eTexts, captivity, Test Category, 1 eText, 1 eTe...)</span>
-                <span class="method-start">64934 ms</span>
+                <span class="method-start">59667 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.java.SearchResultsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">68342 ms</span>
+                <span class="method-start">61675 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testverifyAlleTextStack</span>
-                <span class="method-start">68362 ms</span>
+                <span class="method-start">61691 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.java.CompleteLibraryTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">68970 ms</span>
+                <span class="method-start">62112 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSearchMyNotes(Note, eTexts, Categories, All eText Notes, Counseling title 1, Test Audio_Std_R49, 17 notes, 7 notes...)</span>
-                <span class="method-start">69187 ms</span>
+                <span class="method-start">62362 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">72310 ms</span>
+                <span class="method-start">66230 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSearchMyNotes(Test, eTexts, Categories, All eText Notes, Counseling title 1, 1 note, 1 note)</span>
-                <span class="method-start">72326 ms</span>
+                <span class="method-start">66246 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">76550 ms</span>
+                <span class="method-start">70305 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testSearchMyNotes(Private, eTexts, Categories, All eText Notes, Counseling title 1, Test Audio_Std_R49, 5 notes, 3 not...)</span>
-                <span class="method-start">76572 ms</span>
+                <span class="method-start">70321 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.java.SearchResultsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">79339 ms</span>
+                <span class="method-start">72647 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testverifyAlleTextNotesStack</span>
-                <span class="method-start">80393 ms</span>
+                <span class="method-start">72663 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.java.SavedSearchesTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">81077 ms</span>
+                <span class="method-start">73068 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">81079 ms</span>
+                <span class="method-start">73068 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testNavigateToSavedSearchesPage</span>
-                <span class="method-start">82219 ms</span>
+                <span class="method-start">74067 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">83561 ms</span>
+                <span class="method-start">75127 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testClickOnSavedContentSearchTerm(development, All eText Notes)</span>
-                <span class="method-start">83575 ms</span>
+                <span class="method-start">75143 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">86656 ms</span>
+                <span class="method-start">78074 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testClickOnSavedeTextSearchTerm(Counseling, All eText)</span>
-                <span class="method-start">86673 ms</span>
+                <span class="method-start">78090 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">88212 ms</span>
+                <span class="method-start">79603 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testClickOnSavedNoteSearchTerm(Note, All eText Notes)</span>
-                <span class="method-start">88225 ms</span>
+                <span class="method-start">79619 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">89707 ms</span>
+                <span class="method-start">81259 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testDeleteSavedContentSearchTerm(development)</span>
-                <span class="method-start">89739 ms</span>
+                <span class="method-start">81275 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">97174 ms</span>
+                <span class="method-start">89029 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testDeleteSavedeTextSearchTerm(Counseling)</span>
-                <span class="method-start">97188 ms</span>
+                <span class="method-start">89044 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">104456 ms</span>
+                <span class="method-start">94682 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testDeleteSavedNoteSearchTerm(Note)</span>
-                <span class="method-start">104474 ms</span>
+                <span class="method-start">94698 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.java.SignOutTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">111596 ms</span>
+                <span class="method-start">100127 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">111597 ms</span>
+                <span class="method-start">100127 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSignOut</span>
-                <span class="method-start">111609 ms</span>
+                <span class="method-start">100142 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.java.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">113820 ms</span>
+                <span class="method-start">102107 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testclickSearchAndBrowseLibraryLink</span>
-                <span class="method-start">113836 ms</span>
+                <span class="method-start">102123 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.java.SearchAndBrowseLibraryTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">118642 ms</span>
+                <span class="method-start">107895 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">118715 ms</span>
+                <span class="method-start">107973 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testVerifyOptionsInDropdown(Complete Library, MyLab)</span>
-                <span class="method-start">118729 ms</span>
+                <span class="method-start">107988 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">119106 ms</span>
+                <span class="method-start">108332 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testVerifyBooksPresentInAlleTextStack(Counseling title 1, std_existing_48, Test Audio_Std_R49, testing4_PROD, 48sakshi, saudi_moe_relg_R48...)</span>
-                <span class="method-start">119118 ms</span>
+                <span class="method-start">108347 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">120507 ms</span>
+                <span class="method-start">109704 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testVerifyUIOfMoreInfoPopUpUnknownUser(Counseling title 1, By AMIT TARAN, sourav Saha, pracheta , Badal Rai, Copyright © 2010, Most scienti...)</span>
-                <span class="method-start">120526 ms</span>
+                <span class="method-start">109720 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">123243 ms</span>
+                <span class="method-start">112169 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testVerifyOptionsInPreviewChapterDropdown(Table of Contents, Chapter 1)</span>
-                <span class="method-start">123262 ms</span>
+                <span class="method-start">112200 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">123716 ms</span>
+                <span class="method-start">112606 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testLaunchChapterPreview(Chapter 1)</span>
-                <span class="method-start">123733 ms</span>
+                <span class="method-start">112607 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">waitBeforeCallingMethod</span>
-                <span class="method-start">128647 ms</span>
+                <span class="method-start">118310 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testVerifyUIOfChapterPreview(Counseling title 1, TARAN, Saha, , Rai, Page 13)</span>
-                <span class="method-start">128663 ms</span>
+                <span class="method-start">118329 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.java.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">129446 ms</span>
+                <span class="method-start">119184 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

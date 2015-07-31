@@ -1,0 +1,1354 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-DigitalLibrary">
+              <span class="suite-name border-failed">DigitalLibrary</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-DigitalLibrary">
+                    <span>C:\Users\sachin.mathur\workspace\newDigitalLibrary\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-DigitalLibrary">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-DigitalLibrary">
+                    <span>14 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-DigitalLibrary">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-DigitalLibrary">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-DigitalLibrary">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-DigitalLibrary">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">31 methods, 2 failed,  1 skipped,  28 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-DigitalLibrary" class="hide-methods failed suite-DigitalLibrary"> (hide)</a> <!-- hide-methods failed suite-DigitalLibrary -->
+                      <a href="#" panel-name="suite-DigitalLibrary" class="show-methods failed suite-DigitalLibrary"> (show)</a> <!-- show-methods failed suite-DigitalLibrary -->
+                    </span>
+                    <div class="method-list-content failed suite-DigitalLibrary">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.CompleteLibraryTest" hash-for-method="testSearchMyNotes(Private, eTexts, Categories, All eText Notes, Counseling title 1, Test Audio_Std_R49, 5 notes, 3 not...)">testSearchMyNotes(Private, eTexts, Categories, All eText Notes, Counseling title 1, Test Audio_Std_R49, 5 notes, 3 not...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.LoginPageTest" hash-for-method="testverifyUIOfLoginPage(Sign In, username, password, Forgot your username/password?, Don&#039;t have an account?, Purchase Librar...)">testverifyUIOfLoginPage(Sign In, username, password, Forgot your username/password?, Don't have an account?, Purchase Librar...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-DigitalLibrary -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-DigitalLibrary" class="hide-methods skipped suite-DigitalLibrary"> (hide)</a> <!-- hide-methods skipped suite-DigitalLibrary -->
+                      <a href="#" panel-name="suite-DigitalLibrary" class="show-methods skipped suite-DigitalLibrary"> (show)</a> <!-- show-methods skipped suite-DigitalLibrary -->
+                    </span>
+                    <div class="method-list-content skipped suite-DigitalLibrary">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.LoginPageTest" hash-for-method="testForgetUserNamePasswordLink">testForgetUserNamePasswordLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-DigitalLibrary -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-DigitalLibrary" class="hide-methods passed suite-DigitalLibrary"> (hide)</a> <!-- hide-methods passed suite-DigitalLibrary -->
+                      <a href="#" panel-name="suite-DigitalLibrary" class="show-methods passed suite-DigitalLibrary"> (show)</a> <!-- show-methods passed suite-DigitalLibrary -->
+                    </span>
+                    <div class="method-list-content passed suite-DigitalLibrary">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.SavedSearchesTest" hash-for-method="testClickOnSavedContentSearchTerm(development, All eText Notes)">testClickOnSavedContentSearchTerm(development, All eText Notes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.SavedSearchesTest" hash-for-method="testClickOnSavedNoteSearchTerm(Note, All eText Notes)">testClickOnSavedNoteSearchTerm(Note, All eText Notes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.SavedSearchesTest" hash-for-method="testClickOnSavedeTextSearchTerm(Counseling, All eText)">testClickOnSavedeTextSearchTerm(Counseling, All eText)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.SavedSearchesTest" hash-for-method="testDeleteSavedContentSearchTerm(development)">testDeleteSavedContentSearchTerm(development)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.SavedSearchesTest" hash-for-method="testDeleteSavedNoteSearchTerm(Note)">testDeleteSavedNoteSearchTerm(Note)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.SavedSearchesTest" hash-for-method="testDeleteSavedeTextSearchTerm(Counseling)">testDeleteSavedeTextSearchTerm(Counseling)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.SearchAndBrowseLibraryTest" hash-for-method="testLaunchChapterPreview(Chapter 1)">testLaunchChapterPreview(Chapter 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.LoginPageTest" hash-for-method="testLogin(library_edu_1, pa55word)">testLogin(library_edu_1, pa55word)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.SavedSearchesTest" hash-for-method="testNavigateToSavedSearchesPage">testNavigateToSavedSearchesPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.CompleteLibraryTest" hash-for-method="testSearchByContents(development, Complete Library, Subscribed, Favorites, All eText Pages, testing4_PROD, Test replica 1...)">testSearchByContents(development, Complete Library, Subscribed, Favorites, All eText Pages, testing4_PROD, Test replica 1...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.CompleteLibraryTest" hash-for-method="testSearchByContents(science, Complete Library, Subscribed, Favorites, All eText Pages, Counseling title 1, std_existing_...)">testSearchByContents(science, Complete Library, Subscribed, Favorites, All eText Pages, Counseling title 1, std_existing_...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.CompleteLibraryTest" hash-for-method="testSearchByContents(Special, Complete Library, Subscribed, Favorites, All eText Pages, testing4_PROD, Test replica 11754...)">testSearchByContents(Special, Complete Library, Subscribed, Favorites, All eText Pages, testing4_PROD, Test replica 11754...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.CompleteLibraryTest" hash-for-method="testSearchByeText(Counseling, Complete Library, Subscribed, Favorites, All eTexts, people&#039;s Category, Sample, TECHNOLO...)">testSearchByeText(Counseling, Complete Library, Subscribed, Favorites, All eTexts, people's Category, Sample, TECHNOLO...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.CompleteLibraryTest" hash-for-method="testSearchByeText(Audio, Complete Library, Subscribed, Favorites, All eTexts, captivity, Test Category, 1 eText, 1 eTe...)">testSearchByeText(Audio, Complete Library, Subscribed, Favorites, All eTexts, captivity, Test Category, 1 eText, 1 eTe...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.CompleteLibraryTest" hash-for-method="testSearchByeText(Assessment, Complete Library, Subscribed, Favorites, All eTexts, people&#039;s Category, TECHNOLOGY AND S...)">testSearchByeText(Assessment, Complete Library, Subscribed, Favorites, All eTexts, people's Category, TECHNOLOGY AND S...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.CompleteLibraryTest" hash-for-method="testSearchMyNotes(Test, eTexts, Categories, All eText Notes, Counseling title 1, 1 note, 1 note)">testSearchMyNotes(Test, eTexts, Categories, All eText Notes, Counseling title 1, 1 note, 1 note)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.CompleteLibraryTest" hash-for-method="testSearchMyNotes(Note, eTexts, Categories, All eText Notes, Counseling title 1, Test Audio_Std_R49, 17 notes, 7 notes...)">testSearchMyNotes(Note, eTexts, Categories, All eText Notes, Counseling title 1, Test Audio_Std_R49, 17 notes, 7 notes...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.SignOutTest" hash-for-method="testSignOut">testSignOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.SearchAndBrowseLibraryTest" hash-for-method="testVerifyBooksPresentInAlleTextStack(Counseling title 1, std_existing_48, Test Audio_Std_R49, testing4_PROD, 48sakshi, saudi_moe_relg_R48...)">testVerifyBooksPresentInAlleTextStack(Counseling title 1, std_existing_48, Test Audio_Std_R49, testing4_PROD, 48sakshi, saudi_moe_relg_R48...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.SearchAndBrowseLibraryTest" hash-for-method="testVerifyOptionsInDropdown(Complete Library, MyLab)">testVerifyOptionsInDropdown(Complete Library, MyLab)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.SearchAndBrowseLibraryTest" hash-for-method="testVerifyOptionsInPreviewChapterDropdown(Table of Contents, Chapter 1)">testVerifyOptionsInPreviewChapterDropdown(Table of Contents, Chapter 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.SearchAndBrowseLibraryTest" hash-for-method="testVerifyUIOfChapterPreview(Counseling title 1, TARAN, Saha, , Rai, Page 13)">testVerifyUIOfChapterPreview(Counseling title 1, TARAN, Saha, , Rai, Page 13)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.CompleteLibraryTest" hash-for-method="testVerifyUIOfCompleteLibraryPage(7 eTexts, 2 Products, 12 Videos, 11 Resources)">testVerifyUIOfCompleteLibraryPage(7 eTexts, 2 Products, 12 Videos, 11 Resources)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.SearchAndBrowseLibraryTest" hash-for-method="testVerifyUIOfMoreInfoPopUpUnknownUser(Counseling title 1, By AMIT TARAN, sourav Saha, pracheta , Badal Rai, Copyright © 2010, Most scienti...)">testVerifyUIOfMoreInfoPopUpUnknownUser(Counseling title 1, By AMIT TARAN, sourav Saha, pracheta , Badal Rai, Copyright © 2010, Most scienti...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.LoginPageTest" hash-for-method="testclickSearchAndBrowseLibraryLink">testclickSearchAndBrowseLibraryLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.SearchResultsTest" hash-for-method="testverifyAlleTextNotesStack">testverifyAlleTextNotesStack</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.SearchResultsTest" hash-for-method="testverifyAlleTextPagesStack">testverifyAlleTextPagesStack</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DigitalLibrary" title="test.java.SearchResultsTest" hash-for-method="testverifyAlleTextStack">testverifyAlleTextStack</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-DigitalLibrary -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-DigitalLibrary" class="panel DigitalLibrary">
+          <div class="suite-DigitalLibrary-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.java.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testverifyUIOfLoginPage(Sign In, username, password, Forgot your username/password?, Don&#039;t have an account?, Purchase Librar...)">
+                  </a> <!-- testverifyUIOfLoginPage(Sign In, username, password, Forgot your username/password?, Don't have an account?, Purchase Librar...) -->
+                  <span class="method-name">testverifyUIOfLoginPage</span>
+                  <span class="parameters">(Sign In, username, password, Forgot your username/password?, Don't have an account?, Purchase Library, Register Now, Search and browse Library)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at test.java.LoginPageTest.testverifyUIOfLoginPage(LoginPageTest.java:55)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DigitalLibrary-class-failed -->
+          <div class="suite-DigitalLibrary-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.java.CompleteLibraryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchMyNotes(Private, eTexts, Categories, All eText Notes, Counseling title 1, Test Audio_Std_R49, 5 notes, 3 not...)">
+                  </a> <!-- testSearchMyNotes(Private, eTexts, Categories, All eText Notes, Counseling title 1, Test Audio_Std_R49, 5 notes, 3 not...) -->
+                  <span class="method-name">testSearchMyNotes</span>
+                  <span class="parameters">(Private, eTexts, Categories, All eText Notes, Counseling title 1, Test Audio_Std_R49, 5 notes, 3 notes, 2 notes)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at test.java.CompleteLibraryTest.testSearchMyNotes(CompleteLibraryTest.java:106)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DigitalLibrary-class-failed -->
+          <div class="suite-DigitalLibrary-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test.java.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testForgetUserNamePasswordLink">
+                  </a> <!-- testForgetUserNamePasswordLink -->
+                  <span class="method-name">testForgetUserNamePasswordLink</span>
+                  <div class="stack-trace">java.lang.Throwable: Method LoginPageTest.testForgetUserNamePasswordLink()[pri:0, instance:test.java.LoginPageTest@79698539] depends on not successfully finished methods
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DigitalLibrary-class-skipped -->
+          <div class="suite-DigitalLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.java.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(library_edu_1, pa55word)">
+                  </a> <!-- testLogin(library_edu_1, pa55word) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(library_edu_1, pa55word)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testclickSearchAndBrowseLibraryLink">
+                  </a> <!-- testclickSearchAndBrowseLibraryLink -->
+                  <span class="method-name">testclickSearchAndBrowseLibraryLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DigitalLibrary-class-passed -->
+          <div class="suite-DigitalLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.java.SignOutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignOut">
+                  </a> <!-- testSignOut -->
+                  <span class="method-name">testSignOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DigitalLibrary-class-passed -->
+          <div class="suite-DigitalLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.java.CompleteLibraryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchByContents(development, Complete Library, Subscribed, Favorites, All eText Pages, testing4_PROD, Test replica 1...)">
+                  </a> <!-- testSearchByContents(development, Complete Library, Subscribed, Favorites, All eText Pages, testing4_PROD, Test replica 1...) -->
+                  <span class="method-name">testSearchByContents</span>
+                  <span class="parameters">(development, Complete Library, Subscribed, Favorites, All eText Pages, testing4_PROD, Test replica 11754, 127 pages, 70 pages, 57 pages)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchByContents(science, Complete Library, Subscribed, Favorites, All eText Pages, Counseling title 1, std_existing_...)">
+                  </a> <!-- testSearchByContents(science, Complete Library, Subscribed, Favorites, All eText Pages, Counseling title 1, std_existing_...) -->
+                  <span class="method-name">testSearchByContents</span>
+                  <span class="parameters">(science, Complete Library, Subscribed, Favorites, All eText Pages, Counseling title 1, std_existing_48, testing4_PROD, Test replica 11754, 84 pages, 6 pages, 6 pages, 35 pages, 37 pages)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchByContents(Special, Complete Library, Subscribed, Favorites, All eText Pages, testing4_PROD, Test replica 11754...)">
+                  </a> <!-- testSearchByContents(Special, Complete Library, Subscribed, Favorites, All eText Pages, testing4_PROD, Test replica 11754...) -->
+                  <span class="method-name">testSearchByContents</span>
+                  <span class="parameters">(Special, Complete Library, Subscribed, Favorites, All eText Pages, testing4_PROD, Test replica 11754, 83 pages, 60 pages, 23 pages)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchByeText(Counseling, Complete Library, Subscribed, Favorites, All eTexts, people&#039;s Category, Sample, TECHNOLO...)">
+                  </a> <!-- testSearchByeText(Counseling, Complete Library, Subscribed, Favorites, All eTexts, people's Category, Sample, TECHNOLO...) -->
+                  <span class="method-name">testSearchByeText</span>
+                  <span class="parameters">(Counseling, Complete Library, Subscribed, Favorites, All eTexts, people's Category, Sample, TECHNOLOGY AND STACKS, Test Category, 2 eTexts, 1 eText, 1 eText, 1 eText, 1 eText)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchByeText(Audio, Complete Library, Subscribed, Favorites, All eTexts, captivity, Test Category, 1 eText, 1 eTe...)">
+                  </a> <!-- testSearchByeText(Audio, Complete Library, Subscribed, Favorites, All eTexts, captivity, Test Category, 1 eText, 1 eTe...) -->
+                  <span class="method-name">testSearchByeText</span>
+                  <span class="parameters">(Audio, Complete Library, Subscribed, Favorites, All eTexts, captivity, Test Category, 1 eText, 1 eText, 1 eText)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchByeText(Assessment, Complete Library, Subscribed, Favorites, All eTexts, people&#039;s Category, TECHNOLOGY AND S...)">
+                  </a> <!-- testSearchByeText(Assessment, Complete Library, Subscribed, Favorites, All eTexts, people's Category, TECHNOLOGY AND S...) -->
+                  <span class="method-name">testSearchByeText</span>
+                  <span class="parameters">(Assessment, Complete Library, Subscribed, Favorites, All eTexts, people's Category, TECHNOLOGY AND STACKS, 1 eText, 1 eText, 1 eText)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchMyNotes(Test, eTexts, Categories, All eText Notes, Counseling title 1, 1 note, 1 note)">
+                  </a> <!-- testSearchMyNotes(Test, eTexts, Categories, All eText Notes, Counseling title 1, 1 note, 1 note) -->
+                  <span class="method-name">testSearchMyNotes</span>
+                  <span class="parameters">(Test, eTexts, Categories, All eText Notes, Counseling title 1, 1 note, 1 note)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchMyNotes(Note, eTexts, Categories, All eText Notes, Counseling title 1, Test Audio_Std_R49, 17 notes, 7 notes...)">
+                  </a> <!-- testSearchMyNotes(Note, eTexts, Categories, All eText Notes, Counseling title 1, Test Audio_Std_R49, 17 notes, 7 notes...) -->
+                  <span class="method-name">testSearchMyNotes</span>
+                  <span class="parameters">(Note, eTexts, Categories, All eText Notes, Counseling title 1, Test Audio_Std_R49, 17 notes, 7 notes, 10 notes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVerifyUIOfCompleteLibraryPage(7 eTexts, 2 Products, 12 Videos, 11 Resources)">
+                  </a> <!-- testVerifyUIOfCompleteLibraryPage(7 eTexts, 2 Products, 12 Videos, 11 Resources) -->
+                  <span class="method-name">testVerifyUIOfCompleteLibraryPage</span>
+                  <span class="parameters">(7 eTexts, 2 Products, 12 Videos, 11 Resources)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DigitalLibrary-class-passed -->
+          <div class="suite-DigitalLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.java.SavedSearchesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnSavedContentSearchTerm(development, All eText Notes)">
+                  </a> <!-- testClickOnSavedContentSearchTerm(development, All eText Notes) -->
+                  <span class="method-name">testClickOnSavedContentSearchTerm</span>
+                  <span class="parameters">(development, All eText Notes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnSavedNoteSearchTerm(Note, All eText Notes)">
+                  </a> <!-- testClickOnSavedNoteSearchTerm(Note, All eText Notes) -->
+                  <span class="method-name">testClickOnSavedNoteSearchTerm</span>
+                  <span class="parameters">(Note, All eText Notes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnSavedeTextSearchTerm(Counseling, All eText)">
+                  </a> <!-- testClickOnSavedeTextSearchTerm(Counseling, All eText) -->
+                  <span class="method-name">testClickOnSavedeTextSearchTerm</span>
+                  <span class="parameters">(Counseling, All eText)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteSavedContentSearchTerm(development)">
+                  </a> <!-- testDeleteSavedContentSearchTerm(development) -->
+                  <span class="method-name">testDeleteSavedContentSearchTerm</span>
+                  <span class="parameters">(development)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteSavedNoteSearchTerm(Note)">
+                  </a> <!-- testDeleteSavedNoteSearchTerm(Note) -->
+                  <span class="method-name">testDeleteSavedNoteSearchTerm</span>
+                  <span class="parameters">(Note)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteSavedeTextSearchTerm(Counseling)">
+                  </a> <!-- testDeleteSavedeTextSearchTerm(Counseling) -->
+                  <span class="method-name">testDeleteSavedeTextSearchTerm</span>
+                  <span class="parameters">(Counseling)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigateToSavedSearchesPage">
+                  </a> <!-- testNavigateToSavedSearchesPage -->
+                  <span class="method-name">testNavigateToSavedSearchesPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DigitalLibrary-class-passed -->
+          <div class="suite-DigitalLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.java.SearchAndBrowseLibraryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLaunchChapterPreview(Chapter 1)">
+                  </a> <!-- testLaunchChapterPreview(Chapter 1) -->
+                  <span class="method-name">testLaunchChapterPreview</span>
+                  <span class="parameters">(Chapter 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVerifyBooksPresentInAlleTextStack(Counseling title 1, std_existing_48, Test Audio_Std_R49, testing4_PROD, 48sakshi, saudi_moe_relg_R48...)">
+                  </a> <!-- testVerifyBooksPresentInAlleTextStack(Counseling title 1, std_existing_48, Test Audio_Std_R49, testing4_PROD, 48sakshi, saudi_moe_relg_R48...) -->
+                  <span class="method-name">testVerifyBooksPresentInAlleTextStack</span>
+                  <span class="parameters">(Counseling title 1, std_existing_48, Test Audio_Std_R49, testing4_PROD, 48sakshi, saudi_moe_relg_R48, Test replica 11754)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVerifyOptionsInDropdown(Complete Library, MyLab)">
+                  </a> <!-- testVerifyOptionsInDropdown(Complete Library, MyLab) -->
+                  <span class="method-name">testVerifyOptionsInDropdown</span>
+                  <span class="parameters">(Complete Library, MyLab)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVerifyOptionsInPreviewChapterDropdown(Table of Contents, Chapter 1)">
+                  </a> <!-- testVerifyOptionsInPreviewChapterDropdown(Table of Contents, Chapter 1) -->
+                  <span class="method-name">testVerifyOptionsInPreviewChapterDropdown</span>
+                  <span class="parameters">(Table of Contents, Chapter 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVerifyUIOfChapterPreview(Counseling title 1, TARAN, Saha, , Rai, Page 13)">
+                  </a> <!-- testVerifyUIOfChapterPreview(Counseling title 1, TARAN, Saha, , Rai, Page 13) -->
+                  <span class="method-name">testVerifyUIOfChapterPreview</span>
+                  <span class="parameters">(Counseling title 1, TARAN, Saha, , Rai, Page 13)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVerifyUIOfMoreInfoPopUpUnknownUser(Counseling title 1, By AMIT TARAN, sourav Saha, pracheta , Badal Rai, Copyright © 2010, Most scienti...)">
+                  </a> <!-- testVerifyUIOfMoreInfoPopUpUnknownUser(Counseling title 1, By AMIT TARAN, sourav Saha, pracheta , Badal Rai, Copyright © 2010, Most scienti...) -->
+                  <span class="method-name">testVerifyUIOfMoreInfoPopUpUnknownUser</span>
+                  <span class="parameters">(Counseling title 1, By AMIT TARAN, sourav Saha, pracheta , Badal Rai, Copyright © 2010, Most scientific inventions are purposely created and result from curiosity, persistence, and years of hard work.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DigitalLibrary-class-passed -->
+          <div class="suite-DigitalLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.java.SearchResultsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testverifyAlleTextNotesStack">
+                  </a> <!-- testverifyAlleTextNotesStack -->
+                  <span class="method-name">testverifyAlleTextNotesStack</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testverifyAlleTextPagesStack">
+                  </a> <!-- testverifyAlleTextPagesStack -->
+                  <span class="method-name">testverifyAlleTextPagesStack</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testverifyAlleTextStack">
+                  </a> <!-- testverifyAlleTextStack -->
+                  <span class="method-name">testverifyAlleTextStack</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DigitalLibrary-class-passed -->
+        </div> <!-- panel DigitalLibrary -->
+        <div panel-name="test-xml-DigitalLibrary" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sachin.mathur\workspace\newDigitalLibrary\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;DigitalLibrary&quot; parallel=&quot;none&quot;&gt;
+  &lt;parameter name=&quot;Build&quot; value=&quot;1&quot;/&gt;
+  &lt;parameter name=&quot;AppURL&quot; value=&quot;http://library.pearsoncmg.com/library/index.do?libraryid=2821&quot;/&gt;
+  &lt;parameter name=&quot;Iteration&quot; value=&quot;3&quot;/&gt;
+  &lt;parameter name=&quot;Release&quot; value=&quot;1.4&quot;/&gt;
+  &lt;parameter name=&quot;Browser&quot; value=&quot;firefox&quot;/&gt;
+  &lt;test name=&quot;DigitalLibraryFunctionalTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sac.dl.base.TestBaseSetUp&quot;/&gt;
+      &lt;class name=&quot;test.java.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;test.java.CompleteLibraryTest&quot;/&gt;
+      &lt;class name=&quot;test.java.SearchResultsTest&quot;/&gt;
+      &lt;class name=&quot;test.java.SavedSearchesTest&quot;/&gt;
+      &lt;class name=&quot;test.java.SignOutTest&quot;/&gt;
+      &lt;class name=&quot;test.java.SearchAndBrowseLibraryTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DigitalLibraryFunctionalTest --&gt;
+&lt;/suite&gt; &lt;!-- DigitalLibrary --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-DigitalLibrary" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for DigitalLibrary</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">DigitalLibraryFunctionalTest (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-DigitalLibrary" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for DigitalLibrary</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">ClickOnAlleTextNotesStack</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testverifyAlleTextNotesStack</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">ClickOnAlleTextPagesStack</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testverifyAlleTextPagesStack</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">ClickOnAlleTextStack</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testverifyAlleTextStack</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">ClickOnSavedSearchTerm</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testClickOnSavedContentSearchTerm</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testClickOnSavedNoteSearchTerm</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testClickOnSavedeTextSearchTerm</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">CompleteLibrary</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testVerifyUIOfCompleteLibraryPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">DeleteSavedSearchTerm</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testDeleteSavedContentSearchTerm</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testDeleteSavedNoteSearchTerm</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testDeleteSavedeTextSearchTerm</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Login</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testForgetUserNamePasswordLink</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testverifyUIOfLoginPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">LoginPage</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testclickSearchAndBrowseLibraryLink</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">NavigateToSavedSearchesPage</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testNavigateToSavedSearchesPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">PerformSearchingByNotes</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSearchMyNotes</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">PerformSearchingByeContents</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSearchByContents</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">PerformSearchingByeText</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSearchByeText</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">SearchAndBrowseLibrary</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLaunchChapterPreview</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testVerifyBooksPresentInAlleTextStack</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testVerifyOptionsInDropdown</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testVerifyOptionsInPreviewChapterDropdown</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testVerifyUIOfChapterPreview</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testVerifyUIOfMoreInfoPopUpUnknownUser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">SignOut</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSignOut</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-DigitalLibrary" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for DigitalLibrary</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_DigitalLibrary');
+function tableData_DigitalLibrary() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(31);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testLogin')
+data.setCell(0, 2, 'test.java.LoginPageTest')
+data.setCell(0, 3, 22870);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testDeleteSavedContentSearchTerm')
+data.setCell(1, 2, 'test.java.SavedSearchesTest')
+data.setCell(1, 3, 7597);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testDeleteSavedeTextSearchTerm')
+data.setCell(2, 2, 'test.java.SavedSearchesTest')
+data.setCell(2, 3, 6988);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testDeleteSavedNoteSearchTerm')
+data.setCell(3, 2, 'test.java.SavedSearchesTest')
+data.setCell(3, 3, 6943);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSearchByContents')
+data.setCell(4, 2, 'test.java.CompleteLibraryTest')
+data.setCell(4, 3, 6599);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testclickSearchAndBrowseLibraryLink')
+data.setCell(5, 2, 'test.java.LoginPageTest')
+data.setCell(5, 3, 4947);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testLaunchChapterPreview')
+data.setCell(6, 2, 'test.java.SearchAndBrowseLibraryTest')
+data.setCell(6, 3, 4576);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testSearchByContents')
+data.setCell(7, 2, 'test.java.CompleteLibraryTest')
+data.setCell(7, 3, 4036);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testSearchMyNotes')
+data.setCell(8, 2, 'test.java.CompleteLibraryTest')
+data.setCell(8, 3, 3626);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testSearchMyNotes')
+data.setCell(9, 2, 'test.java.CompleteLibraryTest')
+data.setCell(9, 3, 3590);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testSearchByContents')
+data.setCell(10, 2, 'test.java.CompleteLibraryTest')
+data.setCell(10, 3, 2736);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testClickOnSavedContentSearchTerm')
+data.setCell(11, 2, 'test.java.SavedSearchesTest')
+data.setCell(11, 3, 2656);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testSearchMyNotes')
+data.setCell(12, 2, 'test.java.CompleteLibraryTest')
+data.setCell(12, 3, 2510);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testSearchByeText')
+data.setCell(13, 2, 'test.java.CompleteLibraryTest')
+data.setCell(13, 3, 2168);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testVerifyUIOfMoreInfoPopUpUnknownUser')
+data.setCell(14, 2, 'test.java.SearchAndBrowseLibraryTest')
+data.setCell(14, 3, 2112);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testSignOut')
+data.setCell(15, 2, 'test.java.SignOutTest')
+data.setCell(15, 3, 1976);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testSearchByeText')
+data.setCell(16, 2, 'test.java.CompleteLibraryTest')
+data.setCell(16, 3, 1952);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testSearchByeText')
+data.setCell(17, 2, 'test.java.CompleteLibraryTest')
+data.setCell(17, 3, 1840);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testVerifyBooksPresentInAlleTextStack')
+data.setCell(18, 2, 'test.java.SearchAndBrowseLibraryTest')
+data.setCell(18, 3, 1479);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testClickOnSavedNoteSearchTerm')
+data.setCell(19, 2, 'test.java.SavedSearchesTest')
+data.setCell(19, 3, 1249);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testClickOnSavedeTextSearchTerm')
+data.setCell(20, 2, 'test.java.SavedSearchesTest')
+data.setCell(20, 3, 1073);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testNavigateToSavedSearchesPage')
+data.setCell(21, 2, 'test.java.SavedSearchesTest')
+data.setCell(21, 3, 829);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testverifyAlleTextPagesStack')
+data.setCell(22, 2, 'test.java.SearchResultsTest')
+data.setCell(22, 3, 599);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testverifyAlleTextNotesStack')
+data.setCell(23, 2, 'test.java.SearchResultsTest')
+data.setCell(23, 3, 429);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testVerifyUIOfChapterPreview')
+data.setCell(24, 2, 'test.java.SearchAndBrowseLibraryTest')
+data.setCell(24, 3, 362);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testVerifyUIOfCompleteLibraryPage')
+data.setCell(25, 2, 'test.java.CompleteLibraryTest')
+data.setCell(25, 3, 305);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testverifyAlleTextStack')
+data.setCell(26, 2, 'test.java.SearchResultsTest')
+data.setCell(26, 3, 172);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testVerifyOptionsInPreviewChapterDropdown')
+data.setCell(27, 2, 'test.java.SearchAndBrowseLibraryTest')
+data.setCell(27, 3, 161);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testverifyUIOfLoginPage')
+data.setCell(28, 2, 'test.java.LoginPageTest')
+data.setCell(28, 3, 142);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testVerifyOptionsInDropdown')
+data.setCell(29, 2, 'test.java.SearchAndBrowseLibraryTest')
+data.setCell(29, 3, 132);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testForgetUserNamePasswordLink')
+data.setCell(30, 2, 'test.java.LoginPageTest')
+data.setCell(30, 3, 0);
+window.suiteTableData['DigitalLibrary']= { tableData: data, tableDiv: 'times-div-DigitalLibrary'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-DigitalLibrary">
+              </div> <!-- times-div-DigitalLibrary -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-DigitalLibrary" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for DigitalLibrary</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-DigitalLibrary" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">12 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.java.SignOutTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">sac.dl.base.TestBaseSetUp</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.java.CompleteLibraryTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.java.SearchResultsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.java.SavedSearchesTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.java.SearchAndBrowseLibraryTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-DigitalLibrary" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.java.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp(http://library.pearsoncmg.com/library/index.do?libraryid=2821, firefox, 1.4, 3, 1, org.testng.TestRu...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">15746 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">15881 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testverifyUIOfLoginPage(Sign In, username, password, Forgot your username/password?, Don't have an account?, Purchase Librar...)</span>
+                <span class="method-start">15899 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">16920 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLogin(library_edu_1, pa55word)</span>
+                <span class="method-start">16939 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.java.CompleteLibraryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">39969 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">40032 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testVerifyUIOfCompleteLibraryPage(7 eTexts, 2 Products, 12 Videos, 11 Resources)</span>
+                <span class="method-start">40050 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">40562 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchByContents(development, Complete Library, Subscribed, Favorites, All eText Pages, testing4_PROD, Test replica 1...)</span>
+                <span class="method-start">40576 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">47315 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchByContents(Special, Complete Library, Subscribed, Favorites, All eText Pages, testing4_PROD, Test replica 11754...)</span>
+                <span class="method-start">47328 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">50260 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchByContents(science, Complete Library, Subscribed, Favorites, All eText Pages, Counseling title 1, std_existing_...)</span>
+                <span class="method-start">50276 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.java.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">54462 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">54462 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testverifyAlleTextPagesStack</span>
+                <span class="method-start">54478 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.java.CompleteLibraryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">55317 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchByeText(Counseling, Complete Library, Subscribed, Favorites, All eTexts, people's Category, Sample, TECHNOLO...)</span>
+                <span class="method-start">58257 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">60343 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchByeText(Assessment, Complete Library, Subscribed, Favorites, All eTexts, people's Category, TECHNOLOGY AND S...)</span>
+                <span class="method-start">60356 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">62333 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchByeText(Audio, Complete Library, Subscribed, Favorites, All eTexts, captivity, Test Category, 1 eText, 1 eTe...)</span>
+                <span class="method-start">62345 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.java.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">64646 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testverifyAlleTextStack</span>
+                <span class="method-start">64658 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.java.CompleteLibraryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">65047 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchMyNotes(Note, eTexts, Categories, All eText Notes, Counseling title 1, Test Audio_Std_R49, 17 notes, 7 notes...)</span>
+                <span class="method-start">65374 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">69159 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchMyNotes(Test, eTexts, Categories, All eText Notes, Counseling title 1, 1 note, 1 note)</span>
+                <span class="method-start">69175 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">72933 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSearchMyNotes(Private, eTexts, Categories, All eText Notes, Counseling title 1, Test Audio_Std_R49, 5 notes, 3 not...)</span>
+                <span class="method-start">72952 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.java.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">75834 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testverifyAlleTextNotesStack</span>
+                <span class="method-start">76658 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.java.SavedSearchesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">77258 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">77259 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testNavigateToSavedSearchesPage</span>
+                <span class="method-start">78410 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">79448 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnSavedContentSearchTerm(development, All eText Notes)</span>
+                <span class="method-start">79463 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">82338 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnSavedeTextSearchTerm(Counseling, All eText)</span>
+                <span class="method-start">82356 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">83659 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnSavedNoteSearchTerm(Note, All eText Notes)</span>
+                <span class="method-start">83673 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">85131 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteSavedContentSearchTerm(development)</span>
+                <span class="method-start">85143 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">92950 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteSavedeTextSearchTerm(Counseling)</span>
+                <span class="method-start">92966 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">100151 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteSavedNoteSearchTerm(Note)</span>
+                <span class="method-start">100164 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.java.SignOutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">107254 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">107254 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSignOut</span>
+                <span class="method-start">107268 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.java.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">109386 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testclickSearchAndBrowseLibraryLink</span>
+                <span class="method-start">109400 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.java.SearchAndBrowseLibraryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">114507 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">114565 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testVerifyOptionsInDropdown(Complete Library, MyLab)</span>
+                <span class="method-start">114578 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">114917 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testVerifyBooksPresentInAlleTextStack(Counseling title 1, std_existing_48, Test Audio_Std_R49, testing4_PROD, 48sakshi, saudi_moe_relg_R48...)</span>
+                <span class="method-start">114931 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">116607 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testVerifyUIOfMoreInfoPopUpUnknownUser(Counseling title 1, By AMIT TARAN, sourav Saha, pracheta , Badal Rai, Copyright © 2010, Most scienti...)</span>
+                <span class="method-start">116620 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">118932 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testVerifyOptionsInPreviewChapterDropdown(Table of Contents, Chapter 1)</span>
+                <span class="method-start">118957 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">119339 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLaunchChapterPreview(Chapter 1)</span>
+                <span class="method-start">119352 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">waitBeforeCallingMethod</span>
+                <span class="method-start">124143 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testVerifyUIOfChapterPreview(Counseling title 1, TARAN, Saha, , Rai, Page 13)</span>
+                <span class="method-start">124164 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.java.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">124910 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
