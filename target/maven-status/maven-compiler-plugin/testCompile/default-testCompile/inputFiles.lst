@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 C:\Users\sachin.mathur\workspace\NewDigitalLibrary\src\test\java\SearchAndBrowseLibraryTest.java
 C:\Users\sachin.mathur\workspace\NewDigitalLibrary\src\test\java\SearchResultsTest.java
 C:\Users\sachin.mathur\workspace\NewDigitalLibrary\src\test\java\SavedSearchesTest.java
 C:\Users\sachin.mathur\workspace\NewDigitalLibrary\src\test\java\CompleteLibraryTest.java
 C:\Users\sachin.mathur\workspace\NewDigitalLibrary\src\test\java\LoginPageTest.java
 C:\Users\sachin.mathur\workspace\NewDigitalLibrary\src\test\java\SignOutTest.java
+=======
+C:\Users\sachin.mathur\workspace\newDigitalLibrary\src\test\java\SearchAndBrowseLibraryTest.java
+C:\Users\sachin.mathur\workspace\newDigitalLibrary\src\test\java\SearchResultsTest.java
+C:\Users\sachin.mathur\workspace\newDigitalLibrary\src\test\java\SavedSearchesTest.java
+C:\Users\sachin.mathur\workspace\newDigitalLibrary\src\test\java\CompleteLibraryTest.java
+C:\Users\sachin.mathur\workspace\newDigitalLibrary\src\test\java\LoginPageTest.java
+C:\Users\sachin.mathur\workspace\newDigitalLibrary\src\test\java\SignOutTest.java
+>>>>>>> origin/master

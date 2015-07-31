@@ -28,6 +28,7 @@ public class TestBaseSetUp {
 	@Parameters({ "AppURL", "Browser", "Release", "Iteration", "Build" })
 	public void setUp(String appURL, String browserToBeUsed, String release, String iteration, String build, final ITestContext context) throws Exception
 	{
+		System.out.println("Test Jenkins.");
 		TestBaseSetUp.browserToBeUsed = browserToBeUsed;
 		TestBaseSetUp.release = release;
 		TestBaseSetUp.iteration = iteration;
