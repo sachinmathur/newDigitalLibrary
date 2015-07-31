@@ -85,7 +85,12 @@ public class TestBaseSetUp {
 		
 			driver.close();
 			try{
-				Runtime.getRuntime().exec("taskkill /F /IM plugin-container.exe");
+				Runtime.getRuntime().exec("taskkill /F /IM chrome.exe");
+				Runtime.getRuntime().exec("taskkill /F /IM chrome.exe *32");
+				Runtime.getRuntime().exec("taskkill /F /IM iexplorer.exe"); 
+				Runtime.getRuntime().exec("taskkill /F /IM firefox.exe");
+				Runtime.getRuntime().exec("taskkill /F /IM firefox.exe *32");
+				
 				Thread.sleep(1000);
 				driver.quit();
 			}
