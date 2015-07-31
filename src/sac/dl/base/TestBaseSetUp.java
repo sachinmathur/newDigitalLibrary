@@ -85,11 +85,6 @@ public class TestBaseSetUp {
 			driver.close();
 		
 			try{
-				Runtime.getRuntime().exec("taskkill /F /IM firefox.exe");
-				Thread.sleep(5000);
-				Runtime.getRuntime().exec("taskkill /F /IM plugin-container.exe");
-				Runtime.getRuntime().exec("taskkill /F /IM WerFault.exe");
-				
 				Thread.sleep(5000);
 				driver.quit();
 			}

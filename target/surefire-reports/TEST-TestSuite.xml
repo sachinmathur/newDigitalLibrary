@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="135.706" tests="31" errors="0" skipped="1" failures="5">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="DigitalLibrary"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\sachin.mathur\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="8f64b08186db2634"/>
+    <property name="POM_ARTIFACTID" value="NewDigitalLibrary"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_40\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_40\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="NewDigitalLibrary"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\SACHIN~1.MAT\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_40-b25"/>
+    <property name="MpConfig_ProductUserAppDataPath" value="C:\Users\sachin.mathur\AppData\Local\Microsoft\Windows Defender"/>
+    <property name="ANT_HOME" value="C:\Progra~1\apache-ant-1.9.4-bin\apache-ant-1.9.4\"/>
+    <property name="user.name" value="Sachin.Mathur"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="NODE_PATH" value="C:\Progra~1\nodejs\node_modules\npm\node_modules"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="M2" value="D:\Sachin\Automation\apache-maven-3.3.3\bin"/>
+    <property name="BUILD_DISPLAY_NAME" value="#8"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_40\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\sachin.mathur\AppData\Local"/>
+    <property name="java.version" value="1.8.0_40"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="Sachin.Mathur"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_40\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="MpConfig_ProductCodeName" value="AntiSpyware"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_40\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="6.1"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\SACHIN~1.MAT\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.40-b25"/>
+    <property name="user.variant" value=""/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_40"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\windows\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\sachin.mathur"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="USERDNSDOMAIN" value="HCLT.CORP.HCL.IN"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="asl.log" value="Destination=file"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="DS-38607723D16D"/>
+    <property name="POM_GROUPID" value="NewDigitalLibrary"/>
+    <property name="user.home" value="C:\Users\sachin.mathur"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-DigitalLibrary-8"/>
+    <property name="JENKINS_SERVER_COOKIE" value="8f64b08186db2634"/>
+    <property name="MpConfig_ProductAppDataPath" value="C:\ProgramData\Microsoft\Windows Defender"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\sachin.mathur"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_40\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Users\sachin.mathur\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin;C:\Program Files\Java\jdk1.8.0_40/bin;C:\Program Files\Java\jdk1.8.0_40/bin;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Progra~1\apache-ant-1.9.4-bin\apache-ant-1.9.4\bin;C:\Progra~1\Java\jdk1.8.0_40\jre\bin;C:\Progra~1\apache-ant-1.9.4-bin\apache-ant-1.9.4\\bin ;D:\Sachin\Automation\apache-maven-3.3.3\bin ;C:\Users\sachin.mathur\AppData\Local\Android\android-sdk\tools;C:\Users\sachin.mathur\AppData\Local\Android\android-sdk\platform-tools;C:\Users\sachin.mathur\AppData\Local\Android\sdk;D:\Sachin\Automation\apache-maven-3.3.3\bin;C:\Progra~1\Java\jdk1.8.0_40\bin;."/>
+    <property name="MpConfig_ReportingGUID" value="5971F933-DEE1-4246-BD34-4F5C5CBBDF82"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\sachin.mathur\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\sachin.mathur\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="java.class.path" value="C:\Users\sachin.mathur\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-agent-1.5.jar;C:\Users\sachin.mathur\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\boot\plexus-classworlds-2.5.2.jar;C:\Users\sachin.mathur\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main C:\Users\sachin.mathur\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven C:\Users\sachin.mathur\.jenkins\war\WEB-INF\lib\remoting-2.52.jar C:\Users\sachin.mathur\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar C:\Users\sachin.mathur\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 49187"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_40/bin;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Progra~1\apache-ant-1.9.4-bin\apache-ant-1.9.4\bin;C:\Progra~1\Java\jdk1.8.0_40\jre\bin;C:\Progra~1\apache-ant-1.9.4-bin\apache-ant-1.9.4\\bin ;D:\Sachin\Automation\apache-maven-3.3.3\bin ;C:\Users\sachin.mathur\AppData\Local\Android\android-sdk\tools;C:\Users\sachin.mathur\AppData\Local\Android\android-sdk\platform-tools;C:\Users\sachin.mathur\AppData\Local\Android\sdk;D:\Sachin\Automation\apache-maven-3.3.3\bin;C:\Progra~1\Java\jdk1.8.0_40\bin"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_40/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 42 Stepping 7, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="MpConfig_ProductPath" value="C:\Program Files\Windows Defender"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Users\sachin.mathur\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="java.io.tmpdir" value="C:\Users\SACHIN~1.MAT\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\sachin.mathur\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\sachin.mathur\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/DigitalLibrary/8/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="MAVEN_OPTS" value="-Xms256m -Xmx512m"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\windows"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\sachin.mathur\workspace\newDigitalLibrary"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/DigitalLibrary/"/>
+    <property name="LOGONSERVER" value="\\NDA-HCLT-GDC01"/>
+    <property name="USERDOMAIN" value="HCLTECH"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="C:\Users\sachin.mathur\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="8"/>
+    <property name="ANDROID_HOME" value="C:\Users\sachin.mathur\AppData\Local\Android\android-sdk"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="2a07"/>
+    <property name="UATDATA" value="C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77"/>
+    <property name="ANDROID_SDK_ROOT" value="C:\Users\sachin.mathur\AppData\Local\Android\sdk"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\windows"/>
+    <property name="=C:" value="C:\Users\sachin.mathur\workspace\newDigitalLibrary"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\sachin.mathur\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar"/>
+    <property name="WORKSPACE" value="C:\Users\sachin.mathur\.jenkins\workspace\DigitalLibrary"/>
+    <property name="maven3.interceptor.common" value="C:\Users\sachin.mathur\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+  </properties>
+  <testcase name="testverifyUIOfLoginPage" classname="test.java.LoginPageTest" time="0.732">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at org.testng.Assert.assertFalse(Assert.java:73)
+	at test.java.LoginPageTest.testverifyUIOfLoginPage(LoginPageTest.java:55)
+</failure>
+    <system-out><![CDATA[Test Jenkins.
+]]></system-out>
+  </testcase>
+  <testcase name="testForgetUserNamePasswordLink" classname="test.java.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testLogin" classname="test.java.LoginPageTest" time="18.829"/>
+  <testcase name="testVerifyUIOfCompleteLibraryPage" classname="test.java.CompleteLibraryTest" time="0.47"/>
+  <testcase name="testSearchByContents" classname="test.java.CompleteLibraryTest" time="5.506"/>
+  <testcase name="testSearchByContents" classname="test.java.CompleteLibraryTest" time="4.295"/>
+  <testcase name="testSearchByContents" classname="test.java.CompleteLibraryTest" time="4.034"/>
+  <testcase name="testverifyAlleTextPagesStack" classname="test.java.SearchResultsTest" time="0.482"/>
+  <testcase name="testSearchByeText" classname="test.java.CompleteLibraryTest" time="2.581"/>
+  <testcase name="testSearchByeText" classname="test.java.CompleteLibraryTest" time="2.501"/>
+  <testcase name="testSearchByeText" classname="test.java.CompleteLibraryTest" time="2.417"/>
+  <testcase name="testverifyAlleTextStack" classname="test.java.SearchResultsTest" time="0.345"/>
+  <testcase name="testSearchMyNotes" classname="test.java.CompleteLibraryTest" time="2.686"/>
+  <testcase name="testSearchMyNotes" classname="test.java.CompleteLibraryTest" time="2.425">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at test.java.CompleteLibraryTest.testSearchMyNotes(CompleteLibraryTest.java:106)
+</failure>
+  </testcase>
+  <testcase name="testSearchMyNotes" classname="test.java.CompleteLibraryTest" time="2.871">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at test.java.CompleteLibraryTest.testSearchMyNotes(CompleteLibraryTest.java:106)
+</failure>
+  </testcase>
+  <testcase name="testverifyAlleTextNotesStack" classname="test.java.SearchResultsTest" time="1.638"/>
+  <testcase name="testNavigateToSavedSearchesPage" classname="test.java.SavedSearchesTest" time="1.364"/>
+  <testcase name="testClickOnSavedContentSearchTerm" classname="test.java.SavedSearchesTest" time="3.124"/>
+  <testcase name="testClickOnSavedeTextSearchTerm" classname="test.java.SavedSearchesTest" time="1.477"/>
+  <testcase name="testClickOnSavedNoteSearchTerm" classname="test.java.SavedSearchesTest" time="1.056"/>
+  <testcase name="testDeleteSavedContentSearchTerm" classname="test.java.SavedSearchesTest" time="3.11"/>
+  <testcase name="testDeleteSavedeTextSearchTerm" classname="test.java.SavedSearchesTest" time="8.855">
+    <failure message="Element not found in the cache - perhaps the page has changed since it was looked up&#10;Command duration or timeout: 5.11 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;&#10;System info: host: &apos;DS-38607723D16D&apos;, ip: &apos;10.102.149.151&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_40&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 702de999-65b3-4758-83f1-a8f927753dd1" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 5.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'DS-38607723D16D', ip: '10.102.149.151', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 702de999-65b3-4758-83f1-a8f927753dd1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:310)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
+	at org.openqa.selenium.support.ui.ExpectedConditions$21.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.ExpectedConditions$21.apply(ExpectedConditions.java:631)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	at sac.dl.pageObject.SavedSearchesPage.waitForElementToBeClickable(SavedSearchesPage.java:113)
+	at sac.dl.pageObject.SavedSearchesPage.deleteSavedSearchTerm(SavedSearchesPage.java:85)
+	at test.java.SavedSearchesTest.testDeleteSavedeTextSearchTerm(SavedSearchesTest.java:84)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'DS-38607723D16D', ip: '10.102.149.151', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:8981)
+	at <anonymous class>.Utils.getElementAt(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous3133324374952495734webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8574)
+	at <anonymous class>.WebElement.isElementDisplayed(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous3133324374952495734webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11807)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous3133324374952495734webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12282)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous3133324374952495734webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
+]]></failure>
+  </testcase>
+  <testcase name="testDeleteSavedNoteSearchTerm" classname="test.java.SavedSearchesTest" time="6.906">
+    <failure message="Element is not currently visible and so may not be interacted with&#10;Command duration or timeout: 5.20 seconds&#10;Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;&#10;System info: host: &apos;DS-38607723D16D&apos;, ip: &apos;10.102.149.151&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_40&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 702de999-65b3-4758-83f1-a8f927753dd1" type="org.openqa.selenium.ElementNotVisibleException"><![CDATA[org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.20 seconds
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'DS-38607723D16D', ip: '10.102.149.151', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 702de999-65b3-4758-83f1-a8f927753dd1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:80)
+	at sac.dl.pageObject.SavedSearchesPage.deleteSavedSearchTerm(SavedSearchesPage.java:80)
+	at test.java.SavedSearchesTest.testDeleteSavedNoteSearchTerm(SavedSearchesTest.java:92)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'DS-38607723D16D', ip: '10.102.149.151', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous3133324374952495734webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9615)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous3133324374952495734webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12265)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous3133324374952495734webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12282)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous3133324374952495734webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
+]]></failure>
+  </testcase>
+  <testcase name="testSignOut" classname="test.java.SignOutTest" time="1.725"/>
+  <testcase name="testclickSearchAndBrowseLibraryLink" classname="test.java.LoginPageTest" time="15.411"/>
+  <testcase name="testVerifyOptionsInDropdown" classname="test.java.SearchAndBrowseLibraryTest" time="0.625"/>
+  <testcase name="testVerifyBooksPresentInAlleTextStack" classname="test.java.SearchAndBrowseLibraryTest" time="1.762"/>
+  <testcase name="testVerifyUIOfMoreInfoPopUpUnknownUser" classname="test.java.SearchAndBrowseLibraryTest" time="48.074"/>
+  <testcase name="testVerifyOptionsInPreviewChapterDropdown" classname="test.java.SearchAndBrowseLibraryTest" time="0.723"/>
+  <testcase name="testLaunchChapterPreview" classname="test.java.SearchAndBrowseLibraryTest" time="7.417"/>
+  <testcase name="testVerifyUIOfChapterPreview" classname="test.java.SearchAndBrowseLibraryTest" time="0.808"/>
+</testsuite>
