@@ -23,7 +23,7 @@ public class SendEmail {
 	{
 		Properties props = System.getProperties();
 		
-		String host = "smtp.hcl.com";
+		String host = "mail.hcl.com";
 		props.put("mail.smtp.starttls.enable", true);
 		props.put("mail.smtp.host", host);
 		props.put("mail.smtp.user", from);

@@ -48,7 +48,7 @@
         <methods>
           <include name="beforeClass"/>
           <include name="testClickOnSavedNoteSearchTerm"/>
-          <include name="testDeleteSavedContentSearchTerm"/>
+          <include name="testDeleteSavedContentSearchTerm" invocation-numbers="0"/>
           <include name="testDeleteSavedeTextSearchTerm" invocation-numbers="0"/>
           <include name="testDeleteSavedNoteSearchTerm" invocation-numbers="0"/>
           <include name="waitBeforeCallingMethod"/>
