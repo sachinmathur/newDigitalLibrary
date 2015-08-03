@@ -19,11 +19,11 @@ import javax.mail.internet.MimeMultipart;
 
 public class SendEmail {
 
-	private static void sendPDFReportByEmail(String from, String password, String to, String subject, String body)
+	public static void sendPDFReportByEmail(String from, String password, String to, String subject, String body)
 	{
 		Properties props = System.getProperties();
 		
-		String host = "mail.hcl.com";
+		String host = "smtp.hcl.com";
 		props.put("mail.smtp.starttls.enable", true);
 		props.put("mail.smtp.host", host);
 		props.put("mail.smtp.user", from);

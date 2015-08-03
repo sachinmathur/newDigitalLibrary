@@ -10,6 +10,7 @@ import org.testng.annotations.Parameters;
 
 import sac.dl.utility.CreateOutputFileDirectories;
 import sac.dl.utility.ReadFromPropertiesFile;
+import sac.dl.utility.SendEmail;
 
 public class TestBaseSetUp {
 
@@ -77,7 +78,7 @@ public class TestBaseSetUp {
 	@AfterSuite
 	public void tearDown() throws Exception
 	{
-		//	sendPDFReportByEmail("", "", "sachin.mathur22@gmail.com", "PDF Report", "");
+		SendEmail.sendPDFReportByEmail("sachin.mathur@hcl.com", "sacmat@123", "sachin.mathur22@gmail.com", "PDF Report", "");
 
 		if(driver!= null)
 		{
@@ -85,13 +86,9 @@ public class TestBaseSetUp {
 		
 			driver.close();
 			try{
-				Runtime.getRuntime().exec("taskkill /F /IM chrome.exe");
-				Runtime.getRuntime().exec("taskkill /F /IM chrome.exe *32");
-				Runtime.getRuntime().exec("taskkill /F /IM iexplorer.exe"); 
-				Runtime.getRuntime().exec("taskkill /F /IM firefox.exe");
-				Runtime.getRuntime().exec("taskkill /F /IM firefox.exe *32");
-				
 				Thread.sleep(1000);
+				Runtime.getRuntime().exec("taskkill /F /IM firefox.exe");
+				Runtime.getRuntime().exec("taskkill /F /IM firefox.exe *32");	
 				driver.quit();
 			}
 			catch(Exception e){}

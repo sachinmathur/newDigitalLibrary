@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="82.502" tests="31" errors="0" skipped="1" failures="2">
+<testsuite name="TestSuite" time="92.297" tests="31" errors="0" skipped="1" failures="3">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="DigitalLibrary"/>
@@ -11,7 +11,7 @@
     <property name="POM_ARTIFACTID" value="NewDigitalLibrary"/>
     <property name="os.name" value="Windows 7"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_40\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_40\jre\classes"/>
-    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -29,7 +29,7 @@
     <property name="PROMPT" value="$P$G"/>
     <property name="user.language" value="en"/>
     <property name="M2" value="D:\Sachin\Automation\apache-maven-3.3.3\bin"/>
-    <property name="BUILD_DISPLAY_NAME" value="#11"/>
+    <property name="BUILD_DISPLAY_NAME" value="#12"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_40\jre\bin"/>
     <property name="LOCALAPPDATA" value="C:\Users\sachin.mathur\AppData\Local"/>
     <property name="java.version" value="1.8.0_40"/>
@@ -39,7 +39,7 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="master"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_40\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="11"/>
+    <property name="BUILD_ID" value="12"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -78,7 +78,7 @@
     <property name="POM_GROUPID" value="NewDigitalLibrary"/>
     <property name="user.home" value="C:\Users\sachin.mathur"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-DigitalLibrary-11"/>
+    <property name="BUILD_TAG" value="jenkins-DigitalLibrary-12"/>
     <property name="JENKINS_SERVER_COOKIE" value="8f64b08186db2634"/>
     <property name="MpConfig_ProductAppDataPath" value="C:\ProgramData\Microsoft\Windows Defender"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
@@ -94,7 +94,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\Users\sachin.mathur\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
     <property name="java.class.path" value="C:\Users\sachin.mathur\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-agent-1.5.jar;C:\Users\sachin.mathur\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\boot\plexus-classworlds-2.5.2.jar;C:\Users\sachin.mathur\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main C:\Users\sachin.mathur\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven C:\Users\sachin.mathur\.jenkins\war\WEB-INF\lib\remoting-2.52.jar C:\Users\sachin.mathur\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar C:\Users\sachin.mathur\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 54695"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main C:\Users\sachin.mathur\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven C:\Users\sachin.mathur\.jenkins\war\WEB-INF\lib\remoting-2.52.jar C:\Users\sachin.mathur\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar C:\Users\sachin.mathur\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 55662"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.8.0_40/bin;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Progra~1\apache-ant-1.9.4-bin\apache-ant-1.9.4\bin;C:\Progra~1\Java\jdk1.8.0_40\jre\bin;C:\Progra~1\apache-ant-1.9.4-bin\apache-ant-1.9.4\\bin ;D:\Sachin\Automation\apache-maven-3.3.3\bin ;C:\Users\sachin.mathur\AppData\Local\Android\android-sdk\tools;C:\Users\sachin.mathur\AppData\Local\Android\android-sdk\platform-tools;C:\Users\sachin.mathur\AppData\Local\Android\sdk;D:\Sachin\Automation\apache-maven-3.3.3\bin;C:\Progra~1\Java\jdk1.8.0_40\bin"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
@@ -111,7 +111,7 @@
     <property name="HUDSON_HOME" value="C:\Users\sachin.mathur\.jenkins"/>
     <property name="PATH+MAVEN" value="C:\Users\sachin.mathur\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/DigitalLibrary/11/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/DigitalLibrary/12/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="MAVEN_OPTS" value="-Xms256m -Xmx512m"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
@@ -125,7 +125,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="MAVEN_HOME" value="C:\Users\sachin.mathur\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="11"/>
+    <property name="BUILD_NUMBER" value="12"/>
     <property name="ANDROID_HOME" value="C:\Users\sachin.mathur\AppData\Local\Android\android-sdk"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="PROCESSOR_REVISION" value="2a07"/>
@@ -142,7 +142,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="PSModulePath" value="C:\windows\system32\WindowsPowerShell\v1.0\Modules\"/>
   </properties>
-  <testcase name="testverifyUIOfLoginPage" classname="test.java.LoginPageTest" time="0.82">
+  <testcase name="testverifyUIOfLoginPage" classname="test.java.LoginPageTest" time="0.68">
     <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:496)
@@ -156,41 +156,89 @@
   <testcase name="testForgetUserNamePasswordLink" classname="test.java.LoginPageTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="testLogin" classname="test.java.LoginPageTest" time="19.868"/>
-  <testcase name="testVerifyUIOfCompleteLibraryPage" classname="test.java.CompleteLibraryTest" time="0.438"/>
-  <testcase name="testSearchByContents" classname="test.java.CompleteLibraryTest" time="8.834"/>
-  <testcase name="testSearchByContents" classname="test.java.CompleteLibraryTest" time="3.638"/>
-  <testcase name="testSearchByContents" classname="test.java.CompleteLibraryTest" time="4.56"/>
-  <testcase name="testverifyAlleTextPagesStack" classname="test.java.SearchResultsTest" time="0.669"/>
-  <testcase name="testSearchByeText" classname="test.java.CompleteLibraryTest" time="2.575"/>
-  <testcase name="testSearchByeText" classname="test.java.CompleteLibraryTest" time="2.293"/>
-  <testcase name="testSearchByeText" classname="test.java.CompleteLibraryTest" time="2.359"/>
-  <testcase name="testverifyAlleTextStack" classname="test.java.SearchResultsTest" time="0.346"/>
-  <testcase name="testSearchMyNotes" classname="test.java.CompleteLibraryTest" time="3.486"/>
-  <testcase name="testSearchMyNotes" classname="test.java.CompleteLibraryTest" time="3.782"/>
-  <testcase name="testSearchMyNotes" classname="test.java.CompleteLibraryTest" time="1.907">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at test.java.CompleteLibraryTest.testSearchMyNotes(CompleteLibraryTest.java:106)
-</failure>
+  <testcase name="testLogin" classname="test.java.LoginPageTest" time="21.746"/>
+  <testcase name="testVerifyUIOfCompleteLibraryPage" classname="test.java.CompleteLibraryTest" time="0.52"/>
+  <testcase name="testSearchByContents" classname="test.java.CompleteLibraryTest" time="6.9"/>
+  <testcase name="testSearchByContents" classname="test.java.CompleteLibraryTest" time="3.906"/>
+  <testcase name="testSearchByContents" classname="test.java.CompleteLibraryTest" time="4.034"/>
+  <testcase name="testverifyAlleTextPagesStack" classname="test.java.SearchResultsTest" time="0.648"/>
+  <testcase name="testSearchByeText" classname="test.java.CompleteLibraryTest" time="4.743"/>
+  <testcase name="testSearchByeText" classname="test.java.CompleteLibraryTest" time="3.794"/>
+  <testcase name="testSearchByeText" classname="test.java.CompleteLibraryTest" time="4.371"/>
+  <testcase name="testverifyAlleTextStack" classname="test.java.SearchResultsTest" time="0.35"/>
+  <testcase name="testSearchMyNotes" classname="test.java.CompleteLibraryTest" time="4.624"/>
+  <testcase name="testSearchMyNotes" classname="test.java.CompleteLibraryTest" time="5.527"/>
+  <testcase name="testSearchMyNotes" classname="test.java.CompleteLibraryTest" time="4.833"/>
+  <testcase name="testverifyAlleTextNotesStack" classname="test.java.SearchResultsTest" time="2.653"/>
+  <testcase name="testNavigateToSavedSearchesPage" classname="test.java.SavedSearchesTest" time="1.757"/>
+  <testcase name="testClickOnSavedContentSearchTerm" classname="test.java.SavedSearchesTest" time="3.297"/>
+  <testcase name="testClickOnSavedeTextSearchTerm" classname="test.java.SavedSearchesTest" time="2.168"/>
+  <testcase name="testClickOnSavedNoteSearchTerm" classname="test.java.SavedSearchesTest" time="1.843"/>
+  <testcase name="testDeleteSavedContentSearchTerm" classname="test.java.SavedSearchesTest" time="4.64"/>
+  <testcase name="testDeleteSavedeTextSearchTerm" classname="test.java.SavedSearchesTest" time="7.454">
+    <failure message="Element is not currently visible and so may not be interacted with&#10;Command duration or timeout: 5.02 seconds&#10;Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;&#10;System info: host: &apos;DS-38607723D16D&apos;, ip: &apos;10.102.149.151&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_40&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: d1cdef0a-8bca-43fa-8b1c-6f1876d46a88" type="org.openqa.selenium.ElementNotVisibleException"><![CDATA[org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.02 seconds
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'DS-38607723D16D', ip: '10.102.149.151', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1cdef0a-8bca-43fa-8b1c-6f1876d46a88
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:80)
+	at sac.dl.pageObject.SavedSearchesPage.deleteSavedSearchTerm(SavedSearchesPage.java:83)
+	at test.java.SavedSearchesTest.testDeleteSavedeTextSearchTerm(SavedSearchesTest.java:84)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'DS-38607723D16D', ip: '10.102.149.151', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous5276217395956969537webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9615)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous5276217395956969537webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12265)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous5276217395956969537webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12282)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous5276217395956969537webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
+]]></failure>
   </testcase>
-  <testcase name="testverifyAlleTextNotesStack" classname="test.java.SearchResultsTest" time="2.356"/>
-  <testcase name="testNavigateToSavedSearchesPage" classname="test.java.SavedSearchesTest" time="0.815"/>
-  <testcase name="testClickOnSavedContentSearchTerm" classname="test.java.SavedSearchesTest" time="2.966"/>
-  <testcase name="testClickOnSavedeTextSearchTerm" classname="test.java.SavedSearchesTest" time="1.402"/>
-  <testcase name="testClickOnSavedNoteSearchTerm" classname="test.java.SavedSearchesTest" time="0.911"/>
-  <testcase name="testDeleteSavedContentSearchTerm" classname="test.java.SavedSearchesTest" time="7.275"/>
-  <testcase name="testDeleteSavedeTextSearchTerm" classname="test.java.SavedSearchesTest" time="7.519"/>
-  <testcase name="testDeleteSavedNoteSearchTerm" classname="test.java.SavedSearchesTest" time="6.998"/>
-  <testcase name="testSignOut" classname="test.java.SignOutTest" time="2.01"/>
-  <testcase name="testclickSearchAndBrowseLibraryLink" classname="test.java.LoginPageTest" time="4.644"/>
-  <testcase name="testVerifyOptionsInDropdown" classname="test.java.SearchAndBrowseLibraryTest" time="0.267"/>
-  <testcase name="testVerifyBooksPresentInAlleTextStack" classname="test.java.SearchAndBrowseLibraryTest" time="1.185"/>
-  <testcase name="testVerifyUIOfMoreInfoPopUpUnknownUser" classname="test.java.SearchAndBrowseLibraryTest" time="2.101"/>
-  <testcase name="testVerifyOptionsInPreviewChapterDropdown" classname="test.java.SearchAndBrowseLibraryTest" time="0.433"/>
-  <testcase name="testLaunchChapterPreview" classname="test.java.SearchAndBrowseLibraryTest" time="4.163"/>
-  <testcase name="testVerifyUIOfChapterPreview" classname="test.java.SearchAndBrowseLibraryTest" time="0.421"/>
+  <testcase name="testDeleteSavedNoteSearchTerm" classname="test.java.SavedSearchesTest" time="5.481">
+    <failure message="Element is not currently visible and so may not be interacted with&#10;Command duration or timeout: 5.06 seconds&#10;Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;&#10;System info: host: &apos;DS-38607723D16D&apos;, ip: &apos;10.102.149.151&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_40&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: d1cdef0a-8bca-43fa-8b1c-6f1876d46a88" type="org.openqa.selenium.ElementNotVisibleException"><![CDATA[org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.06 seconds
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'DS-38607723D16D', ip: '10.102.149.151', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1cdef0a-8bca-43fa-8b1c-6f1876d46a88
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:80)
+	at sac.dl.pageObject.SavedSearchesPage.deleteSavedSearchTerm(SavedSearchesPage.java:80)
+	at test.java.SavedSearchesTest.testDeleteSavedNoteSearchTerm(SavedSearchesTest.java:92)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'DS-38607723D16D', ip: '10.102.149.151', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous5276217395956969537webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9615)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous5276217395956969537webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12265)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous5276217395956969537webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12282)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous5276217395956969537webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
+]]></failure>
+  </testcase>
+  <testcase name="testSignOut" classname="test.java.SignOutTest" time="2.951"/>
+  <testcase name="testclickSearchAndBrowseLibraryLink" classname="test.java.LoginPageTest" time="7.647"/>
+  <testcase name="testVerifyOptionsInDropdown" classname="test.java.SearchAndBrowseLibraryTest" time="0.32"/>
+  <testcase name="testVerifyBooksPresentInAlleTextStack" classname="test.java.SearchAndBrowseLibraryTest" time="3.169"/>
+  <testcase name="testVerifyUIOfMoreInfoPopUpUnknownUser" classname="test.java.SearchAndBrowseLibraryTest" time="4.091"/>
+  <testcase name="testVerifyOptionsInPreviewChapterDropdown" classname="test.java.SearchAndBrowseLibraryTest" time="0.339"/>
+  <testcase name="testLaunchChapterPreview" classname="test.java.SearchAndBrowseLibraryTest" time="3.813"/>
+  <testcase name="testVerifyUIOfChapterPreview" classname="test.java.SearchAndBrowseLibraryTest" time="0.463"/>
 </testsuite>
