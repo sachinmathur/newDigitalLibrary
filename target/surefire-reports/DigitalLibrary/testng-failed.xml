@@ -30,7 +30,7 @@
           <include name="beforeClass"/>
           <include name="testSearchByeText"/>
           <include name="testSearchByContents"/>
-          <include name="testSearchMyNotes"/>
+          <include name="testSearchMyNotes" invocation-numbers="2"/>
           <include name="waitBeforeCallingMethod"/>
           <include name="testVerifyUIOfCompleteLibraryPage"/>
         </methods>
@@ -40,29 +40,21 @@
           <include name="testverifyAlleTextStack"/>
           <include name="waitBeforeCallingMethod"/>
           <include name="testverifyAlleTextPagesStack"/>
-          <include name="testverifyAlleTextNotesStack"/>
           <include name="beforeClass"/>
         </methods>
       </class> <!-- test.java.SearchResultsTest -->
-      <class name="test.java.SavedSearchesTest">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="testClickOnSavedNoteSearchTerm"/>
-          <include name="testDeleteSavedContentSearchTerm" invocation-numbers="0"/>
-          <include name="testDeleteSavedeTextSearchTerm" invocation-numbers="0"/>
-          <include name="testDeleteSavedNoteSearchTerm" invocation-numbers="0"/>
-          <include name="waitBeforeCallingMethod"/>
-          <include name="testNavigateToSavedSearchesPage"/>
-          <include name="testClickOnSavedContentSearchTerm"/>
-          <include name="testClickOnSavedeTextSearchTerm"/>
-        </methods>
-      </class> <!-- test.java.SavedSearchesTest -->
       <class name="test.java.SearchAndBrowseLibraryTest">
         <methods>
           <include name="waitBeforeCallingMethod"/>
           <include name="beforeClass"/>
         </methods>
       </class> <!-- test.java.SearchAndBrowseLibraryTest -->
+      <class name="test.java.SavedSearchesTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="waitBeforeCallingMethod"/>
+        </methods>
+      </class> <!-- test.java.SavedSearchesTest -->
     </classes>
   </test> <!-- DigitalLibraryFunctionalTest(failed) -->
 </suite> <!-- Failed suite [DigitalLibrary] -->

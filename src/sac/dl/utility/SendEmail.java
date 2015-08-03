@@ -23,12 +23,12 @@ public class SendEmail {
 	{
 		Properties props = System.getProperties();
 		
-		String host = "mail.hcl.com";
+		String host = "smtp.gmail.com";
 		props.put("mail.smtp.starttls.enable", true);
 		props.put("mail.smtp.host", host);
 		props.put("mail.smtp.user", from);
 		props.put("mail.smtp.password", password);
-		props.put("mail.smtp.port", "443");
+		props.put("mail.smtp.port", "220");
 		props.put("mail.smtp.auth", "true");
 		
 		Session session = Session.getDefaultInstance(props);

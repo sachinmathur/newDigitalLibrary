@@ -26,7 +26,6 @@ public class TestBaseSetUp {
 	@Parameters({ "AppURL", "Browser", "Release", "Iteration", "Build" })
 	public void setUp(String appURL, String browserToBeUsed, String release, String iteration, String build, final ITestContext context) throws Exception
 	{
-		System.out.println("Test Jenkins.");
 		TestBaseSetUp.browserToBeUsed = browserToBeUsed;
 		TestBaseSetUp.release = release;
 		TestBaseSetUp.iteration = iteration;
@@ -78,7 +77,7 @@ public class TestBaseSetUp {
 	@AfterSuite
 	public void tearDown() throws Exception
 	{
-		SendEmail.sendPDFReportByEmail("sachin.mathur@hcl.com", "sacmat@123", "sachin.mathur22@gmail.com", "PDF Report", "");
+		SendEmail.sendPDFReportByEmail("", "", "sachin.mathur22@gmail.com", "PDF Report", "");
 
 		if(driver!= null)
 		{
