@@ -50,6 +50,7 @@ public class TestBaseSetUp {
 		
 		else if(browserToBeUsed.equals("chrome"))
 		{
+			DesiredCapabilities chromeCapabilities = DesiredCapabilities.chrome();
 			String chromeDriverLocation = ReadFromPropertiesFile.prop.getProperty("ChromeDriverLocation");
 			System.setProperty("webdriver.chrome.driver", chromeDriverLocation);
 			driver = new ChromeDriver();
