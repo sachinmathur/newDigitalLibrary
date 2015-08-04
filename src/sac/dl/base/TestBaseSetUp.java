@@ -2,6 +2,7 @@ package sac.dl.base;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestContext;
 import org.testng.annotations.AfterSuite;
@@ -37,7 +38,18 @@ public class TestBaseSetUp {
 		CreateOutputFileDirectories.createResultDir(browserToBeUsed,release,iteration,build);
 		CreateOutputFileDirectories.copyResultSuiteFromMasterTestSuite();
 
-		driver=new FirefoxDriver();
+		if(browserToBeUsed.equals("firefox"))
+		{
+			driver=new FirefoxDriver();
+		}
+		
+		else if(browserToBeUsed.equals("chrome"))
+		{
+			String chromeDriverLocation = ReadFromPropertiesFile.prop.getProperty("ChromeDriverLocation");
+			System.setProperty("webdriver.chrome.driver", chromeDriverLocation);
+			driver = new ChromeDriver();
+		}
+		
 		driver.manage().window().maximize();
 		driver.get(appURL);
 		TestBaseSetUp.setDriver();
@@ -91,7 +103,6 @@ public class TestBaseSetUp {
 			catch(Exception e){}
 		}
 
-		
 		ZipOutputFiles.createZip();		
 	//	SendEmail.sendPDFReportByEmail("", "", "sachin.mathur22@gmail.com", "PDF Report", "");
 

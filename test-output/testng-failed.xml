@@ -5,7 +5,7 @@
   <parameter name="AppURL" value="http://library.pearsoncmg.com/library/index.do?libraryid=2821"/>
   <parameter name="Iteration" value="3"/>
   <parameter name="Release" value="1.4"/>
-  <parameter name="Browser" value="firefox"/>
+  <parameter name="Browser" value="chrome"/>
   <test name="DigitalLibraryFunctionalTest(failed)" parallel="none">
     <classes>
       <class name="sac.dl.base.TestBaseSetUp">
@@ -31,7 +31,7 @@
           <include name="testForgetUserNamePasswordLink"/>
           <include name="beforeClass"/>
           <include name="waitBeforeCallingMethod"/>
-          <include name="testverifyUIOfLoginPage" invocation-numbers="0"/>
+          <include name="testverifyUIOfLoginPage"/>
           <include name="testLogin"/>
         </methods>
       </class> <!-- test.java.LoginPageTest -->
@@ -47,22 +47,22 @@
       <class name="test.java.SavedSearchesTest">
         <methods>
           <include name="beforeClass"/>
-          <include name="testClickOnSavedNoteSearchTerm"/>
+          <include name="testClickOnSavedNoteSearchTerm" invocation-numbers="0"/>
           <include name="testDeleteSavedContentSearchTerm" invocation-numbers="0"/>
           <include name="testDeleteSavedeTextSearchTerm" invocation-numbers="0"/>
           <include name="testDeleteSavedNoteSearchTerm" invocation-numbers="0"/>
           <include name="waitBeforeCallingMethod"/>
           <include name="testNavigateToSavedSearchesPage"/>
-          <include name="testClickOnSavedContentSearchTerm"/>
-          <include name="testClickOnSavedeTextSearchTerm"/>
+          <include name="testClickOnSavedContentSearchTerm" invocation-numbers="0"/>
+          <include name="testClickOnSavedeTextSearchTerm" invocation-numbers="0"/>
         </methods>
       </class> <!-- test.java.SavedSearchesTest -->
       <class name="test.java.CompleteLibraryTest">
         <methods>
           <include name="beforeClass"/>
           <include name="testSearchByeText"/>
-          <include name="testSearchByContents"/>
-          <include name="testSearchMyNotes" invocation-numbers="2"/>
+          <include name="testSearchByContents" invocation-numbers="1 2"/>
+          <include name="testSearchMyNotes" invocation-numbers="0 1 2"/>
           <include name="waitBeforeCallingMethod"/>
           <include name="testVerifyUIOfCompleteLibraryPage"/>
         </methods>

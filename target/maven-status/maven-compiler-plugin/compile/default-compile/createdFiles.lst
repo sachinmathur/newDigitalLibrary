@@ -6,6 +6,7 @@ test\java\LoginPageTest.class
 sac\dl\pageObject\SearchResultsPage.class
 sac\dl\pageObject\SavedSearchesPage.class
 sac\dl\utility\PageElements$LoginPageElements.class
+sac\dl\utility\ZipOutputFiles.class
 sac\dl\base\TestBaseSetUp.class
 sac\dl\pageObject\SearchAndBrowseLibraryPage.class
 sac\dl\utility\CustomReportGenerator.class
