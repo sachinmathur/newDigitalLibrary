@@ -4,6 +4,9 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.firefox.internal.ProfilesIni;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.ITestContext;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
@@ -40,7 +43,9 @@ public class TestBaseSetUp {
 
 		if(browserToBeUsed.equals("firefox"))
 		{
-			driver=new FirefoxDriver();
+			ProfilesIni profile = new ProfilesIni();
+			FirefoxProfile firefoxProfile = profile.getProfile("FirefoxAutomationProfile");
+			driver=new FirefoxDriver(firefoxProfile);
 		}
 		
 		else if(browserToBeUsed.equals("chrome"))
@@ -48,6 +53,11 @@ public class TestBaseSetUp {
 			String chromeDriverLocation = ReadFromPropertiesFile.prop.getProperty("ChromeDriverLocation");
 			System.setProperty("webdriver.chrome.driver", chromeDriverLocation);
 			driver = new ChromeDriver();
+		}
+		
+		else if(browserToBeUsed.equals("ie"))
+		{
+			
 		}
 		
 		driver.manage().window().maximize();
