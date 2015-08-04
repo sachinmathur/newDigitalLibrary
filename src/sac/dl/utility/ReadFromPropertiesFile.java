@@ -7,7 +7,7 @@ import java.util.Properties;
 
 public class ReadFromPropertiesFile {
 
-	protected static Properties prop;
+	public static Properties prop;
 	
 	public void loadConfigFile() throws IOException
 	{

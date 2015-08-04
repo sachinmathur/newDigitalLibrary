@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 31, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 279.508 sec <<< FAILURE! - in TestSuite
-testverifyUIOfLoginPage(test.java.LoginPageTest)  Time elapsed: 0.674 sec  <<< FAILURE!
+Tests run: 31, Failures: 4, Errors: 0, Skipped: 1, Time elapsed: 196.679 sec <<< FAILURE! - in TestSuite
+testverifyUIOfLoginPage(test.java.LoginPageTest)  Time elapsed: 0.792 sec  <<< FAILURE!
 java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:496)
@@ -10,11 +10,87 @@ java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.assertFalse(Assert.java:73)
 	at test.java.LoginPageTest.testverifyUIOfLoginPage(LoginPageTest.java:55)
 
-testSearchMyNotes(test.java.CompleteLibraryTest)  Time elapsed: 2.33 sec  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at test.java.CompleteLibraryTest.testSearchMyNotes(CompleteLibraryTest.java:106)
+testDeleteSavedContentSearchTerm(test.java.SavedSearchesTest)  Time elapsed: 6.197 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.04 seconds
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'DS-38607723D16D', ip: '10.102.116.173', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 356bd784-faef-4068-a0fa-926ba4dd200f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:80)
+	at sac.dl.pageObject.SavedSearchesPage.deleteSavedSearchTerm(SavedSearchesPage.java:83)
+	at test.java.SavedSearchesTest.testDeleteSavedContentSearchTerm(SavedSearchesTest.java:76)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'DS-38607723D16D', ip: '10.102.116.173', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous4616658437583546647webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9615)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous4616658437583546647webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12265)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous4616658437583546647webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12282)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous4616658437583546647webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
+
+testDeleteSavedeTextSearchTerm(test.java.SavedSearchesTest)  Time elapsed: 5.479 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.11 seconds
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'DS-38607723D16D', ip: '10.102.116.173', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 356bd784-faef-4068-a0fa-926ba4dd200f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:80)
+	at sac.dl.pageObject.SavedSearchesPage.deleteSavedSearchTerm(SavedSearchesPage.java:80)
+	at test.java.SavedSearchesTest.testDeleteSavedeTextSearchTerm(SavedSearchesTest.java:84)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'DS-38607723D16D', ip: '10.102.116.173', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous4616658437583546647webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9615)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous4616658437583546647webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12265)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous4616658437583546647webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12282)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous4616658437583546647webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
+
+testDeleteSavedNoteSearchTerm(test.java.SavedSearchesTest)  Time elapsed: 5.477 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.11 seconds
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'DS-38607723D16D', ip: '10.102.116.173', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 356bd784-faef-4068-a0fa-926ba4dd200f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:80)
+	at sac.dl.pageObject.SavedSearchesPage.deleteSavedSearchTerm(SavedSearchesPage.java:80)
+	at test.java.SavedSearchesTest.testDeleteSavedNoteSearchTerm(SavedSearchesTest.java:92)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'DS-38607723D16D', ip: '10.102.116.173', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous4616658437583546647webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9615)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous4616658437583546647webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12265)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous4616658437583546647webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12282)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/SACHIN~1.MAT/AppData/Local/Temp/anonymous4616658437583546647webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
 

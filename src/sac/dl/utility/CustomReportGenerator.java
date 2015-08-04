@@ -10,13 +10,18 @@ import org.openqa.selenium.WebDriver;
 import java.awt.Color;
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipOutputStream;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Set;
+import java.util.List;
 
 import jxl.Workbook;
 import jxl.write.Label;
-import jxl.write.WritableCellFormat;
 import jxl.write.WritableSheet;
 import jxl.write.WritableWorkbook;
 
@@ -39,7 +44,9 @@ import com.lowagie.text.pdf.PdfWriter;
 public class CustomReportGenerator implements ITestListener {
 
 	private static WebDriver driver;
-
+	
+	List fileList;
+	
 	int numberOfPassTestCases= 0;
 	int numberOfFailedTestCases= 0;
 	int numberOfSkippedTestCases= 0;
@@ -65,6 +72,7 @@ public class CustomReportGenerator implements ITestListener {
 
 		this.document = new Document();
 		this.throwableMap = new HashMap<Integer, Throwable>();
+		fileList = new ArrayList();
 	}
 
 	public void onTestSuccess(ITestResult result) {
@@ -342,7 +350,7 @@ public class CustomReportGenerator implements ITestListener {
 
 		this.document.close();
 	}
-
+	
 	public void prepareSummaryReport()
 	{
 		log("Preparing Test Summary Report.");

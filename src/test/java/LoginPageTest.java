@@ -52,7 +52,7 @@ public class LoginPageTest extends TestBaseSetUp
 		this.loginPagePageFactory();
 		this.loginPage = this.loginPage.verifyUIOfLoginPage(signInText, textInUserNameTextBox, textInPasswordTextBox, forgetUserNamePasswordText, dontHaveAnAccountText, purchaseLibraryText, registerNowText, searchAndBrowseLibrary);
 		
-		Assert.assertFalse(driver.getPageSource().contains(signInText));
+		Assert.assertTrue(driver.getPageSource().contains(signInText));
 		Assert.assertTrue(PageElements.LoginPageElements.userNameTextBox(driver).isDisplayed());
 		Assert.assertTrue(PageElements.LoginPageElements.userNameTextBox(driver).isEnabled());
 		Assert.assertTrue(PageElements.LoginPageElements.userNameTextBox(driver).getAttribute("placeholder").equals(textInUserNameTextBox));

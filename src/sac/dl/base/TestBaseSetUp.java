@@ -11,6 +11,7 @@ import org.testng.annotations.Parameters;
 import sac.dl.utility.CreateOutputFileDirectories;
 import sac.dl.utility.ReadFromPropertiesFile;
 import sac.dl.utility.SendEmail;
+import sac.dl.utility.ZipOutputFiles;
 
 public class TestBaseSetUp {
 
@@ -20,7 +21,7 @@ public class TestBaseSetUp {
 	public static String browserToBeUsed = "";
 	public static String release = ""; 
 	public static String iteration = "";
-	public static String build = "";
+	public static String build = ""; 
 
 	@BeforeSuite
 	@Parameters({ "AppURL", "Browser", "Release", "Iteration", "Build" })
@@ -77,21 +78,22 @@ public class TestBaseSetUp {
 	@AfterSuite
 	public void tearDown() throws Exception
 	{
-		SendEmail.sendPDFReportByEmail("", "", "sachin.mathur22@gmail.com", "PDF Report", "");
-
 		if(driver!= null)
 		{
 			log.info("Testsuite completed..closing the driver");
-		
-			driver.close();
+
 			try{
-				Thread.sleep(1000);
-				Runtime.getRuntime().exec("taskkill /F /IM firefox.exe");
-				Runtime.getRuntime().exec("taskkill /F /IM firefox.exe *32");	
+				driver.close();
+				Runtime.getRuntime().exec("taskkill /F /IM plugin-container.exe");
+				Runtime.getRuntime().exec("taskkill /F /IM firefox.exe");	
 				driver.quit();
 			}
 			catch(Exception e){}
 		}
+
+		
+		ZipOutputFiles.createZip();		
+	//	SendEmail.sendPDFReportByEmail("", "", "sachin.mathur22@gmail.com", "PDF Report", "");
 
 	}
 }
