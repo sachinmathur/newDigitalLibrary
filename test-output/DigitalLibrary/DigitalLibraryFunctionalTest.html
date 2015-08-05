@@ -1,0 +1,234 @@
+<html>
+<head>
+<title>TestNG:  DigitalLibraryFunctionalTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>DigitalLibraryFunctionalTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>31/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Aug 05 13:30:44 IST 2015</td>
+</tr>
+<tr><td>Total time:</td><td>109 seconds (109336 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.java.SavedSearchesTest.testClickOnSavedContentSearchTerm()'><b>testClickOnSavedContentSearchTerm</b><br>Test class: test.java.SavedSearchesTest<br>Parameters: development, All eText Notes</td>
+<td></td>
+<td>2</td>
+<td>test.java.SavedSearchesTest@57829d67</td></tr>
+<tr>
+<td title='test.java.SavedSearchesTest.testClickOnSavedNoteSearchTerm()'><b>testClickOnSavedNoteSearchTerm</b><br>Test class: test.java.SavedSearchesTest<br>Parameters: Note, All eText Notes</td>
+<td></td>
+<td>1</td>
+<td>test.java.SavedSearchesTest@57829d67</td></tr>
+<tr>
+<td title='test.java.SavedSearchesTest.testClickOnSavedeTextSearchTerm()'><b>testClickOnSavedeTextSearchTerm</b><br>Test class: test.java.SavedSearchesTest<br>Parameters: Counseling, All eText</td>
+<td></td>
+<td>0</td>
+<td>test.java.SavedSearchesTest@57829d67</td></tr>
+<tr>
+<td title='test.java.SavedSearchesTest.testDeleteSavedContentSearchTerm()'><b>testDeleteSavedContentSearchTerm</b><br>Test class: test.java.SavedSearchesTest<br>Parameters: development</td>
+<td></td>
+<td>7</td>
+<td>test.java.SavedSearchesTest@57829d67</td></tr>
+<tr>
+<td title='test.java.SavedSearchesTest.testDeleteSavedNoteSearchTerm()'><b>testDeleteSavedNoteSearchTerm</b><br>Test class: test.java.SavedSearchesTest<br>Parameters: Note</td>
+<td></td>
+<td>7</td>
+<td>test.java.SavedSearchesTest@57829d67</td></tr>
+<tr>
+<td title='test.java.SavedSearchesTest.testDeleteSavedeTextSearchTerm()'><b>testDeleteSavedeTextSearchTerm</b><br>Test class: test.java.SavedSearchesTest<br>Parameters: Counseling</td>
+<td></td>
+<td>7</td>
+<td>test.java.SavedSearchesTest@57829d67</td></tr>
+<tr>
+<td title='test.java.LoginPageTest.testForgetUserNamePasswordLink()'><b>testForgetUserNamePasswordLink</b><br>Test class: test.java.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>test.java.LoginPageTest@30c7da1e</td></tr>
+<tr>
+<td title='test.java.SearchAndBrowseLibraryTest.testLaunchChapterPreview()'><b>testLaunchChapterPreview</b><br>Test class: test.java.SearchAndBrowseLibraryTest<br>Parameters: Chapter 1</td>
+<td></td>
+<td>3</td>
+<td>test.java.SearchAndBrowseLibraryTest@511baa65</td></tr>
+<tr>
+<td title='test.java.LoginPageTest.testLogin()'><b>testLogin</b><br>Test class: test.java.LoginPageTest<br>Parameters: library_edu_1, pa55word</td>
+<td></td>
+<td>18</td>
+<td>test.java.LoginPageTest@30c7da1e</td></tr>
+<tr>
+<td title='test.java.SavedSearchesTest.testNavigateToSavedSearchesPage()'><b>testNavigateToSavedSearchesPage</b><br>Test class: test.java.SavedSearchesTest</td>
+<td></td>
+<td>0</td>
+<td>test.java.SavedSearchesTest@57829d67</td></tr>
+<tr>
+<td title='test.java.CompleteLibraryTest.testSearchByContents()'><b>testSearchByContents</b><br>Test class: test.java.CompleteLibraryTest<br>Parameters: development, Complete Library, Subscribed, Favorites, All eText Pages, testing4_PROD, Test replica 11754, 127 pages, 70 pages, 57 pages</td>
+<td></td>
+<td>6</td>
+<td>test.java.CompleteLibraryTest@19dfb72a</td></tr>
+<tr>
+<td title='test.java.CompleteLibraryTest.testSearchByContents()'><b>testSearchByContents</b><br>Test class: test.java.CompleteLibraryTest<br>Parameters: Special, Complete Library, Subscribed, Favorites, All eText Pages, testing4_PROD, Test replica 11754, 83 pages, 60 pages, 23 pages</td>
+<td></td>
+<td>3</td>
+<td>test.java.CompleteLibraryTest@19dfb72a</td></tr>
+<tr>
+<td title='test.java.CompleteLibraryTest.testSearchByContents()'><b>testSearchByContents</b><br>Test class: test.java.CompleteLibraryTest<br>Parameters: science, Complete Library, Subscribed, Favorites, All eText Pages, Counseling title 1, std_existing_48, testing4_PROD, Test replica 11754, 84 pages, 6 pages, 6 pages, 35 pages, 37 pages</td>
+<td></td>
+<td>4</td>
+<td>test.java.CompleteLibraryTest@19dfb72a</td></tr>
+<tr>
+<td title='test.java.CompleteLibraryTest.testSearchByeText()'><b>testSearchByeText</b><br>Test class: test.java.CompleteLibraryTest<br>Parameters: Counseling, Complete Library, Subscribed, Favorites, All eTexts, people's Category, Sample, TECHNOLOGY AND STACKS, Test Category, 2 eTexts, 1 eText, 1 eText, 1 eText, 1 eText</td>
+<td></td>
+<td>2</td>
+<td>test.java.CompleteLibraryTest@19dfb72a</td></tr>
+<tr>
+<td title='test.java.CompleteLibraryTest.testSearchByeText()'><b>testSearchByeText</b><br>Test class: test.java.CompleteLibraryTest<br>Parameters: Assessment, Complete Library, Subscribed, Favorites, All eTexts, people's Category, TECHNOLOGY AND STACKS, 1 eText, 1 eText, 1 eText</td>
+<td></td>
+<td>1</td>
+<td>test.java.CompleteLibraryTest@19dfb72a</td></tr>
+<tr>
+<td title='test.java.CompleteLibraryTest.testSearchByeText()'><b>testSearchByeText</b><br>Test class: test.java.CompleteLibraryTest<br>Parameters: Audio, Complete Library, Subscribed, Favorites, All eTexts, captivity, Test Category, 1 eText, 1 eText, 1 eText</td>
+<td></td>
+<td>2</td>
+<td>test.java.CompleteLibraryTest@19dfb72a</td></tr>
+<tr>
+<td title='test.java.CompleteLibraryTest.testSearchMyNotes()'><b>testSearchMyNotes</b><br>Test class: test.java.CompleteLibraryTest<br>Parameters: Note, eTexts, Categories, All eText Notes, Counseling title 1, Test Audio_Std_R49, 17 notes, 7 notes, 10 notes</td>
+<td></td>
+<td>3</td>
+<td>test.java.CompleteLibraryTest@19dfb72a</td></tr>
+<tr>
+<td title='test.java.CompleteLibraryTest.testSearchMyNotes()'><b>testSearchMyNotes</b><br>Test class: test.java.CompleteLibraryTest<br>Parameters: Test, eTexts, Categories, All eText Notes, Counseling title 1, 1 note, 1 note</td>
+<td></td>
+<td>4</td>
+<td>test.java.CompleteLibraryTest@19dfb72a</td></tr>
+<tr>
+<td title='test.java.CompleteLibraryTest.testSearchMyNotes()'><b>testSearchMyNotes</b><br>Test class: test.java.CompleteLibraryTest<br>Parameters: Private, eTexts, Categories, All eText Notes, Counseling title 1, Test Audio_Std_R49, 5 notes, 3 notes, 2 notes</td>
+<td></td>
+<td>5</td>
+<td>test.java.CompleteLibraryTest@19dfb72a</td></tr>
+<tr>
+<td title='test.java.SignOutTest.testSignOut()'><b>testSignOut</b><br>Test class: test.java.SignOutTest</td>
+<td></td>
+<td>2</td>
+<td>test.java.SignOutTest@340f438e</td></tr>
+<tr>
+<td title='test.java.SearchAndBrowseLibraryTest.testVerifyBooksPresentInAlleTextStack()'><b>testVerifyBooksPresentInAlleTextStack</b><br>Test class: test.java.SearchAndBrowseLibraryTest<br>Parameters: Counseling title 1, std_existing_48, Test Audio_Std_R49, testing4_PROD, 48sakshi, saudi_moe_relg_R48, Test replica 11754</td>
+<td></td>
+<td>1</td>
+<td>test.java.SearchAndBrowseLibraryTest@511baa65</td></tr>
+<tr>
+<td title='test.java.SearchAndBrowseLibraryTest.testVerifyOptionsInDropdown()'><b>testVerifyOptionsInDropdown</b><br>Test class: test.java.SearchAndBrowseLibraryTest<br>Parameters: Complete Library, MyLab</td>
+<td></td>
+<td>0</td>
+<td>test.java.SearchAndBrowseLibraryTest@511baa65</td></tr>
+<tr>
+<td title='test.java.SearchAndBrowseLibraryTest.testVerifyOptionsInPreviewChapterDropdown()'><b>testVerifyOptionsInPreviewChapterDropdown</b><br>Test class: test.java.SearchAndBrowseLibraryTest<br>Parameters: Table of Contents, Chapter 1</td>
+<td></td>
+<td>0</td>
+<td>test.java.SearchAndBrowseLibraryTest@511baa65</td></tr>
+<tr>
+<td title='test.java.SearchAndBrowseLibraryTest.testVerifyUIOfChapterPreview()'><b>testVerifyUIOfChapterPreview</b><br>Test class: test.java.SearchAndBrowseLibraryTest<br>Parameters: Counseling title 1, TARAN, Saha, , Rai, Page 13</td>
+<td></td>
+<td>0</td>
+<td>test.java.SearchAndBrowseLibraryTest@511baa65</td></tr>
+<tr>
+<td title='test.java.CompleteLibraryTest.testVerifyUIOfCompleteLibraryPage()'><b>testVerifyUIOfCompleteLibraryPage</b><br>Test class: test.java.CompleteLibraryTest<br>Parameters: 7 eTexts, 2 Products, 12 Videos, 11 Resources</td>
+<td></td>
+<td>0</td>
+<td>test.java.CompleteLibraryTest@19dfb72a</td></tr>
+<tr>
+<td title='test.java.SearchAndBrowseLibraryTest.testVerifyUIOfMoreInfoPopUpUnknownUser()'><b>testVerifyUIOfMoreInfoPopUpUnknownUser</b><br>Test class: test.java.SearchAndBrowseLibraryTest<br>Parameters: Counseling title 1, By AMIT TARAN, sourav Saha, pracheta , Badal Rai, Copyright © 2010, Most scientific inventions are purposely created and result from curiosity, persistence, and years of hard work.</td>
+<td></td>
+<td>1</td>
+<td>test.java.SearchAndBrowseLibraryTest@511baa65</td></tr>
+<tr>
+<td title='test.java.LoginPageTest.testclickSearchAndBrowseLibraryLink()'><b>testclickSearchAndBrowseLibraryLink</b><br>Test class: test.java.LoginPageTest</td>
+<td></td>
+<td>4</td>
+<td>test.java.LoginPageTest@30c7da1e</td></tr>
+<tr>
+<td title='test.java.SearchResultsTest.testverifyAlleTextNotesStack()'><b>testverifyAlleTextNotesStack</b><br>Test class: test.java.SearchResultsTest</td>
+<td></td>
+<td>0</td>
+<td>test.java.SearchResultsTest@5b464ce8</td></tr>
+<tr>
+<td title='test.java.SearchResultsTest.testverifyAlleTextPagesStack()'><b>testverifyAlleTextPagesStack</b><br>Test class: test.java.SearchResultsTest</td>
+<td></td>
+<td>0</td>
+<td>test.java.SearchResultsTest@5b464ce8</td></tr>
+<tr>
+<td title='test.java.SearchResultsTest.testverifyAlleTextStack()'><b>testverifyAlleTextStack</b><br>Test class: test.java.SearchResultsTest</td>
+<td></td>
+<td>0</td>
+<td>test.java.SearchResultsTest@5b464ce8</td></tr>
+<tr>
+<td title='test.java.LoginPageTest.testverifyUIOfLoginPage()'><b>testverifyUIOfLoginPage</b><br>Test class: test.java.LoginPageTest<br>Parameters: Sign In, username, password, Forgot your username/password?, Don't have an account?, Purchase Library, Register Now, Search and browse Library</td>
+<td></td>
+<td>0</td>
+<td>test.java.LoginPageTest@30c7da1e</td></tr>
+</table><p>
+</body>
+</html>

@@ -25,6 +25,11 @@ public class SavedSearchesPage {
 	
 	public SearchResultsPage navigateToSavedSearchesPages()
 	{
+		WebDriverWait wait;
+		wait = new WebDriverWait(driver, 60);
+		
+		wait.until(ExpectedConditions.invisibilityOfElementLocated(By.id("loading-overlay")));
+		
 		PageElements.SavedSearchesPageElements.libraryViewOptionsdropdownArrow(driver).click();
 		log.info("Library View Dropdown clicked.");
 		PageElements.SavedSearchesPageElements.savedSearchesOption(driver).click();

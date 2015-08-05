@@ -12,7 +12,6 @@
         <methods>
           <include name="testForgetUserNamePasswordLink"/>
           <include name="beforeClass"/>
-          <include name="testclickSearchAndBrowseLibraryLink"/>
           <include name="tearDown"/>
           <include name="waitBeforeCallingMethod"/>
           <include name="testverifyUIOfLoginPage"/>
@@ -23,7 +22,6 @@
       <class name="test.java.SignOutTest">
         <methods>
           <include name="beforeClass"/>
-          <include name="testSignOut"/>
           <include name="waitBeforeCallingMethod"/>
         </methods>
       </class> <!-- test.java.SignOutTest -->
@@ -50,19 +48,17 @@
         <methods>
           <include name="beforeClass"/>
           <include name="testClickOnSavedNoteSearchTerm" invocation-numbers="0"/>
-          <include name="testDeleteSavedContentSearchTerm"/>
-          <include name="testDeleteSavedeTextSearchTerm"/>
+          <include name="testDeleteSavedContentSearchTerm" invocation-numbers="0"/>
+          <include name="testDeleteSavedeTextSearchTerm" invocation-numbers="0"/>
           <include name="testDeleteSavedNoteSearchTerm" invocation-numbers="0"/>
           <include name="waitBeforeCallingMethod"/>
           <include name="testNavigateToSavedSearchesPage"/>
-          <include name="testClickOnSavedContentSearchTerm"/>
-          <include name="testClickOnSavedeTextSearchTerm"/>
+          <include name="testClickOnSavedContentSearchTerm" invocation-numbers="0"/>
+          <include name="testClickOnSavedeTextSearchTerm" invocation-numbers="0"/>
         </methods>
       </class> <!-- test.java.SavedSearchesTest -->
       <class name="test.java.SearchAndBrowseLibraryTest">
         <methods>
-          <include name="testVerifyOptionsInDropdown"/>
-          <include name="testVerifyBooksPresentInAlleTextStack" invocation-numbers="0"/>
           <include name="waitBeforeCallingMethod"/>
           <include name="beforeClass"/>
         </methods>

@@ -6,6 +6,7 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -58,8 +59,6 @@ public class CompleteLibraryPage {
 		PageElements.CompleteLibraryPageElements.searchButton(driver).click();
 		log.info("Getting results...");
 		this.waitForElement();
-		PageElements.CompleteLibraryPageElements.saveThisSearchButton(driver).click();
-		log.info("Saving the search results.");
 		
 		WebDriverWait wait;
 		wait = new WebDriverWait(driver, 60);
@@ -67,17 +66,20 @@ public class CompleteLibraryPage {
 		switch(searchBy)
 		{
 		case "Search by Content":
-			wait.until(ExpectedConditions.elementToBeClickable(PageElements.CompleteLibraryPageElements.alleTextPagesStack(driver)));
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By.id("loading-overlay")));
 			break;
 			
 		case "Search by eText":
-			wait.until(ExpectedConditions.elementToBeClickable(PageElements.CompleteLibraryPageElements.alleTextStack(driver)));
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By.id("loading-overlay")));
 			break;
 			
 		case "Search My Notes":
-			wait.until(ExpectedConditions.elementToBeClickable(PageElements.CompleteLibraryPageElements.alleTextNotesStack(driver)));
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By.id("loading-overlay")));
 			break;
 		}
+		
+		PageElements.CompleteLibraryPageElements.saveThisSearchButton(driver).click();
+		log.info("Saving the search results.");
 		
 		return PageFactory.initElements(driver, SearchResultsPage.class);
 	}
