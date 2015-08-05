@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="12" total="31" passed="19">
+<testng-results skipped="0" failed="0" total="31" passed="31">
   <reporter-output>
   </reporter-output>
-  <suite name="DigitalLibrary" duration-ms="82991" started-at="2015-08-04T12:33:47Z" finished-at="2015-08-04T12:35:10Z">
+  <suite name="DigitalLibrary" duration-ms="106837" started-at="2015-08-05T08:48:20Z" finished-at="2015-08-05T08:50:07Z">
     <groups>
       <group name="ClickOnSavedSearchTerm">
         <method signature="SavedSearchesTest.testClickOnSavedContentSearchTerm(java.lang.String, java.lang.String)[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testClickOnSavedContentSearchTerm" class="test.java.SavedSearchesTest"/>
@@ -58,17 +58,17 @@
         <method signature="SavedSearchesTest.testNavigateToSavedSearchesPage()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testNavigateToSavedSearchesPage" class="test.java.SavedSearchesTest"/>
       </group> <!-- NavigateToSavedSearchesPage -->
     </groups>
-    <test name="DigitalLibraryFunctionalTest" duration-ms="82991" started-at="2015-08-04T12:33:47Z" finished-at="2015-08-04T12:35:10Z">
+    <test name="DigitalLibraryFunctionalTest" duration-ms="106837" started-at="2015-08-05T08:48:20Z" finished-at="2015-08-05T08:50:07Z">
       <class name="test.java.CompleteLibraryTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="beforeClass" is-config="true" duration-ms="0" started-at="2015-08-04T18:04:19Z" finished-at="2015-08-04T18:04:19Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="beforeClass" is-config="true" duration-ms="1" started-at="2015-08-05T14:18:41Z" finished-at="2015-08-05T14:18:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="7" started-at="2015-08-04T18:04:19Z" finished-at="2015-08-04T18:04:19Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="15" started-at="2015-08-05T14:18:41Z" finished-at="2015-08-05T14:18:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testVerifyUIOfCompleteLibraryPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testVerifyUIOfCompleteLibraryPage" duration-ms="2059" depends-on-groups="Login" started-at="2015-08-04T18:04:19Z" data-provider="ExcelDataProvider" finished-at="2015-08-04T18:04:21Z">
+        <test-method status="PASS" signature="testVerifyUIOfCompleteLibraryPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testVerifyUIOfCompleteLibraryPage" duration-ms="316" depends-on-groups="Login" started-at="2015-08-05T14:18:41Z" data-provider="ExcelDataProvider" finished-at="2015-08-05T14:18:41Z">
           <params>
             <param index="0">
               <value>
@@ -94,11 +94,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyUIOfCompleteLibraryPage -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="7" started-at="2015-08-04T18:04:22Z" finished-at="2015-08-04T18:04:22Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="13" started-at="2015-08-05T14:18:41Z" finished-at="2015-08-05T14:18:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testSearchByContents(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchByContents" duration-ms="3267" started-at="2015-08-04T18:04:22Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.CompleteLibraryTest.testVerifyUIOfCompleteLibraryPage" finished-at="2015-08-04T18:04:25Z">
+        <test-method status="PASS" signature="testSearchByContents(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchByContents" duration-ms="5115" started-at="2015-08-05T14:18:41Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.CompleteLibraryTest.testVerifyUIOfCompleteLibraryPage" finished-at="2015-08-05T14:18:46Z">
           <params>
             <param index="0">
               <value>
@@ -124,11 +124,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchByContents -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="7" started-at="2015-08-04T18:04:25Z" finished-at="2015-08-04T18:04:25Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="17" started-at="2015-08-05T14:18:46Z" finished-at="2015-08-05T14:18:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="FAIL" signature="testSearchByContents(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchByContents" duration-ms="442" started-at="2015-08-04T18:04:25Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.CompleteLibraryTest.testVerifyUIOfCompleteLibraryPage" finished-at="2015-08-04T18:04:25Z">
+        <test-method status="PASS" signature="testSearchByContents(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchByContents" duration-ms="3253" started-at="2015-08-05T14:18:46Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.CompleteLibraryTest.testVerifyUIOfCompleteLibraryPage" finished-at="2015-08-05T14:18:50Z">
           <params>
             <param index="0">
               <value>
@@ -151,77 +151,14 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element is not clickable at point (1264, 77). Other element would receive the click: <div id="loading-overlay" style="opacity: 0.5;"></div>
-  (Session info: chrome=44.0.2403.125)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 57 milliseconds
-Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
-System info: host: 'DS-38607723D16D', ip: '10.102.161.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\SACHIN~1.MAT\AppData\Local\Temp\scoped_dir8348_16433}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.125, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0539ecb56b767505cc504f9779083418]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (1264, 77). Other element would receive the click: <div id="loading-overlay" style="opacity: 0.5;"></div>
-  (Session info: chrome=44.0.2403.125)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 57 milliseconds
-Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
-System info: host: 'DS-38607723D16D', ip: '10.102.161.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\SACHIN~1.MAT\AppData\Local\Temp\scoped_dir8348_16433}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.125, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0539ecb56b767505cc504f9779083418
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:80)
-	at sac.dl.pageObject.CompleteLibraryPage.performSearch(CompleteLibraryPage.java:61)
-	at test.java.CompleteLibraryTest.testSearchByContents(CompleteLibraryTest.java:65)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1032)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchByContents -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="18" started-at="2015-08-04T18:04:26Z" finished-at="2015-08-04T18:04:26Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="13" started-at="2015-08-05T14:18:50Z" finished-at="2015-08-05T14:18:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="FAIL" signature="testSearchByContents(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchByContents" duration-ms="51" started-at="2015-08-04T18:04:26Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.CompleteLibraryTest.testVerifyUIOfCompleteLibraryPage" finished-at="2015-08-04T18:04:27Z">
+        <test-method status="PASS" signature="testSearchByContents(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchByContents" duration-ms="3642" started-at="2015-08-05T14:18:50Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.CompleteLibraryTest.testVerifyUIOfCompleteLibraryPage" finished-at="2015-08-05T14:18:53Z">
           <params>
             <param index="0">
               <value>
@@ -244,77 +181,14 @@ Session ID: 0539ecb56b767505cc504f9779083418
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element is not clickable at point (563, 77). Other element would receive the click: <div id="loading-overlay" style="opacity: 0.5;"></div>
-  (Session info: chrome=44.0.2403.125)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 33 milliseconds
-Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
-System info: host: 'DS-38607723D16D', ip: '10.102.161.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\SACHIN~1.MAT\AppData\Local\Temp\scoped_dir8348_16433}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.125, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0539ecb56b767505cc504f9779083418]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (563, 77). Other element would receive the click: <div id="loading-overlay" style="opacity: 0.5;"></div>
-  (Session info: chrome=44.0.2403.125)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 33 milliseconds
-Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
-System info: host: 'DS-38607723D16D', ip: '10.102.161.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\SACHIN~1.MAT\AppData\Local\Temp\scoped_dir8348_16433}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.125, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0539ecb56b767505cc504f9779083418
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:80)
-	at sac.dl.pageObject.CompleteLibraryPage.performSearch(CompleteLibraryPage.java:35)
-	at test.java.CompleteLibraryTest.testSearchByContents(CompleteLibraryTest.java:65)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1032)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchByContents -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="14" started-at="2015-08-04T18:04:28Z" finished-at="2015-08-04T18:04:28Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="3034" started-at="2015-08-05T14:18:54Z" finished-at="2015-08-05T14:18:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testSearchByeText(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchByeText" duration-ms="2214" depends-on-groups="ClickOnAlleTextPagesStack" started-at="2015-08-04T18:04:28Z" data-provider="ExcelDataProvider" finished-at="2015-08-04T18:04:30Z">
+        <test-method status="PASS" signature="testSearchByeText(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchByeText" duration-ms="2639" depends-on-groups="ClickOnAlleTextPagesStack" started-at="2015-08-05T14:18:57Z" data-provider="ExcelDataProvider" finished-at="2015-08-05T14:19:00Z">
           <params>
             <param index="0">
               <value>
@@ -340,11 +214,11 @@ Session ID: 0539ecb56b767505cc504f9779083418
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchByeText -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="9" started-at="2015-08-04T18:04:30Z" finished-at="2015-08-04T18:04:30Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="13" started-at="2015-08-05T14:19:00Z" finished-at="2015-08-05T14:19:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testSearchByeText(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchByeText" duration-ms="1616" depends-on-groups="ClickOnAlleTextPagesStack" started-at="2015-08-04T18:04:30Z" data-provider="ExcelDataProvider" finished-at="2015-08-04T18:04:32Z">
+        <test-method status="PASS" signature="testSearchByeText(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchByeText" duration-ms="2184" depends-on-groups="ClickOnAlleTextPagesStack" started-at="2015-08-05T14:19:00Z" data-provider="ExcelDataProvider" finished-at="2015-08-05T14:19:02Z">
           <params>
             <param index="0">
               <value>
@@ -370,11 +244,11 @@ Session ID: 0539ecb56b767505cc504f9779083418
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchByeText -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="7" started-at="2015-08-04T18:04:32Z" finished-at="2015-08-04T18:04:32Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="13" started-at="2015-08-05T14:19:02Z" finished-at="2015-08-05T14:19:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testSearchByeText(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchByeText" duration-ms="1598" depends-on-groups="ClickOnAlleTextPagesStack" started-at="2015-08-04T18:04:32Z" data-provider="ExcelDataProvider" finished-at="2015-08-04T18:04:33Z">
+        <test-method status="PASS" signature="testSearchByeText(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchByeText" duration-ms="2342" depends-on-groups="ClickOnAlleTextPagesStack" started-at="2015-08-05T14:19:02Z" data-provider="ExcelDataProvider" finished-at="2015-08-05T14:19:05Z">
           <params>
             <param index="0">
               <value>
@@ -400,11 +274,11 @@ Session ID: 0539ecb56b767505cc504f9779083418
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchByeText -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="7" started-at="2015-08-04T18:04:34Z" finished-at="2015-08-04T18:04:34Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="345" started-at="2015-08-05T14:19:05Z" finished-at="2015-08-05T14:19:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="FAIL" signature="testSearchMyNotes(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchMyNotes" duration-ms="1098" depends-on-groups="ClickOnAlleTextStack" started-at="2015-08-04T18:04:34Z" data-provider="ExcelDataProvider" finished-at="2015-08-04T18:04:35Z">
+        <test-method status="PASS" signature="testSearchMyNotes(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchMyNotes" duration-ms="4217" depends-on-groups="ClickOnAlleTextStack" started-at="2015-08-05T14:19:05Z" data-provider="ExcelDataProvider" finished-at="2015-08-05T14:19:10Z">
           <params>
             <param index="0">
               <value>
@@ -427,77 +301,14 @@ Session ID: 0539ecb56b767505cc504f9779083418
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element is not clickable at point (1264, 77). Other element would receive the click: <div id="loading-overlay" style="opacity: 0.5;"></div>
-  (Session info: chrome=44.0.2403.125)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 28 milliseconds
-Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
-System info: host: 'DS-38607723D16D', ip: '10.102.161.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\SACHIN~1.MAT\AppData\Local\Temp\scoped_dir8348_16433}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.125, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0539ecb56b767505cc504f9779083418]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (1264, 77). Other element would receive the click: <div id="loading-overlay" style="opacity: 0.5;"></div>
-  (Session info: chrome=44.0.2403.125)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 28 milliseconds
-Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
-System info: host: 'DS-38607723D16D', ip: '10.102.161.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\SACHIN~1.MAT\AppData\Local\Temp\scoped_dir8348_16433}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.125, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0539ecb56b767505cc504f9779083418
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:80)
-	at sac.dl.pageObject.CompleteLibraryPage.performSearch(CompleteLibraryPage.java:61)
-	at test.java.CompleteLibraryTest.testSearchMyNotes(CompleteLibraryTest.java:101)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1032)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchMyNotes -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="9" started-at="2015-08-04T18:04:35Z" finished-at="2015-08-04T18:04:35Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="13" started-at="2015-08-05T14:19:10Z" finished-at="2015-08-05T14:19:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="FAIL" signature="testSearchMyNotes(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchMyNotes" duration-ms="50" depends-on-groups="ClickOnAlleTextStack" started-at="2015-08-04T18:04:35Z" data-provider="ExcelDataProvider" finished-at="2015-08-04T18:04:36Z">
+        <test-method status="PASS" signature="testSearchMyNotes(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchMyNotes" duration-ms="3542" depends-on-groups="ClickOnAlleTextStack" started-at="2015-08-05T14:19:10Z" data-provider="ExcelDataProvider" finished-at="2015-08-05T14:19:13Z">
           <params>
             <param index="0">
               <value>
@@ -520,77 +331,14 @@ Session ID: 0539ecb56b767505cc504f9779083418
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element is not clickable at point (557, 77). Other element would receive the click: <div id="loading-overlay" style="opacity: 0.5;"></div>
-  (Session info: chrome=44.0.2403.125)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30 milliseconds
-Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
-System info: host: 'DS-38607723D16D', ip: '10.102.161.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\SACHIN~1.MAT\AppData\Local\Temp\scoped_dir8348_16433}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.125, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0539ecb56b767505cc504f9779083418]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (557, 77). Other element would receive the click: <div id="loading-overlay" style="opacity: 0.5;"></div>
-  (Session info: chrome=44.0.2403.125)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30 milliseconds
-Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
-System info: host: 'DS-38607723D16D', ip: '10.102.161.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\SACHIN~1.MAT\AppData\Local\Temp\scoped_dir8348_16433}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.125, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0539ecb56b767505cc504f9779083418
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:80)
-	at sac.dl.pageObject.CompleteLibraryPage.performSearch(CompleteLibraryPage.java:35)
-	at test.java.CompleteLibraryTest.testSearchMyNotes(CompleteLibraryTest.java:101)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1032)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchMyNotes -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="11" started-at="2015-08-04T18:04:36Z" finished-at="2015-08-04T18:04:36Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="waitBeforeCallingMethod" is-config="true" duration-ms="15" started-at="2015-08-05T14:19:13Z" finished-at="2015-08-05T14:19:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="FAIL" signature="testSearchMyNotes(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchMyNotes" duration-ms="46" depends-on-groups="ClickOnAlleTextStack" started-at="2015-08-04T18:04:36Z" data-provider="ExcelDataProvider" finished-at="2015-08-04T18:04:36Z">
+        <test-method status="PASS" signature="testSearchMyNotes(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CompleteLibraryTest@73f792cf]" name="testSearchMyNotes" duration-ms="4917" depends-on-groups="ClickOnAlleTextStack" started-at="2015-08-05T14:19:13Z" data-provider="ExcelDataProvider" finished-at="2015-08-05T14:19:18Z">
           <params>
             <param index="0">
               <value>
@@ -613,75 +361,12 @@ Session ID: 0539ecb56b767505cc504f9779083418
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element is not clickable at point (557, 77). Other element would receive the click: <div id="loading-overlay" style="opacity: 0.5;"></div>
-  (Session info: chrome=44.0.2403.125)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30 milliseconds
-Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
-System info: host: 'DS-38607723D16D', ip: '10.102.161.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\SACHIN~1.MAT\AppData\Local\Temp\scoped_dir8348_16433}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.125, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0539ecb56b767505cc504f9779083418]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (557, 77). Other element would receive the click: <div id="loading-overlay" style="opacity: 0.5;"></div>
-  (Session info: chrome=44.0.2403.125)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30 milliseconds
-Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
-System info: host: 'DS-38607723D16D', ip: '10.102.161.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\SACHIN~1.MAT\AppData\Local\Temp\scoped_dir8348_16433}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.125, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0539ecb56b767505cc504f9779083418
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:80)
-	at sac.dl.pageObject.CompleteLibraryPage.performSearch(CompleteLibraryPage.java:35)
-	at test.java.CompleteLibraryTest.testSearchMyNotes(CompleteLibraryTest.java:101)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1032)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchMyNotes -->
       </class> <!-- test.java.CompleteLibraryTest -->
       <class name="test.java.LoginPageTest">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="setUp" is-config="true" duration-ms="20190" started-at="2015-08-04T18:03:27Z" finished-at="2015-08-04T18:03:47Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="setUp" is-config="true" duration-ms="17591" started-at="2015-08-05T14:18:02Z" finished-at="2015-08-05T14:18:20Z">
           <params>
             <param index="0">
               <value>
@@ -690,7 +375,7 @@ Session ID: 0539ecb56b767505cc504f9779083418
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="2">
@@ -710,22 +395,22 @@ Session ID: 0539ecb56b767505cc504f9779083418
             </param>
             <param index="5">
               <value>
-                <![CDATA[org.testng.TestRunner@16eb3ea3]]>
+                <![CDATA[org.testng.TestRunner@36060e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="beforeClass" is-config="true" duration-ms="0" started-at="2015-08-04T18:03:47Z" finished-at="2015-08-04T18:03:47Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="beforeClass" is-config="true" duration-ms="0" started-at="2015-08-05T14:18:20Z" finished-at="2015-08-05T14:18:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="waitBeforeCallingMethod" is-config="true" duration-ms="19" started-at="2015-08-04T18:03:47Z" finished-at="2015-08-04T18:03:47Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="waitBeforeCallingMethod" is-config="true" duration-ms="115" started-at="2015-08-05T14:18:20Z" finished-at="2015-08-05T14:18:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testverifyUIOfLoginPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="testverifyUIOfLoginPage" duration-ms="5870" started-at="2015-08-04T18:03:47Z" data-provider="ExcelDataProvider" finished-at="2015-08-04T18:03:53Z">
+        <test-method status="PASS" signature="testverifyUIOfLoginPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="testverifyUIOfLoginPage" duration-ms="681" started-at="2015-08-05T14:18:20Z" data-provider="ExcelDataProvider" finished-at="2015-08-05T14:18:21Z">
           <params>
             <param index="0">
               <value>
@@ -771,19 +456,19 @@ Session ID: 0539ecb56b767505cc504f9779083418
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testverifyUIOfLoginPage -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="waitBeforeCallingMethod" is-config="true" duration-ms="8" started-at="2015-08-04T18:03:53Z" finished-at="2015-08-04T18:03:53Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="waitBeforeCallingMethod" is-config="true" duration-ms="17" started-at="2015-08-05T14:18:21Z" finished-at="2015-08-05T14:18:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testForgetUserNamePasswordLink()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="testForgetUserNamePasswordLink" duration-ms="1120" started-at="2015-08-04T18:03:53Z" depends-on-methods="test.java.LoginPageTest.testverifyUIOfLoginPage" finished-at="2015-08-04T18:03:54Z">
+        <test-method status="PASS" signature="testForgetUserNamePasswordLink()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="testForgetUserNamePasswordLink" duration-ms="156" started-at="2015-08-05T14:18:21Z" depends-on-methods="test.java.LoginPageTest.testverifyUIOfLoginPage" finished-at="2015-08-05T14:18:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForgetUserNamePasswordLink -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="waitBeforeCallingMethod" is-config="true" duration-ms="15" started-at="2015-08-04T18:03:55Z" finished-at="2015-08-04T18:03:55Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="waitBeforeCallingMethod" is-config="true" duration-ms="28" started-at="2015-08-05T14:18:22Z" finished-at="2015-08-05T14:18:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="testLogin" duration-ms="24352" started-at="2015-08-04T18:03:55Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.LoginPageTest.testForgetUserNamePasswordLink" finished-at="2015-08-04T18:04:19Z">
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="testLogin" duration-ms="18650" started-at="2015-08-05T14:18:22Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.LoginPageTest.testForgetUserNamePasswordLink" finished-at="2015-08-05T14:18:40Z">
           <params>
             <param index="0">
               <value>
@@ -799,100 +484,37 @@ Session ID: 0539ecb56b767505cc504f9779083418
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="waitBeforeCallingMethod" is-config="true" duration-ms="7" started-at="2015-08-04T18:04:59Z" finished-at="2015-08-04T18:04:59Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="waitBeforeCallingMethod" is-config="true" duration-ms="13" started-at="2015-08-05T14:19:53Z" finished-at="2015-08-05T14:19:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testclickSearchAndBrowseLibraryLink()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="testclickSearchAndBrowseLibraryLink" duration-ms="6216" depends-on-groups="SignOut" started-at="2015-08-04T18:04:59Z" finished-at="2015-08-04T18:05:05Z">
+        <test-method status="PASS" signature="testclickSearchAndBrowseLibraryLink()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="testclickSearchAndBrowseLibraryLink" duration-ms="4491" depends-on-groups="SignOut" started-at="2015-08-05T14:19:53Z" finished-at="2015-08-05T14:19:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testclickSearchAndBrowseLibraryLink -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="tearDown" is-config="true" duration-ms="6616" started-at="2015-08-04T18:05:10Z" finished-at="2015-08-04T18:05:17Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.LoginPageTest@13969fbe]" name="tearDown" is-config="true" duration-ms="2306" started-at="2015-08-05T14:20:07Z" finished-at="2015-08-05T14:20:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.java.LoginPageTest -->
       <class name="test.java.SavedSearchesTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="beforeClass" is-config="true" duration-ms="0" started-at="2015-08-04T18:04:37Z" finished-at="2015-08-04T18:04:37Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="beforeClass" is-config="true" duration-ms="0" started-at="2015-08-05T14:19:19Z" finished-at="2015-08-05T14:19:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="waitBeforeCallingMethod" is-config="true" duration-ms="7" started-at="2015-08-04T18:04:37Z" finished-at="2015-08-04T18:04:37Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="waitBeforeCallingMethod" is-config="true" duration-ms="1522" started-at="2015-08-05T14:19:19Z" finished-at="2015-08-05T14:19:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="FAIL" signature="testNavigateToSavedSearchesPage()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testNavigateToSavedSearchesPage" duration-ms="2284" depends-on-groups="ClickOnAlleTextNotesStack" started-at="2015-08-04T18:04:37Z" finished-at="2015-08-04T18:04:39Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element is not clickable at point (217, 85). Other element would receive the click: <div id="loading-overlay" style="opacity: 0.5;"></div>
-  (Session info: chrome=44.0.2403.125)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 43 milliseconds
-Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
-System info: host: 'DS-38607723D16D', ip: '10.102.161.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\SACHIN~1.MAT\AppData\Local\Temp\scoped_dir8348_16433}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.125, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0539ecb56b767505cc504f9779083418]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (217, 85). Other element would receive the click: <div id="loading-overlay" style="opacity: 0.5;"></div>
-  (Session info: chrome=44.0.2403.125)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 43 milliseconds
-Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
-System info: host: 'DS-38607723D16D', ip: '10.102.161.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\SACHIN~1.MAT\AppData\Local\Temp\scoped_dir8348_16433}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.125, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0539ecb56b767505cc504f9779083418
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:80)
-	at sac.dl.pageObject.SavedSearchesPage.navigateToSavedSearchesPages(SavedSearchesPage.java:28)
-	at test.java.SavedSearchesTest.testNavigateToSavedSearchesPage(SavedSearchesTest.java:44)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1032)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="testNavigateToSavedSearchesPage()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testNavigateToSavedSearchesPage" duration-ms="1191" depends-on-groups="ClickOnAlleTextNotesStack" started-at="2015-08-05T14:19:21Z" finished-at="2015-08-05T14:19:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNavigateToSavedSearchesPage -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="waitBeforeCallingMethod" is-config="true" duration-ms="11" started-at="2015-08-04T18:04:40Z" finished-at="2015-08-04T18:04:40Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="waitBeforeCallingMethod" is-config="true" duration-ms="15" started-at="2015-08-05T14:19:22Z" finished-at="2015-08-05T14:19:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="FAIL" signature="testClickOnSavedContentSearchTerm(java.lang.String, java.lang.String)[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testClickOnSavedContentSearchTerm" duration-ms="5057" started-at="2015-08-04T18:04:40Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SavedSearchesTest.testNavigateToSavedSearchesPage" finished-at="2015-08-04T18:04:45Z">
+        <test-method status="PASS" signature="testClickOnSavedContentSearchTerm(java.lang.String, java.lang.String)[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testClickOnSavedContentSearchTerm" duration-ms="2818" started-at="2015-08-05T14:19:22Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SavedSearchesTest.testNavigateToSavedSearchesPage" finished-at="2015-08-05T14:19:25Z">
           <params>
             <param index="0">
               <value>
@@ -905,83 +527,14 @@ Session ID: 0539ecb56b767505cc504f9779083418
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element
-  (Session info: chrome=44.0.2403.125)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5.04 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
-System info: host: 'DS-38607723D16D', ip: '10.102.161.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\SACHIN~1.MAT\AppData\Local\Temp\scoped_dir8348_16433}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.125, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0539ecb56b767505cc504f9779083418
-*** Element info: {Using=xpath, value=//div[@id='searchForContentSavedSearch']/ul/descendant::a[contains(.,'development')]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element
-  (Session info: chrome=44.0.2403.125)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5.04 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
-System info: host: 'DS-38607723D16D', ip: '10.102.161.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\SACHIN~1.MAT\AppData\Local\Temp\scoped_dir8348_16433}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.125, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0539ecb56b767505cc504f9779083418
-*** Element info: {Using=xpath, value=//div[@id='searchForContentSavedSearch']/ul/descendant::a[contains(.,'development')]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at sac.dl.pageObject.SavedSearchesPage.clickOnSavedSearchTerm(SavedSearchesPage.java:53)
-	at test.java.SavedSearchesTest.testClickOnSavedContentSearchTerm(SavedSearchesTest.java:52)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1032)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testClickOnSavedContentSearchTerm -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="waitBeforeCallingMethod" is-config="true" duration-ms="10" started-at="2015-08-04T18:04:45Z" finished-at="2015-08-04T18:04:45Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="waitBeforeCallingMethod" is-config="true" duration-ms="25" started-at="2015-08-05T14:19:25Z" finished-at="2015-08-05T14:19:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="FAIL" signature="testClickOnSavedeTextSearchTerm(java.lang.String, java.lang.String)[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testClickOnSavedeTextSearchTerm" duration-ms="5050" started-at="2015-08-04T18:04:45Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SavedSearchesTest.testClickOnSavedContentSearchTerm" finished-at="2015-08-04T18:04:51Z">
+        <test-method status="PASS" signature="testClickOnSavedeTextSearchTerm(java.lang.String, java.lang.String)[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testClickOnSavedeTextSearchTerm" duration-ms="1389" started-at="2015-08-05T14:19:25Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SavedSearchesTest.testClickOnSavedContentSearchTerm" finished-at="2015-08-05T14:19:26Z">
           <params>
             <param index="0">
               <value>
@@ -994,83 +547,14 @@ Session ID: 0539ecb56b767505cc504f9779083418
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element
-  (Session info: chrome=44.0.2403.125)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5.05 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
-System info: host: 'DS-38607723D16D', ip: '10.102.161.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\SACHIN~1.MAT\AppData\Local\Temp\scoped_dir8348_16433}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.125, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0539ecb56b767505cc504f9779083418
-*** Element info: {Using=xpath, value=//div[@id='searchForBookSavedSearch']/ul/descendant::a[contains(.,'Counseling')]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element
-  (Session info: chrome=44.0.2403.125)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5.05 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
-System info: host: 'DS-38607723D16D', ip: '10.102.161.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\SACHIN~1.MAT\AppData\Local\Temp\scoped_dir8348_16433}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.125, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0539ecb56b767505cc504f9779083418
-*** Element info: {Using=xpath, value=//div[@id='searchForBookSavedSearch']/ul/descendant::a[contains(.,'Counseling')]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at sac.dl.pageObject.SavedSearchesPage.clickOnSavedSearchTerm(SavedSearchesPage.java:53)
-	at test.java.SavedSearchesTest.testClickOnSavedeTextSearchTerm(SavedSearchesTest.java:60)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1032)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testClickOnSavedeTextSearchTerm -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="waitBeforeCallingMethod" is-config="true" duration-ms="7" started-at="2015-08-04T18:04:51Z" finished-at="2015-08-04T18:04:51Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="waitBeforeCallingMethod" is-config="true" duration-ms="15" started-at="2015-08-05T14:19:27Z" finished-at="2015-08-05T14:19:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="FAIL" signature="testClickOnSavedNoteSearchTerm(java.lang.String, java.lang.String)[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testClickOnSavedNoteSearchTerm" duration-ms="5047" started-at="2015-08-04T18:04:51Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SavedSearchesTest.testClickOnSavedeTextSearchTerm" finished-at="2015-08-04T18:04:56Z">
+        <test-method status="PASS" signature="testClickOnSavedNoteSearchTerm(java.lang.String, java.lang.String)[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testClickOnSavedNoteSearchTerm" duration-ms="2078" started-at="2015-08-05T14:19:27Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SavedSearchesTest.testClickOnSavedeTextSearchTerm" finished-at="2015-08-05T14:19:29Z">
           <params>
             <param index="0">
               <value>
@@ -1083,83 +567,14 @@ Session ID: 0539ecb56b767505cc504f9779083418
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element
-  (Session info: chrome=44.0.2403.125)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5.05 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
-System info: host: 'DS-38607723D16D', ip: '10.102.161.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\SACHIN~1.MAT\AppData\Local\Temp\scoped_dir8348_16433}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.125, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0539ecb56b767505cc504f9779083418
-*** Element info: {Using=xpath, value=//div[@id='personalJournalSavedSearch']/ul/descendant::a[contains(.,'Note')]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element
-  (Session info: chrome=44.0.2403.125)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5.05 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
-System info: host: 'DS-38607723D16D', ip: '10.102.161.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\SACHIN~1.MAT\AppData\Local\Temp\scoped_dir8348_16433}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.125, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0539ecb56b767505cc504f9779083418
-*** Element info: {Using=xpath, value=//div[@id='personalJournalSavedSearch']/ul/descendant::a[contains(.,'Note')]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at sac.dl.pageObject.SavedSearchesPage.clickOnSavedSearchTerm(SavedSearchesPage.java:53)
-	at test.java.SavedSearchesTest.testClickOnSavedNoteSearchTerm(SavedSearchesTest.java:68)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1032)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testClickOnSavedNoteSearchTerm -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="waitBeforeCallingMethod" is-config="true" duration-ms="9" started-at="2015-08-04T18:04:57Z" finished-at="2015-08-04T18:04:57Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="waitBeforeCallingMethod" is-config="true" duration-ms="30" started-at="2015-08-05T14:19:29Z" finished-at="2015-08-05T14:19:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="FAIL" signature="testDeleteSavedContentSearchTerm(java.lang.String)[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testDeleteSavedContentSearchTerm" duration-ms="45" started-at="2015-08-04T18:04:57Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SavedSearchesTest.testClickOnSavedNoteSearchTerm" finished-at="2015-08-04T18:04:57Z">
+        <test-method status="PASS" signature="testDeleteSavedContentSearchTerm(java.lang.String)[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testDeleteSavedContentSearchTerm" duration-ms="7450" started-at="2015-08-05T14:19:29Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SavedSearchesTest.testClickOnSavedNoteSearchTerm" finished-at="2015-08-05T14:19:36Z">
           <params>
             <param index="0">
               <value>
@@ -1167,77 +582,14 @@ Session ID: 0539ecb56b767505cc504f9779083418
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.ElementNotVisibleException">
-            <message>
-              <![CDATA[element not visible
-  (Session info: chrome=44.0.2403.125)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 20 milliseconds
-Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
-System info: host: 'DS-38607723D16D', ip: '10.102.161.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\SACHIN~1.MAT\AppData\Local\Temp\scoped_dir8348_16433}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.125, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0539ecb56b767505cc504f9779083418]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
-  (Session info: chrome=44.0.2403.125)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 20 milliseconds
-Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
-System info: host: 'DS-38607723D16D', ip: '10.102.161.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\SACHIN~1.MAT\AppData\Local\Temp\scoped_dir8348_16433}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.125, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0539ecb56b767505cc504f9779083418
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:80)
-	at sac.dl.pageObject.SavedSearchesPage.deleteSavedSearchTerm(SavedSearchesPage.java:80)
-	at test.java.SavedSearchesTest.testDeleteSavedContentSearchTerm(SavedSearchesTest.java:76)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1032)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteSavedContentSearchTerm -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="waitBeforeCallingMethod" is-config="true" duration-ms="7" started-at="2015-08-04T18:04:57Z" finished-at="2015-08-04T18:04:57Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="waitBeforeCallingMethod" is-config="true" duration-ms="12" started-at="2015-08-05T14:19:37Z" finished-at="2015-08-05T14:19:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="FAIL" signature="testDeleteSavedeTextSearchTerm(java.lang.String)[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testDeleteSavedeTextSearchTerm" duration-ms="38" started-at="2015-08-04T18:04:57Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SavedSearchesTest.testDeleteSavedContentSearchTerm" finished-at="2015-08-04T18:04:57Z">
+        <test-method status="PASS" signature="testDeleteSavedeTextSearchTerm(java.lang.String)[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testDeleteSavedeTextSearchTerm" duration-ms="6849" started-at="2015-08-05T14:19:37Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SavedSearchesTest.testDeleteSavedContentSearchTerm" finished-at="2015-08-05T14:19:43Z">
           <params>
             <param index="0">
               <value>
@@ -1245,77 +597,14 @@ Session ID: 0539ecb56b767505cc504f9779083418
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.ElementNotVisibleException">
-            <message>
-              <![CDATA[element not visible
-  (Session info: chrome=44.0.2403.125)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 18 milliseconds
-Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
-System info: host: 'DS-38607723D16D', ip: '10.102.161.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\SACHIN~1.MAT\AppData\Local\Temp\scoped_dir8348_16433}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.125, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0539ecb56b767505cc504f9779083418]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
-  (Session info: chrome=44.0.2403.125)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 18 milliseconds
-Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
-System info: host: 'DS-38607723D16D', ip: '10.102.161.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\SACHIN~1.MAT\AppData\Local\Temp\scoped_dir8348_16433}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.125, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0539ecb56b767505cc504f9779083418
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:80)
-	at sac.dl.pageObject.SavedSearchesPage.deleteSavedSearchTerm(SavedSearchesPage.java:80)
-	at test.java.SavedSearchesTest.testDeleteSavedeTextSearchTerm(SavedSearchesTest.java:84)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1032)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteSavedeTextSearchTerm -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="waitBeforeCallingMethod" is-config="true" duration-ms="9" started-at="2015-08-04T18:04:58Z" finished-at="2015-08-04T18:04:58Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="waitBeforeCallingMethod" is-config="true" duration-ms="15" started-at="2015-08-05T14:19:44Z" finished-at="2015-08-05T14:19:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="FAIL" signature="testDeleteSavedNoteSearchTerm(java.lang.String)[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testDeleteSavedNoteSearchTerm" duration-ms="30" started-at="2015-08-04T18:04:58Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SavedSearchesTest.testDeleteSavedeTextSearchTerm" finished-at="2015-08-04T18:04:58Z">
+        <test-method status="PASS" signature="testDeleteSavedNoteSearchTerm(java.lang.String)[pri:0, instance:test.java.SavedSearchesTest@38082d64]" name="testDeleteSavedNoteSearchTerm" duration-ms="6949" started-at="2015-08-05T14:19:44Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SavedSearchesTest.testDeleteSavedeTextSearchTerm" finished-at="2015-08-05T14:19:51Z">
           <params>
             <param index="0">
               <value>
@@ -1323,127 +612,64 @@ Session ID: 0539ecb56b767505cc504f9779083418
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.ElementNotVisibleException">
-            <message>
-              <![CDATA[element not visible
-  (Session info: chrome=44.0.2403.125)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 14 milliseconds
-Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
-System info: host: 'DS-38607723D16D', ip: '10.102.161.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\SACHIN~1.MAT\AppData\Local\Temp\scoped_dir8348_16433}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.125, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0539ecb56b767505cc504f9779083418]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
-  (Session info: chrome=44.0.2403.125)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 14 milliseconds
-Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
-System info: host: 'DS-38607723D16D', ip: '10.102.161.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\SACHIN~1.MAT\AppData\Local\Temp\scoped_dir8348_16433}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.125, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0539ecb56b767505cc504f9779083418
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:80)
-	at sac.dl.pageObject.SavedSearchesPage.deleteSavedSearchTerm(SavedSearchesPage.java:80)
-	at test.java.SavedSearchesTest.testDeleteSavedNoteSearchTerm(SavedSearchesTest.java:92)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1032)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteSavedNoteSearchTerm -->
       </class> <!-- test.java.SavedSearchesTest -->
       <class name="test.java.SignOutTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.java.SignOutTest@6b2fad11]" name="beforeClass" is-config="true" duration-ms="0" started-at="2015-08-04T18:04:58Z" finished-at="2015-08-04T18:04:58Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.java.SignOutTest@6b2fad11]" name="beforeClass" is-config="true" duration-ms="0" started-at="2015-08-05T14:19:51Z" finished-at="2015-08-05T14:19:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SignOutTest@6b2fad11]" name="waitBeforeCallingMethod" is-config="true" duration-ms="6" started-at="2015-08-04T18:04:58Z" finished-at="2015-08-04T18:04:58Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SignOutTest@6b2fad11]" name="waitBeforeCallingMethod" is-config="true" duration-ms="12" started-at="2015-08-05T14:19:51Z" finished-at="2015-08-05T14:19:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testSignOut()[pri:0, instance:test.java.SignOutTest@6b2fad11]" name="testSignOut" duration-ms="63" depends-on-groups="DeleteSavedSearchTerm" started-at="2015-08-04T18:04:58Z" finished-at="2015-08-04T18:04:58Z">
+        <test-method status="PASS" signature="testSignOut()[pri:0, instance:test.java.SignOutTest@6b2fad11]" name="testSignOut" duration-ms="1912" depends-on-groups="DeleteSavedSearchTerm" started-at="2015-08-05T14:19:51Z" finished-at="2015-08-05T14:19:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignOut -->
       </class> <!-- test.java.SignOutTest -->
       <class name="test.java.SearchResultsTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.java.SearchResultsTest@2ed94a8b]" name="beforeClass" is-config="true" duration-ms="1" started-at="2015-08-04T18:04:27Z" finished-at="2015-08-04T18:04:27Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.java.SearchResultsTest@2ed94a8b]" name="beforeClass" is-config="true" duration-ms="0" started-at="2015-08-05T14:18:54Z" finished-at="2015-08-05T14:18:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchResultsTest@2ed94a8b]" name="waitBeforeCallingMethod" is-config="true" duration-ms="12" started-at="2015-08-04T18:04:27Z" finished-at="2015-08-04T18:04:27Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchResultsTest@2ed94a8b]" name="waitBeforeCallingMethod" is-config="true" duration-ms="18" started-at="2015-08-05T14:18:54Z" finished-at="2015-08-05T14:18:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testverifyAlleTextPagesStack()[pri:0, instance:test.java.SearchResultsTest@2ed94a8b]" name="testverifyAlleTextPagesStack" duration-ms="274" depends-on-groups="PerformSearchingByeContents" started-at="2015-08-04T18:04:27Z" finished-at="2015-08-04T18:04:27Z">
+        <test-method status="PASS" signature="testverifyAlleTextPagesStack()[pri:0, instance:test.java.SearchResultsTest@2ed94a8b]" name="testverifyAlleTextPagesStack" duration-ms="341" depends-on-groups="PerformSearchingByeContents" started-at="2015-08-05T14:18:54Z" finished-at="2015-08-05T14:18:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testverifyAlleTextPagesStack -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchResultsTest@2ed94a8b]" name="waitBeforeCallingMethod" is-config="true" duration-ms="7" started-at="2015-08-04T18:04:33Z" finished-at="2015-08-04T18:04:33Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchResultsTest@2ed94a8b]" name="waitBeforeCallingMethod" is-config="true" duration-ms="13" started-at="2015-08-05T14:19:05Z" finished-at="2015-08-05T14:19:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testverifyAlleTextStack()[pri:0, instance:test.java.SearchResultsTest@2ed94a8b]" name="testverifyAlleTextStack" duration-ms="109" depends-on-groups="PerformSearchingByeText" started-at="2015-08-04T18:04:33Z" finished-at="2015-08-04T18:04:34Z">
+        <test-method status="PASS" signature="testverifyAlleTextStack()[pri:0, instance:test.java.SearchResultsTest@2ed94a8b]" name="testverifyAlleTextStack" duration-ms="183" depends-on-groups="PerformSearchingByeText" started-at="2015-08-05T14:19:05Z" finished-at="2015-08-05T14:19:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testverifyAlleTextStack -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchResultsTest@2ed94a8b]" name="waitBeforeCallingMethod" is-config="true" duration-ms="6" started-at="2015-08-04T18:04:37Z" finished-at="2015-08-04T18:04:37Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchResultsTest@2ed94a8b]" name="waitBeforeCallingMethod" is-config="true" duration-ms="14" started-at="2015-08-05T14:19:18Z" finished-at="2015-08-05T14:19:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testverifyAlleTextNotesStack()[pri:0, instance:test.java.SearchResultsTest@2ed94a8b]" name="testverifyAlleTextNotesStack" duration-ms="100" depends-on-groups="PerformSearchingByNotes" started-at="2015-08-04T18:04:37Z" finished-at="2015-08-04T18:04:37Z">
+        <test-method status="PASS" signature="testverifyAlleTextNotesStack()[pri:0, instance:test.java.SearchResultsTest@2ed94a8b]" name="testverifyAlleTextNotesStack" duration-ms="495" depends-on-groups="PerformSearchingByNotes" started-at="2015-08-05T14:19:18Z" finished-at="2015-08-05T14:19:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testverifyAlleTextNotesStack -->
       </class> <!-- test.java.SearchResultsTest -->
       <class name="test.java.SearchAndBrowseLibraryTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="beforeClass" is-config="true" duration-ms="0" started-at="2015-08-04T18:05:05Z" finished-at="2015-08-04T18:05:05Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="beforeClass" is-config="true" duration-ms="0" started-at="2015-08-05T14:19:57Z" finished-at="2015-08-05T14:19:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="waitBeforeCallingMethod" is-config="true" duration-ms="8" started-at="2015-08-04T18:05:05Z" finished-at="2015-08-04T18:05:05Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="waitBeforeCallingMethod" is-config="true" duration-ms="13" started-at="2015-08-05T14:19:57Z" finished-at="2015-08-05T14:19:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testVerifyOptionsInDropdown(java.lang.String)[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="testVerifyOptionsInDropdown" duration-ms="131" depends-on-groups="LoginPage" started-at="2015-08-04T18:05:05Z" data-provider="ExcelDataProvider" finished-at="2015-08-04T18:05:05Z">
+        <test-method status="PASS" signature="testVerifyOptionsInDropdown(java.lang.String)[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="testVerifyOptionsInDropdown" duration-ms="133" depends-on-groups="LoginPage" started-at="2015-08-05T14:19:58Z" data-provider="ExcelDataProvider" finished-at="2015-08-05T14:19:58Z">
           <params>
             <param index="0">
               <value>
@@ -1454,11 +680,11 @@ Session ID: 0539ecb56b767505cc504f9779083418
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyOptionsInDropdown -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="waitBeforeCallingMethod" is-config="true" duration-ms="6" started-at="2015-08-04T18:05:05Z" finished-at="2015-08-04T18:05:05Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="waitBeforeCallingMethod" is-config="true" duration-ms="13" started-at="2015-08-05T14:19:58Z" finished-at="2015-08-05T14:19:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testVerifyBooksPresentInAlleTextStack(java.lang.String)[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="testVerifyBooksPresentInAlleTextStack" duration-ms="291" started-at="2015-08-04T18:05:05Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SearchAndBrowseLibraryTest.testVerifyOptionsInDropdown" finished-at="2015-08-04T18:05:06Z">
+        <test-method status="PASS" signature="testVerifyBooksPresentInAlleTextStack(java.lang.String)[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="testVerifyBooksPresentInAlleTextStack" duration-ms="1204" started-at="2015-08-05T14:19:58Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SearchAndBrowseLibraryTest.testVerifyOptionsInDropdown" finished-at="2015-08-05T14:19:59Z">
           <params>
             <param index="0">
               <value>
@@ -1469,11 +695,11 @@ Session ID: 0539ecb56b767505cc504f9779083418
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyBooksPresentInAlleTextStack -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="waitBeforeCallingMethod" is-config="true" duration-ms="7" started-at="2015-08-04T18:05:06Z" finished-at="2015-08-04T18:05:06Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="waitBeforeCallingMethod" is-config="true" duration-ms="17" started-at="2015-08-05T14:19:59Z" finished-at="2015-08-05T14:19:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testVerifyUIOfMoreInfoPopUpUnknownUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="testVerifyUIOfMoreInfoPopUpUnknownUser" duration-ms="1582" started-at="2015-08-04T18:05:06Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SearchAndBrowseLibraryTest.testVerifyBooksPresentInAlleTextStack" finished-at="2015-08-04T18:05:08Z">
+        <test-method status="PASS" signature="testVerifyUIOfMoreInfoPopUpUnknownUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="testVerifyUIOfMoreInfoPopUpUnknownUser" duration-ms="2011" started-at="2015-08-05T14:19:59Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SearchAndBrowseLibraryTest.testVerifyBooksPresentInAlleTextStack" finished-at="2015-08-05T14:20:01Z">
           <params>
             <param index="0">
               <value>
@@ -1499,11 +725,11 @@ Session ID: 0539ecb56b767505cc504f9779083418
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyUIOfMoreInfoPopUpUnknownUser -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="waitBeforeCallingMethod" is-config="true" duration-ms="12" started-at="2015-08-04T18:05:08Z" finished-at="2015-08-04T18:05:08Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="waitBeforeCallingMethod" is-config="true" duration-ms="15" started-at="2015-08-05T14:20:01Z" finished-at="2015-08-05T14:20:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testVerifyOptionsInPreviewChapterDropdown(java.lang.String)[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="testVerifyOptionsInPreviewChapterDropdown" duration-ms="139" started-at="2015-08-04T18:05:08Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SearchAndBrowseLibraryTest.testVerifyUIOfMoreInfoPopUpUnknownUser" finished-at="2015-08-04T18:05:08Z">
+        <test-method status="PASS" signature="testVerifyOptionsInPreviewChapterDropdown(java.lang.String)[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="testVerifyOptionsInPreviewChapterDropdown" duration-ms="141" started-at="2015-08-05T14:20:01Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SearchAndBrowseLibraryTest.testVerifyUIOfMoreInfoPopUpUnknownUser" finished-at="2015-08-05T14:20:02Z">
           <params>
             <param index="0">
               <value>
@@ -1514,11 +740,11 @@ Session ID: 0539ecb56b767505cc504f9779083418
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyOptionsInPreviewChapterDropdown -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="waitBeforeCallingMethod" is-config="true" duration-ms="7" started-at="2015-08-04T18:05:08Z" finished-at="2015-08-04T18:05:08Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="waitBeforeCallingMethod" is-config="true" duration-ms="16" started-at="2015-08-05T14:20:02Z" finished-at="2015-08-05T14:20:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testLaunchChapterPreview(java.lang.String)[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="testLaunchChapterPreview" duration-ms="1161" started-at="2015-08-04T18:05:08Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SearchAndBrowseLibraryTest.testVerifyOptionsInPreviewChapterDropdown" finished-at="2015-08-04T18:05:09Z">
+        <test-method status="PASS" signature="testLaunchChapterPreview(java.lang.String)[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="testLaunchChapterPreview" duration-ms="4362" started-at="2015-08-05T14:20:02Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SearchAndBrowseLibraryTest.testVerifyOptionsInPreviewChapterDropdown" finished-at="2015-08-05T14:20:06Z">
           <params>
             <param index="0">
               <value>
@@ -1529,11 +755,11 @@ Session ID: 0539ecb56b767505cc504f9779083418
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLaunchChapterPreview -->
-        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="waitBeforeCallingMethod" is-config="true" duration-ms="6" started-at="2015-08-04T18:05:09Z" finished-at="2015-08-04T18:05:09Z">
+        <test-method status="PASS" signature="waitBeforeCallingMethod()[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="waitBeforeCallingMethod" is-config="true" duration-ms="16" started-at="2015-08-05T14:20:06Z" finished-at="2015-08-05T14:20:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBeforeCallingMethod -->
-        <test-method status="PASS" signature="testVerifyUIOfChapterPreview(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="testVerifyUIOfChapterPreview" duration-ms="361" started-at="2015-08-04T18:05:09Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SearchAndBrowseLibraryTest.testLaunchChapterPreview" finished-at="2015-08-04T18:05:10Z">
+        <test-method status="PASS" signature="testVerifyUIOfChapterPreview(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.SearchAndBrowseLibraryTest@dfd3711]" name="testVerifyUIOfChapterPreview" duration-ms="277" started-at="2015-08-05T14:20:06Z" data-provider="ExcelDataProvider" depends-on-methods="test.java.SearchAndBrowseLibraryTest.testLaunchChapterPreview" finished-at="2015-08-05T14:20:07Z">
           <params>
             <param index="0">
               <value>

@@ -14,7 +14,7 @@ public class ZipOutputFiles {
 
 	public static void createZip() throws IOException {
 
-		File directoryToZip = new File(CreateOutputFileDirectories.applicationDirectory);
+		File directoryToZip = new File(CreateOutputFileDirectories.buildDirectory);
 		List<File> fileList = new ArrayList<File>();
 		getAllFiles(directoryToZip, fileList);
 		writeZipFile(directoryToZip, fileList);

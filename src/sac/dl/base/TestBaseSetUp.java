@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.firefox.internal.ProfilesIni;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.ITestContext;
 import org.testng.annotations.AfterSuite;
@@ -22,43 +23,54 @@ public class TestBaseSetUp {
 	protected static WebDriver driver;
 	protected Logger log;
 	
-	public static String browserToBeUsed = "";
 	public static String release = ""; 
 	public static String iteration = "";
-	public static String build = ""; 
+	public static String build = "";
+	public static String browserToLaunch="";
 
 	@BeforeSuite
 	@Parameters({ "AppURL", "Browser", "Release", "Iteration", "Build" })
-	public void setUp(String appURL, String browserToBeUsed, String release, String iteration, String build, final ITestContext context) throws Exception
+	public void setUp(String appURL, String browsers, String release, String iteration, String build, final ITestContext context) throws Exception
 	{
-		TestBaseSetUp.browserToBeUsed = browserToBeUsed;
 		TestBaseSetUp.release = release;
 		TestBaseSetUp.iteration = iteration;
 		TestBaseSetUp.build = build;
 		
 		ReadFromPropertiesFile readProp = new ReadFromPropertiesFile();
 		readProp.loadConfigFile();
-		CreateOutputFileDirectories.createResultDir(browserToBeUsed,release,iteration,build);
-		CreateOutputFileDirectories.copyResultSuiteFromMasterTestSuite();
 
-		if(browserToBeUsed.equals("firefox"))
-		{
-			ProfilesIni profile = new ProfilesIni();
-			FirefoxProfile firefoxProfile = profile.getProfile("FirefoxAutomationProfile");
-			driver=new FirefoxDriver(firefoxProfile);
-		}
+		String[] browsersToBeTestedOn = browsers.split("\\s*,\\s*");
 		
-		else if(browserToBeUsed.equals("chrome"))
-		{
-			DesiredCapabilities chromeCapabilities = DesiredCapabilities.chrome();
-			String chromeDriverLocation = ReadFromPropertiesFile.prop.getProperty("ChromeDriverLocation");
-			System.setProperty("webdriver.chrome.driver", chromeDriverLocation);
-			driver = new ChromeDriver();
-		}
+		int numberOfBrowsers = browsersToBeTestedOn.length;
 		
-		else if(browserToBeUsed.equals("ie"))
+		for(int index = 0; index<numberOfBrowsers;index++)
 		{
+			TestBaseSetUp.browserToLaunch = browsersToBeTestedOn[index];
 			
+			CreateOutputFileDirectories.createResultDir(browserToLaunch,release,iteration,build);
+			CreateOutputFileDirectories.copyResultSuiteFromMasterTestSuite();
+			
+			if(browserToLaunch.equals("firefox"))
+			{
+				getFireFoxDriver();
+			}
+			
+			else if(browserToLaunch.equals("chrome"))
+			{
+				getChromeDriver();
+			}
+			
+			else if(browserToLaunch.equals("ie"))
+			{
+				getInternetExplorerDriver();
+			}
+			
+			else if(browserToLaunch.equals("All"))
+			{
+				getFireFoxDriver();
+				getChromeDriver();
+				getInternetExplorerDriver();
+			}
 		}
 		
 		driver.manage().window().maximize();
@@ -80,7 +92,7 @@ public class TestBaseSetUp {
 	
 	public static String setBrowserName()
 	{
-		return browserToBeUsed;
+		return browserToLaunch;
 	}
 	
 	public static String setReleaseName()
@@ -98,6 +110,32 @@ public class TestBaseSetUp {
 		return build;
 	}
 
+	public static void getFireFoxDriver()
+	{
+		ProfilesIni profile = new ProfilesIni();
+		FirefoxProfile firefoxProfile = profile.getProfile("FirefoxAutomationProfile");
+		driver=new FirefoxDriver(firefoxProfile);
+	}
+	
+	public static void getChromeDriver()
+	{
+		DesiredCapabilities chromeCapabilities = DesiredCapabilities.chrome();
+		String chromeDriverLocation = ReadFromPropertiesFile.prop.getProperty("ChromeDriverLocation");
+		System.setProperty("webdriver.chrome.driver", chromeDriverLocation);
+		driver = new ChromeDriver(chromeCapabilities);
+	}
+	
+	public static void getInternetExplorerDriver()
+	{
+		DesiredCapabilities ieCapabilities = DesiredCapabilities.internetExplorer();
+		ieCapabilities.setCapability("ignoreZoomSetting", true); // This will make script work even if zoom level of browser is other than 100%.
+		
+		String ie64BitDriverLocation = ReadFromPropertiesFile.prop.getProperty("IE64BitDriverLocation");
+		
+		System.setProperty("webdriver.ie.driver", ie64BitDriverLocation);
+		driver = new InternetExplorerDriver(ieCapabilities);
+	}
+	
 	@AfterSuite
 	public void tearDown() throws Exception
 	{

@@ -269,7 +269,7 @@ public class CustomReportGenerator implements ITestListener {
 		log("onStart("+context+")");
 		try {
 
-			FileOutputStream PDFReport = new FileOutputStream(CreateOutputFileDirectories.buildDir+"\\"+context.getName()+".pdf");
+			FileOutputStream PDFReport = new FileOutputStream(CreateOutputFileDirectories.browserDir+"\\"+context.getName()+".pdf");
 			PdfWriter.getInstance(this.document, PDFReport);
 
 		} catch (Exception e) {
@@ -421,7 +421,7 @@ public class CustomReportGenerator implements ITestListener {
 
 	public static String setScreenshotLocation(String testcaseName)
 	{
-		String file = CreateOutputFileDirectories.buildDir +ReadFromPropertiesFile.prop.getProperty("FailureScreenshotDir")+testcaseName+".jpg";
+		String file = CreateOutputFileDirectories.browserDir +ReadFromPropertiesFile.prop.getProperty("FailureScreenshotDir")+testcaseName+".jpg";
 		return file;
 	}
 

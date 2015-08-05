@@ -32,7 +32,7 @@ public class CreateOutputFileDirectories {
 	protected static Sheet masterTestCases;
 	protected static WritableWorkbook resultTestSuite;
 	protected static WritableSheet resultSheet;
-	protected static File buildDir;
+	protected static File browserDir;
 
 	public static void createResultDir(String browserToBeUsed, String release, String iteration, String build)
 	{
@@ -44,15 +44,7 @@ public class CreateOutputFileDirectories {
 			appDir.mkdir();
 		}
 
-		browserDirectory = applicationDirectory + browserToBeUsed + "\\";
-		File browserDir = new File(browserDirectory);
-
-		if(!browserDir.exists())
-		{
-			browserDir.mkdir();
-		}
-
-		releaseDirectory = browserDirectory + "R" + release + "\\";
+		releaseDirectory = applicationDirectory + "R" + release + "\\";
 		File releaseDir = new File(releaseDirectory);
 
 		if(!releaseDir.exists())
@@ -69,15 +61,23 @@ public class CreateOutputFileDirectories {
 		}
 
 		buildDirectory = iterationDirectory + "build" + build + "\\";
-		buildDir = new File(buildDirectory);
+		File buildDir = new File(buildDirectory);
 
 		if(!buildDir.exists())
 		{
 			buildDir.mkdir();
 		}
+		
+		browserDirectory = buildDirectory + browserToBeUsed;
+		browserDir = new File(browserDirectory);
+
+		if(!browserDir.exists())
+		{
+			browserDir.mkdir();
+		}
 
 		resultSuiteName = "Testsuite_"+"Rel_"+release+"_Itr_"+iteration+"_Build_"+build+".xls";
-		TestResultsPath = buildDir + "\\"+ resultSuiteName;
+		TestResultsPath = browserDir + "\\"+ resultSuiteName;
 	}
 
 	public static void copyResultSuiteFromMasterTestSuite() throws Exception

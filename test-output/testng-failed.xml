@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [DigitalLibrary]" parallel="none">
-  <parameter name="Build" value="1"/>
+  <parameter name="Build" value="2"/>
   <parameter name="AppURL" value="http://library.pearsoncmg.com/library/index.do?libraryid=2821"/>
   <parameter name="Iteration" value="3"/>
   <parameter name="Release" value="1.4"/>
-  <parameter name="Browser" value="chrome"/>
+  <parameter name="Browser" value="ie"/>
   <test name="DigitalLibraryFunctionalTest(failed)" parallel="none">
     <classes>
+      <class name="test.java.SearchAndBrowseLibraryTest">
+        <methods>
+          <include name="testVerifyOptionsInDropdown" invocation-numbers="0"/>
+          <include name="testVerifyUIOfChapterPreview" invocation-numbers="0"/>
+          <include name="testVerifyBooksPresentInAlleTextStack" invocation-numbers="0"/>
+          <include name="testVerifyOptionsInPreviewChapterDropdown" invocation-numbers="0"/>
+          <include name="testLaunchChapterPreview" invocation-numbers="0"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="testVerifyUIOfMoreInfoPopUpUnknownUser" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- test.java.SearchAndBrowseLibraryTest -->
       <class name="sac.dl.base.TestBaseSetUp">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- sac.dl.base.TestBaseSetUp -->
-      <class name="test.java.SearchAndBrowseLibraryTest">
-        <methods>
-          <include name="waitBeforeCallingMethod"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- test.java.SearchAndBrowseLibraryTest -->
       <class name="test.java.SignOutTest">
         <methods>
           <include name="beforeClass"/>
@@ -49,22 +55,22 @@
       <class name="test.java.SavedSearchesTest">
         <methods>
           <include name="beforeClass"/>
-          <include name="testClickOnSavedNoteSearchTerm"/>
+          <include name="testClickOnSavedNoteSearchTerm" invocation-numbers="0"/>
           <include name="testDeleteSavedContentSearchTerm"/>
-          <include name="testDeleteSavedeTextSearchTerm"/>
-          <include name="testDeleteSavedNoteSearchTerm"/>
+          <include name="testDeleteSavedeTextSearchTerm" invocation-numbers="0"/>
+          <include name="testDeleteSavedNoteSearchTerm" invocation-numbers="0"/>
           <include name="waitBeforeCallingMethod"/>
           <include name="testNavigateToSavedSearchesPage"/>
           <include name="testClickOnSavedContentSearchTerm"/>
-          <include name="testClickOnSavedeTextSearchTerm"/>
+          <include name="testClickOnSavedeTextSearchTerm" invocation-numbers="0"/>
         </methods>
       </class> <!-- test.java.SavedSearchesTest -->
       <class name="test.java.CompleteLibraryTest">
         <methods>
           <include name="beforeClass"/>
-          <include name="testSearchByeText"/>
+          <include name="testSearchByeText" invocation-numbers="0 1 2"/>
           <include name="testSearchByContents"/>
-          <include name="testSearchMyNotes"/>
+          <include name="testSearchMyNotes" invocation-numbers="0"/>
           <include name="waitBeforeCallingMethod"/>
           <include name="testVerifyUIOfCompleteLibraryPage"/>
         </methods>

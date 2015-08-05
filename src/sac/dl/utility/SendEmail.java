@@ -46,7 +46,7 @@ public class SendEmail {
 			multipart.addBodyPart(objMessageBodyPart);
 			objMessageBodyPart = new MimeBodyPart();
 			
-			String fileName = CreateOutputFileDirectories.buildDir + "\\"+ CreateOutputFileDirectories.resultSuiteName;
+			String fileName = CreateOutputFileDirectories.browserDir + "\\"+ CreateOutputFileDirectories.resultSuiteName;
 			DataSource source = new FileDataSource(fileName);
 			objMessageBodyPart.setDataHandler(new DataHandler(source));
 			objMessageBodyPart.setFileName(fileName);
