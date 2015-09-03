@@ -19,13 +19,13 @@ public class PageElements {
 		
 		public static WebElement userNameTextBox(WebDriver driver)
 		{
-			WebElement userNameTextBox= driver.findElement(By.id("userNameTxt"));
+			WebElement userNameTextBox = driver.findElement(By.cssSelector("#userNameTxt"));
 			return userNameTextBox;
 		}
 		
 		public static WebElement passwordTextBox(WebDriver driver)
 		{
-			WebElement passwordTextBox= driver.findElement(By.id("pwdTxt"));
+			WebElement passwordTextBox= driver.findElement(By.cssSelector("#pwdTxt"));
 			return passwordTextBox;
 		}
 		
@@ -37,31 +37,31 @@ public class PageElements {
 		
 		public static WebElement forgetUserNamePasswordLink(WebDriver driver)
 		{
-			WebElement forgetUserNamePasswordLink = driver.findElement(By.xpath("//div[@class='forgotLink']/a"));
+			WebElement forgetUserNamePasswordLink = driver.findElement(By.cssSelector(".forgotLink > a"));
 			return forgetUserNamePasswordLink;
 		}
 		
 		public static WebElement dontHaveAccountLabel(WebDriver driver)
 		{
-			WebElement dontHaveAccountLabel = driver.findElement(By.xpath("//label[@class='dontHaveAccountLabel']/span"));
+			WebElement dontHaveAccountLabel = driver.findElement(By.cssSelector(".dontHaveAccountLabel > span"));
 			return dontHaveAccountLabel;
 		}
 		
 		public static WebElement purchaseLibrary(WebDriver driver)
 		{
-			WebElement purchaseLibrary = driver.findElement(By.xpath("//div[@class='searchBrowseLink']/a[@title='Purchase Library']"));
+			WebElement purchaseLibrary = driver.findElement(By.cssSelector(".searchBrowseLink > a[title='Purchase Library']"));
 			return purchaseLibrary;
 		}
 		
 		public static WebElement registerNow(WebDriver driver)
 		{
-			WebElement registerNow = driver.findElement(By.xpath("//div[@class='registerLink']/a[@title='Register Now']"));
+			WebElement registerNow = driver.findElement(By.cssSelector(".registerLink>a[title='Register Now']"));
 			return registerNow;
 		}
 		
 		public static WebElement searchAndBrowseLibraryLink(WebDriver driver)
 		{
-			WebElement searchAndBrowseLibraryLink = driver.findElement(By.xpath("//div[@class='searchBrowseLink']/a[@title='Search and browse Library']"));
+			WebElement searchAndBrowseLibraryLink = driver.findElement(By.cssSelector(".searchBrowseLink>a[title='Search and browse Library']"));
 			return searchAndBrowseLibraryLink;
 		}
 	}
@@ -77,24 +77,25 @@ public class PageElements {
 		
 		public static WebElement userName(WebDriver driver)
 		{
-			WebElement userName = driver.findElement(By.xpath("//div[@class='welcome']/span[@id='username']/i"));
+			WebElement userName = driver.findElement(By.cssSelector(".welcome>span[id='username']>i"));
 			return userName;
 		}
 		
 		public static List<WebElement> buttonsOnSegmentControl(WebDriver driver)
 		{
-			List<WebElement> segmentControlButtons = driver.findElements(By.xpath("//div[@id='segmented-controls']/div/div"));
+			List<WebElement> segmentControlButtons = driver.findElements(By.cssSelector("#segmented-controls>div>div"));
 			return segmentControlButtons;
 		}
 		
 		public static WebElement searchDropdownArrow(WebDriver driver)
 		{
-			WebElement searchDropdownArrow = driver.findElement(By.xpath("//div[@class='searchOptionsDropdown']/div/button[@class='searchDropBtn']"));
+			WebElement searchDropdownArrow = driver.findElement(By.cssSelector(".searchOptionsDropdown>div>button.searchDropBtn"));
 			return searchDropdownArrow;
 		}
 		
 		public static WebElement searchByContentOption(WebDriver driver)
 		{
+		//	WebElement searchByContentOption = driver.findElement(By.cssSelector("ul#searchDropDownOptions>li#searchDrop2>a:contains('Search for Content')"));
 			WebElement searchByContentOption = driver.findElement(By.xpath("//ul[@id='searchDropDownOptions']/li[@id='searchDrop2']/a[contains(.,'Search for Content')]"));
 			return searchByContentOption;
 		}
@@ -119,13 +120,13 @@ public class PageElements {
 		
 		public static WebElement searchButton(WebDriver driver)
 		{
-			WebElement searchButton = driver.findElement(By.xpath("//span[@class='searchBtn']/a/img[@id='searchIconImage']"));
+			WebElement searchButton = driver.findElement(By.cssSelector("span.searchBtn>a>img#searchIconImage"));
 			return searchButton;
 		}
 		
 		public static WebElement breadCrumbMessage(WebDriver driver)
 		{
-			WebElement breadCrumb = driver.findElement(By.xpath("//ul[@id='DLBreadcrumb']/li/span"));
+			WebElement breadCrumb = driver.findElement(By.cssSelector("ul#DLBreadcrumb>li>span"));
 			return breadCrumb;
 		}
 		
@@ -137,7 +138,7 @@ public class PageElements {
 		
 		public static WebElement searchGoogleButton(WebDriver driver)
 		{
-			WebElement saveThisSearchButton = driver.findElement(By.xpath("//div[@id='saveBtnDiv']/span[@id='searchGoogleID']/a"));
+			WebElement saveThisSearchButton = driver.findElement(By.cssSelector("div#saveBtnDiv>span#searchGoogleID>a"));
 			return saveThisSearchButton;
 		}
 		
@@ -251,25 +252,25 @@ public class PageElements {
 		
 		public static WebElement arrowSortByDropdown(WebDriver driver)
 		{
-			WebElement arrow = driver.findElement(By.xpath("//button[@id='sortDisplayOptionsBtnID']/div/img"));
+			WebElement arrow = driver.findElement(By.cssSelector("button[id='sortDisplayOptionsBtnID']>div>img"));
 			return arrow;
 		}
 		
 		public static WebElement dropdownSortByButton(WebDriver driver)
 		{
-			WebElement dropdownSortByButton = driver.findElement(By.xpath("//div[@class='pull-right']/ul/li[@class='sortbydropdown']/div[@id='sortingoptions']/div[@id='sortDisplayOptions']/button"));
+			WebElement dropdownSortByButton = driver.findElement(By.cssSelector("div.pull-right>ul>li.sortbydropdown>#sortingoptions>#sortDisplayOptions>button"));
 			return dropdownSortByButton;
 		}
 		
 		public static WebElement dropdownSortByDefaultSelectedOption(WebDriver driver)
 		{
-			WebElement dropdownSortByDefaultSelectedOption = driver.findElement(By.xpath("//div[@class='pull-right']/ul/li[@class='sortbydropdown']/div[@id='sortingoptions']/div[@id='sortDisplayOptions']/button/div/div"));
+			WebElement dropdownSortByDefaultSelectedOption = driver.findElement(By.cssSelector("div.pull-right>ul>li.sortbydropdown>div#sortingoptions>div#sortDisplayOptions>button>div>div"));
 			return dropdownSortByDefaultSelectedOption;
 		}
 		
 		public static WebElement dropdownSortByOption(WebDriver driver)
 		{
-			WebElement dropdownSortByOption = driver.findElement(By.xpath("//div[@class='pull-right']/ul/li[@class='sortbydropdown']/div[@id='sortingoptions']/div[@id='sortDisplayOptions']/ul/"));
+			WebElement dropdownSortByOption = driver.findElement(By.cssSelector("div.pull-right>ul>li.sortbydropdown>div#sortingoptions>div#sortDisplayOptions>ul"));
 			return dropdownSortByOption;
 		}
 	}
@@ -347,19 +348,22 @@ public class PageElements {
 	{
 		public static WebElement searchByContent_alleTextPagesStack(WebDriver driver)
 		{
-			WebElement searchByContent_alleTextPagesStack = driver.findElement(By.xpath("//div[@id='searchContent']/ul[@class='bookShelftable']/li[@id='allPagesID']/div[@class='contentstackimagediv ']/a[@class='displaytab']/img[@alt='All eText Pages']"));
+			WebElement searchByContent_alleTextPagesStack = driver.findElement(By.cssSelector("div#searchContent>ul.bookShelftable>li#allPagesID>div.contentstackimagediv >a.displaytab>img[alt='All eText Pages']"));
+		//	WebElement searchByContent_alleTextPagesStack = driver.findElement(By.xpath("//div[@id='searchContent']/ul[@class='bookShelftable']/li[@id='allPagesID']/div[@class='contentstackimagediv ']/a[@class='displaytab']/img[@alt='All eText Pages']"));
 			return searchByContent_alleTextPagesStack;
 		}
 		
 		public static WebElement searchByeText_alleTextStack(WebDriver driver)
 		{
-			WebElement searchByeText_alleTextStack = driver.findElement(By.xpath("//div[@id='searchBook']/ul[@class='bookShelftable']/li[@title='All eTexts']/div[@class='contentstackimagediv']/a[@class='displaytab']/img[@title='All eTexts']"));
+			WebElement searchByeText_alleTextStack = driver.findElement(By.cssSelector("div#searchBook>ul.bookShelftable>li[title='All eTexts']>div.contentstackimagediv>a.displaytab>img[title='All eTexts']"));
+		//	WebElement searchByeText_alleTextStack = driver.findElement(By.xpath("//div[@id='searchBook']/ul[@class='bookShelftable']/li[@title='All eTexts']/div[@class='contentstackimagediv']/a[@class='displaytab']/img[@title='All eTexts']"));
 			return searchByeText_alleTextStack;
 		}
 		
 		public static WebElement searchByNotes_alleTextNotesStack(WebDriver driver)
 		{
-			WebElement searchByNotes_alleTextNotesStack = driver.findElement(By.xpath("//div[@id='searchJournalBooks']/ul[@class='bookShelftable']/li[@id='allPagesID']/div[@class='contentstackimagediv ']/a[@class='displaytab']/img[@alt='All eText Notes']"));
+			WebElement searchByNotes_alleTextNotesStack = driver.findElement(By.cssSelector("div#searchJournalBooks>ul.bookShelftable>li#allPagesID>div.contentstackimagediv >a.displaytab>img[alt='All eText Notes']"));
+		//	WebElement searchByNotes_alleTextNotesStack = driver.findElement(By.xpath("//div[@id='searchJournalBooks']/ul[@class='bookShelftable']/li[@id='allPagesID']/div[@class='contentstackimagediv ']/a[@class='displaytab']/img[@alt='All eText Notes']"));
 			return searchByNotes_alleTextNotesStack;
 		}
 		
@@ -383,7 +387,8 @@ public class PageElements {
 	{
 		public static WebElement searchAndBrowseLibraryLink(WebDriver driver)
 		{
-			WebElement linkSearchAndBrowseLibrary = driver.findElement(By.xpath("//div[@class='searchBrowseLink']/a[@title='Search and browse Library']"));
+			WebElement linkSearchAndBrowseLibrary = driver.findElement(By.cssSelector("div.searchBrowseLink>a[title='Search and browse Library']"));
+		//	WebElement linkSearchAndBrowseLibrary = driver.findElement(By.xpath("//div[@class='searchBrowseLink']/a[@title='Search and browse Library']"));
 			return linkSearchAndBrowseLibrary;
 		}
 		
@@ -501,19 +506,21 @@ public class PageElements {
 		
 		public static WebElement bookNameOnChapterPreview(WebDriver driver)
 		{
-			WebElement bookNameOnChapterPreview = driver.findElement(By.xpath("//div[@class='previewtitledetails']/div[@id='titledetails']/label[@class='previewtitle']/span"));
+			WebElement bookNameOnChapterPreview = driver.findElement(By.cssSelector("div.previewtitledetails>div#titledetails>label.previewtitle>span"));
+		//	WebElement bookNameOnChapterPreview = driver.findElement(By.xpath("//div[@class='previewtitledetails']/div[@id='titledetails']/label[@class='previewtitle']/span"));
 			return bookNameOnChapterPreview;
 		}
 		
 		public static WebElement authorLastNameOnChapterPreview(WebDriver driver)
-		{
+		{	
 			WebElement authorLastNameOnChapterPreview = driver.findElement(By.xpath("//div[@class='previewtitledetails']/div[@id='titledetails']/label[@class='previewauthor authorname']/span"));
 			return authorLastNameOnChapterPreview;
 		}
 		
 		public static WebElement pageNumberOnChapterPreview(WebDriver driver)
 		{
-			WebElement pageNumberOnChapterPreview = driver.findElement(By.xpath("//div[@class='previewtitledetails']/div[@id='titledetails']/span[@id='pagenum']"));
+			WebElement pageNumberOnChapterPreview = driver.findElement(By.cssSelector("div.previewtitledetails>div#titledetails>span#pagenum"));
+		//	WebElement pageNumberOnChapterPreview = driver.findElement(By.xpath("//div[@class='previewtitledetails']/div[@id='titledetails']/span[@id='pagenum']"));
 			return pageNumberOnChapterPreview;
 		}
 		

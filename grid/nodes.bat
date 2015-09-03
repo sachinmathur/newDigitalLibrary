@@ -1,0 +1,1 @@
+java -jar C:/Users/sachin.mathur/.m2/repository/org/seleniumhq/selenium/selenium-server-standalone/2.47.1/selenium-server-standalone-2.47.1.jar -role node -browser browserName=chrome -browser browserName="internet explorer" -browser browserName=firefox -hub http://10.97.143.148:4444/grid/register

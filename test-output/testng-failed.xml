@@ -1,80 +1,299 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [DigitalLibrary]" parallel="none">
-  <parameter name="Build" value="2"/>
-  <parameter name="AppURL" value="http://library.pearsoncmg.com/library/index.do?libraryid=2821"/>
-  <parameter name="Iteration" value="3"/>
-  <parameter name="Release" value="1.4"/>
-  <parameter name="Browser" value="ie"/>
-  <test name="DigitalLibraryFunctionalTest(failed)" parallel="none">
+<suite thread-count="4" name="Failed suite [DigitalLibrary]" parallel="tests">
+  <parameter name="browsers" value="ie"/>
+  <test name="FunctionalTestingOnChrome(failed)" parallel="tests">
+    <parameter name="browsers" value="chrome"/>
     <classes>
-      <class name="test.java.SearchAndBrowseLibraryTest">
-        <methods>
-          <include name="testVerifyOptionsInDropdown" invocation-numbers="0"/>
-          <include name="testVerifyUIOfChapterPreview" invocation-numbers="0"/>
-          <include name="testVerifyBooksPresentInAlleTextStack" invocation-numbers="0"/>
-          <include name="testVerifyOptionsInPreviewChapterDropdown" invocation-numbers="0"/>
-          <include name="testLaunchChapterPreview" invocation-numbers="0"/>
-          <include name="waitBeforeCallingMethod"/>
-          <include name="testVerifyUIOfMoreInfoPopUpUnknownUser" invocation-numbers="0"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- test.java.SearchAndBrowseLibraryTest -->
       <class name="sac.dl.base.TestBaseSetUp">
         <methods>
-          <include name="tearDown"/>
+          <include name="launchBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="launchBrowser"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- sac.dl.base.TestBaseSetUp -->
       <class name="test.java.SignOutTest">
         <methods>
           <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
           <include name="testSignOut"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
           <include name="waitBeforeCallingMethod"/>
         </methods>
       </class> <!-- test.java.SignOutTest -->
-      <class name="test.java.LoginPageTest">
-        <methods>
-          <include name="testForgetUserNamePasswordLink"/>
-          <include name="beforeClass"/>
-          <include name="testclickSearchAndBrowseLibraryLink"/>
-          <include name="waitBeforeCallingMethod"/>
-          <include name="testverifyUIOfLoginPage"/>
-          <include name="testLogin"/>
-        </methods>
-      </class> <!-- test.java.LoginPageTest -->
-      <class name="test.java.SearchResultsTest">
-        <methods>
-          <include name="testverifyAlleTextStack"/>
-          <include name="waitBeforeCallingMethod"/>
-          <include name="testverifyAlleTextPagesStack"/>
-          <include name="testverifyAlleTextNotesStack"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- test.java.SearchResultsTest -->
-      <class name="test.java.SavedSearchesTest">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="testClickOnSavedNoteSearchTerm" invocation-numbers="0"/>
-          <include name="testDeleteSavedContentSearchTerm"/>
-          <include name="testDeleteSavedeTextSearchTerm" invocation-numbers="0"/>
-          <include name="testDeleteSavedNoteSearchTerm" invocation-numbers="0"/>
-          <include name="waitBeforeCallingMethod"/>
-          <include name="testNavigateToSavedSearchesPage"/>
-          <include name="testClickOnSavedContentSearchTerm"/>
-          <include name="testClickOnSavedeTextSearchTerm" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- test.java.SavedSearchesTest -->
       <class name="test.java.CompleteLibraryTest">
         <methods>
           <include name="beforeClass"/>
-          <include name="testSearchByeText" invocation-numbers="0 1 2"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="testSearchByeText"/>
           <include name="testSearchByContents"/>
-          <include name="testSearchMyNotes" invocation-numbers="0"/>
+          <include name="testSearchMyNotes"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
           <include name="waitBeforeCallingMethod"/>
           <include name="testVerifyUIOfCompleteLibraryPage"/>
         </methods>
       </class> <!-- test.java.CompleteLibraryTest -->
+      <class name="test.java.SearchAndBrowseLibraryTest">
+        <methods>
+          <include name="testVerifyOptionsInDropdown"/>
+          <include name="testVerifyUIOfChapterPreview"/>
+          <include name="testVerifyBooksPresentInAlleTextStack"/>
+          <include name="testVerifyOptionsInPreviewChapterDropdown"/>
+          <include name="testLaunchChapterPreview"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="testVerifyUIOfMoreInfoPopUpUnknownUser"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- test.java.SearchAndBrowseLibraryTest -->
+      <class name="test.java.LoginPageTest">
+        <methods>
+          <include name="testForgetUserNamePasswordLink"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="testclickSearchAndBrowseLibraryLink"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="testverifyUIOfLoginPage" invocation-numbers="0"/>
+          <include name="testLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.java.LoginPageTest -->
+      <class name="test.java.SavedSearchesTest">
+        <methods>
+          <include name="testDeleteSavedNoteSearchTerm"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="testClickOnSavedContentSearchTerm"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="testClickOnSavedNoteSearchTerm"/>
+          <include name="testDeleteSavedContentSearchTerm"/>
+          <include name="testDeleteSavedeTextSearchTerm"/>
+          <include name="testNavigateToSavedSearchesPage"/>
+          <include name="testClickOnSavedeTextSearchTerm"/>
+        </methods>
+      </class> <!-- test.java.SavedSearchesTest -->
+      <class name="test.java.SearchResultsTest">
+        <methods>
+          <include name="testverifyAlleTextStack"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="testverifyAlleTextPagesStack"/>
+          <include name="testverifyAlleTextNotesStack"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- test.java.SearchResultsTest -->
     </classes>
-  </test> <!-- DigitalLibraryFunctionalTest(failed) -->
+  </test> <!-- FunctionalTestingOnChrome(failed) -->
+  <test name="FunctionalTestingOnFirefox(failed)" parallel="tests">
+    <parameter name="browsers" value="firefox"/>
+    <classes>
+      <class name="sac.dl.base.TestBaseSetUp">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- sac.dl.base.TestBaseSetUp -->
+      <class name="test.java.SignOutTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="testSignOut"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+        </methods>
+      </class> <!-- test.java.SignOutTest -->
+      <class name="test.java.CompleteLibraryTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="testSearchByeText"/>
+          <include name="testSearchByContents"/>
+          <include name="testSearchMyNotes"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="testVerifyUIOfCompleteLibraryPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.java.CompleteLibraryTest -->
+      <class name="test.java.SearchAndBrowseLibraryTest">
+        <methods>
+          <include name="testVerifyOptionsInDropdown"/>
+          <include name="testVerifyUIOfChapterPreview"/>
+          <include name="testVerifyBooksPresentInAlleTextStack"/>
+          <include name="testVerifyOptionsInPreviewChapterDropdown"/>
+          <include name="testLaunchChapterPreview"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="testVerifyUIOfMoreInfoPopUpUnknownUser"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- test.java.SearchAndBrowseLibraryTest -->
+      <class name="test.java.LoginPageTest">
+        <methods>
+          <include name="testForgetUserNamePasswordLink"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="testclickSearchAndBrowseLibraryLink"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="testverifyUIOfLoginPage" invocation-numbers="0"/>
+          <include name="testLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.java.LoginPageTest -->
+      <class name="test.java.SavedSearchesTest">
+        <methods>
+          <include name="testDeleteSavedNoteSearchTerm"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="testClickOnSavedContentSearchTerm"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="testClickOnSavedNoteSearchTerm"/>
+          <include name="testDeleteSavedContentSearchTerm"/>
+          <include name="testDeleteSavedeTextSearchTerm"/>
+          <include name="testNavigateToSavedSearchesPage"/>
+          <include name="testClickOnSavedeTextSearchTerm"/>
+        </methods>
+      </class> <!-- test.java.SavedSearchesTest -->
+      <class name="test.java.SearchResultsTest">
+        <methods>
+          <include name="testverifyAlleTextStack"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="testverifyAlleTextPagesStack"/>
+          <include name="testverifyAlleTextNotesStack"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- test.java.SearchResultsTest -->
+    </classes>
+  </test> <!-- FunctionalTestingOnFirefox(failed) -->
+  <test name="FunctionalTestingOnIE(failed)" parallel="tests">
+    <parameter name="browsers" value="ie"/>
+    <classes>
+      <class name="sac.dl.base.TestBaseSetUp">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- sac.dl.base.TestBaseSetUp -->
+      <class name="test.java.SignOutTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="testSignOut"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+        </methods>
+      </class> <!-- test.java.SignOutTest -->
+      <class name="test.java.CompleteLibraryTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="testSearchByeText"/>
+          <include name="testSearchByContents"/>
+          <include name="testSearchMyNotes"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="testVerifyUIOfCompleteLibraryPage"/>
+        </methods>
+      </class> <!-- test.java.CompleteLibraryTest -->
+      <class name="test.java.SearchAndBrowseLibraryTest">
+        <methods>
+          <include name="testVerifyOptionsInDropdown"/>
+          <include name="testVerifyUIOfChapterPreview"/>
+          <include name="testVerifyBooksPresentInAlleTextStack"/>
+          <include name="testVerifyOptionsInPreviewChapterDropdown"/>
+          <include name="testLaunchChapterPreview"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="testVerifyUIOfMoreInfoPopUpUnknownUser"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- test.java.SearchAndBrowseLibraryTest -->
+      <class name="test.java.LoginPageTest">
+        <methods>
+          <include name="testForgetUserNamePasswordLink"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="testclickSearchAndBrowseLibraryLink"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="testverifyUIOfLoginPage" invocation-numbers="0"/>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- test.java.LoginPageTest -->
+      <class name="test.java.SavedSearchesTest">
+        <methods>
+          <include name="testDeleteSavedNoteSearchTerm"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="testClickOnSavedContentSearchTerm"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="testClickOnSavedNoteSearchTerm"/>
+          <include name="testDeleteSavedContentSearchTerm"/>
+          <include name="testDeleteSavedeTextSearchTerm"/>
+          <include name="testNavigateToSavedSearchesPage"/>
+          <include name="testClickOnSavedeTextSearchTerm"/>
+        </methods>
+      </class> <!-- test.java.SavedSearchesTest -->
+      <class name="test.java.SearchResultsTest">
+        <methods>
+          <include name="testverifyAlleTextStack"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="waitBeforeCallingMethod"/>
+          <include name="testverifyAlleTextPagesStack"/>
+          <include name="testverifyAlleTextNotesStack"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- test.java.SearchResultsTest -->
+    </classes>
+  </test> <!-- FunctionalTestingOnIE(failed) -->
 </suite> <!-- Failed suite [DigitalLibrary] -->
